@@ -9,6 +9,7 @@
  */
  ?> 
 <div id="left-sidebar" class="sidebar">
+   
 		<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>			
 				
 			<div class="widget widget_search">

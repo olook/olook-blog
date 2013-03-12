@@ -9,7 +9,13 @@
  */
  ?> 
 <div id="right-sidebar" class="sidebar">
-		
+   <?php if (have_posts()) { ?>
+   <div class="inspirations">
+      
+   </div>   
+   <?php }?>
+   
+   
 		<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) : ?>			
 				
 			<div class="widget widget_text">

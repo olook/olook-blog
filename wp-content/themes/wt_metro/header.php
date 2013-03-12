@@ -77,13 +77,7 @@
 <body <?php body_class(); ?>>
 
 <div id="container" class="hfeed">	
-	<?php
-		if (is_home() && $paged < 2 ){
-			if ( wt_get_option( 'wt_show_top_posts' ) == 1 ) {
-				get_template_part( 'includes/top-stories' );
-			}
-		}
-	?>
+
 	<header id="header" role="banner">			
 		<div class="wrap">						
 			<div class="logo">
@@ -105,22 +99,6 @@
 			<?php } ?>	
 			</div>	<!-- /logo -->	
 		
-			<div class="date">				
-				<?php 
-					//get the time zone from the WordPress settings
-					$wp_timezone =  get_option('timezone_string');
-					if(!empty($wp_timezone)){
-						date_default_timezone_set(get_option('timezone_string'));
-					}
-										
-					//display date in WordPress local language
-					echo date_i18n('l, jS F Y', time()); 
-					
-					//if there is problem with date, you can use following function
-					//echo date('l, jS F Y');
-					
-				?>
-			</div>
 			
 			<div class="search">
 				<?php get_search_form(); ?>

@@ -25,16 +25,7 @@
 						get_template_part( 'includes/feat-slider' );						
 					}			
 					
-					//include featured text posts
-					if ( wt_get_option( 'wt_show_feat_textposts' ) != 0 ) {
-						get_template_part( 'includes/feat-textposts' );						
-					}
-					
-					//include featured posts
-					if ( wt_get_option( 'wt_show_feat_posts' ) == 1 ) {
-						get_template_part( 'includes/feat-posts' );						
-					}	
-					?>		
+				?>		
 		
 				<div id="featured-cats">
 				<?php
@@ -43,21 +34,7 @@
 						get_template_part( 'includes/feat-cat1' );						
 					}
 			
-					if ( wt_get_option( 'wt_feat_cat2' ) != 0 ) {
-						get_template_part( 'includes/feat-cat2' );
-					}
-			
-					if ( wt_get_option( 'wt_feat_cat3' ) != 0 ) {
-						get_template_part( 'includes/feat-cat3' );
-					}
-			
-					if ( wt_get_option( 'wt_feat_cat4' ) != 0 ) {
-						get_template_part( 'includes/feat-cat4' );
-					}
-			
-					if ( wt_get_option( 'wt_feat_cat5' ) != 0 ) {
-						get_template_part( 'includes/feat-cat5' );
-					}			
+							
 				?>
 				</div>
 										
@@ -66,6 +43,6 @@
 		</div><!-- /content -->
 	</section><!-- /primary -->
 	
-<?php get_sidebar('left'); ?>
+<?php /*get_sidebar('left'); */?>
 <?php get_sidebar('right'); ?>
 <?php get_footer(); ?>

@@ -115,9 +115,9 @@ a:hover{
 }
 
 #content {
-	width: 640px;			
+	width: 655px;			
 	float: left;
-	margin-right: 30px;	
+	margin-right: 18px;	
 	overflow: hidden;
 }
 
@@ -492,8 +492,8 @@ a:hover{
 }
 
 #wt-slider .attachment-wt-slider-img{
-	width: 640px;
-	height: 320px;
+	width: 650px;
+	height: 485px;
 }
 
 #wt-slider ul, #wt-slider ol {

@@ -39,7 +39,10 @@
 				</div>
 										
 			<?php	} //is_home	 ?>		
-					
+			<?php
+				get_template_part( 'includes/video' );
+				get_template_part( 'includes/featured-products' );
+			?>		
 		</div><!-- /content -->
 	</section><!-- /primary -->
 	

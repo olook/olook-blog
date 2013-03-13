@@ -16,7 +16,7 @@
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'content', 'single' ); ?>
 		<?php endwhile; // end of the loop. ?>
-		<?php if(function_exists('the_views')) { the_views(); } ?>
+		
 	</div><!-- /content -->
 </section><!-- /primary -->
 <?php get_sidebar('left'); ?>

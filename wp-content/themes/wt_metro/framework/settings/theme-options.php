@@ -1281,7 +1281,7 @@ function wt_validate_options( $input ) {
 			$input['wt_feat_cat5'] = $options['wt_feat_cat5'];
 				
 		if( !in_array( $input['wt_feat_cat_prod'], $cat_ids ) && ( $input['wt_feat_cat_prod'] != 0 ) )
-			$input['wt_feat_cat5'] = $options['wt_feat_cat_prod'];
+			$input['wt_feat_prod'] = $options['wt_feat_cat_prod'];
 
 		return $input;
 		

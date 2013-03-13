@@ -9,11 +9,9 @@
  */
  ?> 
 <div id="right-sidebar" class="sidebar">
-   <?php if (have_posts()) { ?>
-   <div class="inspirations">
-      
-   </div>   
-   <?php }?>
+   <?php if (have_posts()) { 
+   	get_template_part( 'includes/look-inspiracao' );
+	 }?>
    
    
 		<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) : ?>			

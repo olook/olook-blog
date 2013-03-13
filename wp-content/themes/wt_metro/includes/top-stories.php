@@ -12,6 +12,7 @@
  */
 ?>
 
+
 <?php
 	$cat_id = "";
 	$cat_id = wt_get_option('wt_top_posts_cat');	//get category id

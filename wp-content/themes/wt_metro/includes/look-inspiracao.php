@@ -13,7 +13,7 @@
 ?>
 <?php
   $cat_id = "";
-  $cat_id = wt_get_option('wt_feat_cat_prod');  //get category id
+  $cat_id = wt_get_option('wt_look_inspiracao');  //get category id
   $cat_name = get_cat_name($cat_id);      //get category name
   $cat_url = get_category_link($cat_id );   //get category url
   
@@ -21,7 +21,7 @@
     'cat' => $cat_id,
     'post_status' => 'publish',
     'ignore_sticky_posts' => 1,
-    'posts_per_page' => 3
+    'posts_per_page' => 1
   );
 ?>
 

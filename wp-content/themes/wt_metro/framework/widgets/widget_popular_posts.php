@@ -58,7 +58,7 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 			'post_type' => 'post',
 			'ignore_sticky_posts' => 1,
 			'posts_per_page' => $entries_display,
-			'orderby' => 'comment_count'			
+			'orderby' => 'views'			
 		);
 		$i = 0;
 		$popular_posts = new WP_Query( $args );

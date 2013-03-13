@@ -83,7 +83,7 @@ function max_magazine_setup() {
 	 */
 	add_image_size( 'wt-slider-img', 640, 320, true );		//for featured slider
 	add_image_size( 'wt-feat-large', 423, 330, true );		//for featured posts
-	add_image_size( 'wt-cat-img', 305, 175 , true );		//for featured category
+	add_image_size( 'wt-cat-img', 374, 239 , true );		//for featured category
 	add_image_size( 'wt-tile-large', 270, 270 , true );		//for posts widgets
 	add_image_size( 'wt-feat-img', 207, 207 , true );		//for featured posts
 	add_image_size( 'wt-medium-thumb', 75, 75 , true );	//for featured categories and top posts

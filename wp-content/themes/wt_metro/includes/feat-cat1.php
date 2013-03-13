@@ -29,8 +29,6 @@
 
 	<header class="cat-header">	
 		<h3><a href="<?php echo esc_url( $cat_url ); ?>" ><?php echo $cat_name; ?></a></h3>	
-		<a class="rss" href="<?php echo home_url(); ?>?cat=<?php echo $cat_id; ?>&feed=rss2" >RSS</a>
-		<div id="slide-cat1-nav" class="slide-cat-nav"></div>				
 	</header>	
 	
 		<?php $query = new WP_Query( $args ); ?>
@@ -57,27 +55,9 @@
 				
 				<div class="post-wrap">
 					<header class="entry-header">
-						<?php wellthemes_first_post_tag_link(); ?>
-						<h3>
-							<a href="<?php the_permalink() ?>" rel="bookmark">
-								<?php 
-									//display only first 60 characters in the title.	
-									$short_title = mb_substr(the_title('','',FALSE),0, 60);
-									echo $short_title; 
-									if (strlen($short_title) > 59){ 
-										echo '...'; 
-									} 
-								?>	
-							</a>
-						</h3>											
+						<?php wellthemes_first_post_tag_link(); ?>					
 					</header>
 					
-					<div class="entry-meta">
-						<span class="date"><?php the_time('F j, Y'); ?></span>
-							<?php if ( comments_open() ) : ?>
-								<span class="comments"><?php comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
-							<?php endif; ?>
-					</div>						
 					<p>
 						<?php 
 							//display only first 150 characters in the excerpt.								
@@ -87,7 +67,8 @@
 								echo '...'; 
 							} 
 						?>
-					</p>	
+					</p>
+               <a href="<?php the_permalink() ?>" class="see-more">Leia tudo</a>	
 				</div>	
 		</article> <!-- main-post -->
 		
@@ -101,7 +82,7 @@
 		'cat' => $cat_id,
 		'post_status' => 'publish',
 		'ignore_sticky_posts' => 1,
-		'posts_per_page' => 12,
+		'posts_per_page' => 4,
 		 'offset' => 1
 		);	?>
 	
@@ -134,8 +115,8 @@
 						
 						<div class="post-wrap">
 							<header class="entry-header">
-								<h4>
-									<a href="<?php the_permalink() ?>">
+								<a href="<?php the_permalink() ?>">
+                           <h4>									
 										<?php 
 											//display only first 45 characters in the title.	
 											$short_title = mb_substr(the_title('','',FALSE),0, 45);
@@ -144,15 +125,19 @@
 												echo '...'; 
 											} 
 										?>	
-									</a>
-								</h4>											
-							</header>
-							<div class="entry-meta">
-								<span class="date"><?php the_time('M j'); ?></span>
-									<?php if ( comments_open() ) : ?>
-										<span class="comments"><?php comments_popup_link( __('no comments', 'wellthemes'), __( '1 comment', 'wellthemes'), __('% comments', 'wellthemes')); ?></span>		
-									<?php endif; ?>
-							</div>
+									</h4>											
+							
+         					   <p>
+            						<?php 
+            							$excerpt = get_the_excerpt();																
+            							echo mb_substr($excerpt,0, 45);									
+            							if (strlen($excerpt) > 44){ 
+            								echo '...'; 
+            							} 
+            						?>
+         					   </p>
+                        </a>
+                     </header>   
 						</div>
 					</article>
 				<?php echo ($i % 4 === 0) ? "</li>" : null;	 ?>

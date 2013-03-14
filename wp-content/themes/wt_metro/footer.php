@@ -16,26 +16,26 @@
 		  <section>
 		    <dl>
 		      <dt>Sobre a olook</dt>
-		      <dd><a href="/como-funciona">Como funciona</a></dd>
-		      <dd><a href="/nossa-essencia">Nossa essência</a></dd>
-		      <dd><a href="/responsabilidade-social">Responsabilidade social</a></dd>
-		      <dd><a href="/olookmovel">Olookmóvel</a></dd>
-				  <dd><a href="/1anomuito">1 ano muito</a></dd>
-		      <dd><a href="/olook-na-imprensa">Olook na imprensa</a></dd>
+		      <dd><a href="http://www.olook.com.br/como-funciona">Como funciona</a></dd>
+		      <dd><a href="http://www.olook.com.br/nossa-essencia">Nossa essência</a></dd>
+		      <dd><a href="http://www.olook.com.br/responsabilidade-social">Responsabilidade social</a></dd>
+		      <dd><a href="http://www.olook.com.br/olookmovel">Olookmóvel</a></dd>
+				  <dd><a href="http://www.olook.com.br/1anomuito">1 ano muito</a></dd>
+		      <dd><a href="http://www.olook.com.br/olook-na-imprensa">Olook na imprensa</a></dd>
 		      <dd><a href="http://blog.olook.com.br" target="_blank">Blog</a></dd>
 		    </dl>
 		    <dl>
 		      <dt>Como trabalhamos</dt>
-		      <dd><a href="/prazo-de-entrega">Prazo de entrega</a></dd>
-				  <dd><a href="/termos">Termos e condições</a></dd>
-		      <dd><a href="/privacidade">Política de privacidade</a></dd>
-				  <dd><a href="/devolucoes">Política de devolução</a></dd>
-				  <dd><a href="/fidelidade">Fidelidade olook</a></dd>
+		      <dd><a href="http://www.olook.com.br/prazo-de-entrega">Prazo de entrega</a></dd>
+				  <dd><a href="http://www.olook.com.br/termos">Termos e condições</a></dd>
+		      <dd><a href="http://www.olook.com.br/privacidade">Política de privacidade</a></dd>
+				  <dd><a href="http://www.olook.com.br/devolucoes">Política de devolução</a></dd>
+				  <dd><a href="http://www.olook.com.br/fidelidade">Fidelidade olook</a></dd>
 		    </dl>
 		    <dl>
 		      <dt>Atendimento</dt>
-		      <dd><a href="/centraldeatendimento">Central de atendimento</a></dd>
-		      <dd><a href="/centraldeatendimento">Perguntas frequentes (FAQ)</a></dd>
+		      <dd><a href="http://www.olook.com.br/centraldeatendimento">Central de atendimento</a></dd>
+		      <dd><a href="http://www.olook.com.br/centraldeatendimento">Perguntas frequentes (FAQ)</a></dd>
 		    </dl>
 		    <dl>
 		      <dt>Siga-nos</dt>

@@ -139,6 +139,10 @@ a:hover{
 	float: left;
 }
 
+.one-half .ponta{position: absolute;top: 174px;left: 30px;z-index: 2;}
+
+.olook-tv p{width:255px;height:110px;text-indent:-9999em;background: url("images/sprite.png") 0 -143px no-repeat;margin:15px auto 10px;}
+
 .last-col{
 	margin-right: 0;
 }
@@ -492,7 +496,7 @@ a:hover{
 }
 
 #wt-slider .slider-nav {
-    bottom: 85px;
+    bottom: 96px;
     display: inline-block;
     position: absolute;
     right: 0px;
@@ -741,30 +745,30 @@ a:hover{
 
 .tile-title a{
 	font-size: 14px !important;
-	font-weight: 600 !important;
+	/*font-weight: 600 !important;*/
 	line-height: 1.3;
 	text-decoration: none !important;	
 	display: inline-block;	
 }
 
 .red .tile-title{
-	background: #DC3030;
+	background: #FFF;
 }
 
 .green .tile-title{
-	background: #5FB435;
+	background: #FFF;
 }
 
 .skyblue .tile-title{
-	background: #6AB7FE;
+	background: #FFF;
 }
 
 .blue .tile-title{
-	background: #1BA1E2;
+	background: #FFF;
 }
 
 .orange .tile-title{
-	background: #FA824F;
+	background: #FFF;
 }
 
 /*-- Featured categories --*/
@@ -868,8 +872,8 @@ a:hover{
 
 .cat-header{	
 	background: #5FB435;
-	margin-bottom: 30px;
-	padding: 6px 10px;
+	margin-bottom: 25px;
+	padding: 6px 10px 6px 0;
 }
 
 .cat-header a.rss{
@@ -1027,10 +1031,10 @@ a:hover{
 #feat-cat1 .cat-header h3 a{text-indent:-9999em;display:block;width:100%;height:63px;}
 
 #feat-cat1 .tag-title{
-	position:absolute;top:180px;left:23px;display:block;width:124px;height:47px;padding-top:34px;background: url("images/sprite.png") -276px -70px no-repeat;text-align:center;font-weight:normal;margin:0;
+	background:#FFF;border:solid 1px #000;box-shadow:3px 2px 0 #000;position:absolute;top:205px;left:23px;display:block;height:28px;padding:8px 10px;text-align:center;font-weight:normal;margin:0;
 }
 
-#feat-cat1 .tag-title a{color:#000;text-transform:uppercase;font-size:22px;}
+#feat-cat1 .tag-title a{color:#000;text-transform:uppercase;font-size:22px;line-height:32px;}
 
 #feat-cat2 .cat-header{	
 	background: #5FB435;
@@ -1094,14 +1098,16 @@ a:hover{
 
 .feat-cat .main-post .overlay{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;  
-}
+  width: 99%;
+  height: 99%;
+  top: 0;
+  left:0;
+  }
 
 #feat-cat1 .overlay:hover{
 	background: #FFF;
-	background: rgba(246, 52, 64, 0.8);  
+	background: rgba(256, 256, 256, 0.7);  
+  border:solid 1px #DDD;
 }
 
 #feat-cat2 .overlay:hover{
@@ -1178,8 +1184,8 @@ a:hover{
 
 .feat-cat .item-post .overlay{
 	position: absolute;
-	width: 100%;
-	height: 75px;
+	width: 97%;
+	height: 73px;
 	top: 0;  
 }
 
@@ -1811,9 +1817,16 @@ ul.sp-list li{
 	margin-bottom: 15px;
 }
 
-.widget_popular_posts h3{background: url("images/sprite.png") 0 -66px;text-indent:-9999em;width:183px;height:57px;}
+.widget_popular_posts h3{background: url("images/sprite.png") 0 -66px no-repeat;text-indent:-9999em;width:183px;height:57px;}
 
 .widget_tile_posts h3{background:none;font-family:'johnston', Tahoma, sans-serif;font-size:27px;color:#000;text-align:center;letter-spacing:5px;text-transform:uppercase;}
+
+.featured-posts{margin-top:60px;color:#000;}
+.featured-posts h3{width:500px;height:90px;background: url("images/sprite.png") -340px -167px no-repeat;font-family:'Kepler Std Italic', Tahoma, sans-serif;font-size:27px;line-height:90px;padding-left:105px;margin:0 auto 10px;}
+.featured-posts article{float:left;width:270px;margin:0 30px;}
+.featured-posts article .attachment-wt-stylist-choices{width:270px;height:200px;}
+.featured-posts article:last-child{margin-right:0;}
+
 
 #footer h3{
 	background-color: #333333;
@@ -2062,8 +2075,11 @@ ul.sp-list li{
 }
 
 .widget_popular_posts{
-  float:right;width:100px;
+  float:right;width:210px;
 }
+
+.look-inspiracao{margin-bottom:80px;}
+  
 .widget_popular_posts .item-post:last-child{
 	margin-bottom: 0;
 	border-bottom: none;
@@ -2360,6 +2376,7 @@ ul.sp-list li{
 /*-- posts widget --*/
 .widget_tile_posts {
 	margin-bottom: 0 !important;
+  clear:both;
 }
 
 .widget_tile_posts .live-tile, 
@@ -2383,7 +2400,7 @@ ul.sp-list li{
 }
 
 .widget_tile_posts .tile-title a{
-	font-size: 16px !important;
+	/*font-size: 16px !important;*/
 }
 
 /*-- carousel widget --*/

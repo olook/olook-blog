@@ -39,7 +39,7 @@
           <aside class="look-inspiracao">
              <div class="thumb-wrap">
                <div class="thumb">
-                 <?php the_post_thumbnail( 'wt-cat-img' ); ?>
+                 <?php the_post_thumbnail( 'wt-look-inspiracao' ); ?>
                </div>
              </div>
 

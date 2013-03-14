@@ -55,6 +55,7 @@
 				
 				<div class="post-wrap">
 					<header class="entry-header">
+                  <img src="../wp-content/themes/wt_metro/images/ponta.png" class="ponta" />
 						<?php wellthemes_first_post_tag_link(); ?>					
 					</header>
 					

@@ -8,7 +8,7 @@
  * @link 	 http://wellthemes.com
  */
  ?> 
-<div id="right-sidebar" class="sidebar">
+<div id="right-sidebar">
    <?php if (have_posts()) { 
    	get_template_part( 'includes/look-inspiracao' );
 	 }?>

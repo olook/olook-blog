@@ -68,7 +68,7 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 
 
 
-		// 	$display_category = $instance['display_category'];
+ 		// 	$display_category = $instance['display_category'];
 
   //       $args = array(
 		// 	'cat' => $display_category,

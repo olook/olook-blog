@@ -2576,6 +2576,68 @@ ul.sp-list li{
 
 /* 6. FOOTER
 * ==================== */
+
+footer {
+    border-top: 1px solid #CBCBCB;
+    clear: both;
+    height: 300px;
+    margin-top: 60px;
+}
+
+footer section {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 970px;
+}
+
+footer section dl {
+    float: left;
+    margin: 0 95px 35px 0;
+}
+
+footer section dl dt {
+    color: #6D6E71;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+footer section dl dd, footer section dl dd a {
+    color: #939598;
+    font-size: 12px;
+    margin: 0 0 4px;
+    text-decoration: none;
+}
+
+footer section dl dd ul.social {
+    margin: 15px 0 0;
+    overflow: auto;
+    width: 100%;
+}
+
+footer section dl dd ul.social li.facebook a {
+    background-position: 0 -34px;
+}
+
+footer section dl dd ul.social li a {
+    background: url("//d22zjnmu4464ds.cloudfront.net/assets/home/social-07a13bb193c00455f0149afa8fac3be0.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 24px;
+    margin: 0 6px 0 0;
+    text-indent: -99999px;
+    width: 24px;
+}
+
+footer section p {
+    clear: both;
+    color: #767676;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 0 0 20px;
+}
+
 #footer{
 	margin-bottom: 20px;
 }

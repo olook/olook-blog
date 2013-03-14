@@ -90,7 +90,7 @@
       </ul>
     </div>
     <div class="olook_logo">
-        <h1><a href="/">Olook</a></h1>
+        <h1><a href="http://www.olook.com.br">Olook</a></h1>
     </div>
   </div>
 </header>

@@ -181,7 +181,7 @@ if(!function_exists('get_least_viewed')) {
 				$post_excerpt = views_post_excerpt($post->post_excerpt, $post->post_content, $post->post_password, $chars);
 				$temp = stripslashes($views_options['most_viewed_template']);
 				$temp = str_replace("%VIEW_COUNT%", number_format_i18n($post_views), $temp);
-				$temp = str_replace("%POST_TITLE%", $post_title, $temp);
+				$temp = str_replace("%POST_TITLE%", $post_title, $temp); 
 				$temp = str_replace("%POST_EXCERPT%", $post_excerpt, $temp);
 				$temp = str_replace("%POST_CONTENT%", $post->post_content, $temp);
 				$temp = str_replace("%POST_URL%", get_permalink($post), $temp);
@@ -222,7 +222,7 @@ if(!function_exists('get_most_viewed')) {
 				}
 				$post_excerpt = views_post_excerpt($post->post_excerpt, $post->post_content, $post->post_password, $chars);
 				$temp = stripslashes($views_options['most_viewed_template']);
-				$temp = str_replace("%VIEW_COUNT%", number_format_i18n($post_views), $temp);
+				$temp = str_replace("%VIEW_COUNT%", "<span>".number_format_i18n($post_views)."</span>", $temp);
 				$temp = str_replace("%POST_TITLE%", $post_title, $temp);
 				$temp = str_replace("%POST_EXCERPT%", $post_excerpt, $temp);
 				$temp = str_replace("%POST_CONTENT%", $post->post_content, $temp);
@@ -317,7 +317,7 @@ if(!function_exists('get_most_viewed_category')) {
 				$post_excerpt = views_post_excerpt($post->post_excerpt, $post->post_content, $post->post_password, $chars);
 				$temp = stripslashes($views_options['most_viewed_template']);
 				$temp = str_replace("%VIEW_COUNT%", number_format_i18n($post_views), $temp);
-				$temp = str_replace("%POST_TITLE%", $post_title, $temp);
+            $temp = str_replace("%POST_TITLE%", $post_title, $temp);
 				$temp = str_replace("%POST_EXCERPT%", $post_excerpt, $temp);
 				$temp = str_replace("%POST_CONTENT%", $post->post_content, $temp);
 				$temp = str_replace("%POST_URL%", get_permalink($post), $temp);
@@ -817,7 +817,7 @@ function views_init() {
 	$views_options['display_search'] = 0;
 	$views_options['display_other'] = 0;
 	$views_options['template'] = __('%VIEW_COUNT% views', 'wp-postviews');
-	$views_options['most_viewed_template'] = '<li><a href="%POST_URL%"  title="%POST_TITLE%">%POST_TITLE%</a> - %VIEW_COUNT% '.__('views', 'wp-postviews').'</li>';
+	$views_options['most_viewed_template'] = '<li><a href="%POST_URL%"  title="%POST_TITLE%">%POST_TITLE%</a></li>';
 	add_option('views_options', $views_options, 'Post Views Options');
 	// Veersion 1.50 Upgrade
 	delete_option('widget_views_most_viewed');

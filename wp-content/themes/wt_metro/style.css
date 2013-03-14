@@ -1810,7 +1810,9 @@ ul.sp-list li{
 	margin-bottom: 15px;
 }
 
-.widget_popular_posts h3{background: url("images/sprite.png") 0 -66px;text-indent:-9999em;width:183px;height:57px;}
+.widget_views h3{background: url("images/sprite.png") 0 -66px;text-indent:-9999em;width:183px;height:57px;}
+
+.widget_tile_posts h3{background:none;font-family:'johnston', Tahoma, sans-serif;font-size:27px;color:#000;text-align:center;letter-spacing:5px;text-transform:uppercase;}
 
 #footer h3{
 	background-color: #333333;

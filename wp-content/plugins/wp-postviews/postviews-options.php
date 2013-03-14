@@ -122,10 +122,10 @@ switch($mode) {
 		var default_template;
 		switch(template) {
 			case 'template':
-				default_template = "<?php _e('%VIEW_COUNT% views', 'wp-postviews'); ?>";
+				default_template = "";
 				break;
 			case 'most_viewed':
-				default_template = "<li><a href=\"%POST_URL%\"  title=\"%POST_TITLE%\">%POST_TITLE%</a> - %VIEW_COUNT% <?php _e('views', 'wp-postviews'); ?></li>";
+				default_template = "<li><a href=\"%POST_URL%\"  title=\"%POST_TITLE%\">%POST_TITLE%</a></li>";
 				break;
 		}
 		jQuery("#views_template_" + template).val(default_template);

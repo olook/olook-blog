@@ -38,13 +38,12 @@
 				?>
 				</div>
 										
-			<?php	} //is_home	 ?>		
-			<?php
-				get_template_part( 'includes/video' );
-			?>		
+			<?php	} //is_home	 ?>				
 		</div><!-- /content -->
 	</section><!-- /primary -->
 	
 <?php /*get_sidebar('left'); */?>
 <?php get_sidebar('right'); ?>
+<?php get_template_part( 'includes/video' ); ?>
+<?php	get_template_part( 'includes/featured-products' ); ?>
 <?php get_footer(); ?>

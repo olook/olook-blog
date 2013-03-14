@@ -66,28 +66,8 @@
 </dd>
     </dl>
     <p>© <?php echo Date("Y"); ?> - olook<br />Todos os direitos reservados</p>
-
-
-
-
-
   </section>
 </footer>
-<div id="overlay-campaign">&nbsp;</div>
-<div id="modal-campaign">&nbsp;</div>
-
-<div class="credits_description">
-  <div class="box_months">
-    <h1>Agora você ficará na moda todos os meses gastando muito menos</h1>
-    <ul class="steps">
-      <li>Toda vez que você<br />comprar na OLOOK</li>
-      <li>Você ganhará 15% do<br />valor do seu pedido<br />em créditos</li>
-      <li class="last">E poderá utilizar este<br />valor em compras nos<br />próximos 2 meses</li>
-    </ul>
-  </div>
-</div>
-
-</div><!-- /container -->
 
 <?php wp_footer(); ?>
 

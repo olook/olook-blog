@@ -108,7 +108,7 @@ function the_subtitle($before="", $after="", $display=true){
   global $post;
   $subtitle = $before . get_post_meta($post->ID, "wps_subtitle", true) . $after;
   if(empty($subtitle)){
-     $subtitle = get_the_content($post, '', '', FALSE);
+    $subtitle = trim($post->post_content);
   }
   if($display){
     echo $subtitle;
@@ -123,7 +123,7 @@ function the_subtitle($before="", $after="", $display=true){
 function get_the_subtitle($post, $before="", $after="", $display=true){
   $subtitle = $before . get_post_meta($post->ID, "wps_subtitle", true) . $after;
   if(empty($subtitle)){
-    $subtitle = get_the_content($post, '', '', FALSE);
+    $subtitle = trim($post->post_content);
   }  
   if($display){
     echo $subtitle;

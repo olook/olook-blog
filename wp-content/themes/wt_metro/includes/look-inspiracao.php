@@ -35,23 +35,26 @@
             $img = wp_get_attachment_image_src( get_post_thumbnail_id(  $post->ID ), "full" );
             $img_link = $img[0];
           ?>
-          <div class="thumb-wrap">
-            <div class="thumb">
-              <a href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-cat-img' ); ?></a>
-            </div>
-          </div>
-
-          <p>
-            <?php 
-              //display only first 150 characters in the excerpt.               
-              $excerpt = get_the_excerpt();                               
-              echo mb_substr($excerpt,0, 150);                  
-              if (strlen($excerpt) > 149){ 
-                echo '...'; 
-              } 
-            ?>
-          </p>            
           <?php } ?>
+          <aside class="look-inspiracao">
+             <div class="thumb-wrap">
+               <div class="thumb">
+                 <?php the_post_thumbnail( 'wt-cat-img' ); ?>
+               </div>
+             </div>
+
+             <p>
+               <?php 
+                 //display only first 150 characters in the excerpt.               
+                 $excerpt = get_the_excerpt();                               
+                 echo mb_substr($excerpt,0, 150);                  
+                 if (strlen($excerpt) > 149){ 
+                   echo '...'; 
+                 } 
+               ?>
+             </p>
+             <a href="<?php the_permalink() ?>" class="see-more">Inspire-se com este look!</a>
+          </aside>
     <?php endwhile; ?>           
   <?php endif; ?> 
 <?php wp_reset_query();   //reset the query ?>    

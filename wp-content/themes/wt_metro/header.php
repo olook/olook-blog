@@ -78,7 +78,34 @@
 
 <div id="container" class="hfeed">	
 
-	<header id="header" role="banner">			
+<header id="new_header">
+  <div class="new_content">
+    <div class="box_left">
+      <p>SAC (11) 2626-3489 | <a class="contact" href="mailto:falecom@olook.com.br">falecom@olook.com.br</a></p>
+      <ul class="social_icons">
+        <li><a href="http://facebook.com/olook" class="social_facebook" target="_blank" title="Acompanhe pelo Facebook">Acompanhe pelo Facebook</a></li>
+        <li><a href="http://twitter.com/olook" class="social_twitter" target="_blank" title="Acompanhe pelo Twitter">Acompanhe pelo Twitter</a></li>
+        <li><a href="http://blog.olook.com.br/feed/" class="social_rss" target="_blank" title="Acompanhe por RSS">Acompanhe por RSS</a></li>
+        <li><a href="http://instagram.com/olook" class="social_instagram" target="_blank" title="Acompanhe pelo Instagram">Acompanhe pelo Instagram</a></li>
+      </ul>
+    </div>
+    <div class="olook_logo">
+        <h1><a href="/">Olook</a></h1>
+    </div>
+  </div>
+</header>
+
+  <div id="wrapper_new_menu">
+  <nav class="menu_new">
+    <div class="content_new">
+      <ul class="default_new">
+          <li class="showroom"><a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a></li><li class="lookbooks"><a href="http://www.olook.com.br/tendencias" class="lookbooks#index lookbooks#show">Tendências</a></li><li class="moments"><a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a></li><li class="categories"><a href="http://www.olook.com.br/roupas" class="moments#clothes">Roupas</a></li><li class="categories"><a href="http://www.olook.com.br/sapatos" class="moments#show#1">Sapatos</a></li><li class="categories"><a href="http://www.olook.com.br/bolsas" class="moments#show#2">Bolsas</a></li><li class="categories"><a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a></li><li class="gift"><a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a></li><li class="stylist"><a href="http://www.olook.com.br/stylists/helena-linhares" class="stylists#helena_linhares">Stylist</a></li>
+        <li id='bar'>&nbsp;</li>
+      </ul>
+    </div>
+  </nav>
+</div>
+	<!--header id="header" role="banner">			
 		<div class="wrap">						
 			<div class="logo">
 			<?php if (wt_get_option( 'wt_logo_url' )) { ?>
@@ -97,7 +124,7 @@
 					<?php bloginfo('description'); ?>
 				</h3>
 			<?php } ?>	
-			</div>	<!-- /logo -->	
+			</div>		
 		
 			
 			<div class="search">
@@ -127,7 +154,7 @@
 			</div>
 		
 		
-		</div> <!-- /wrap -->		
+		</div> 		
 		
 		<div id="main-menu">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '0', 'fallback_cb' => 'wellthemes_main_menu_fallback',) ); ?>	
@@ -135,6 +162,6 @@
 		
 		<div class="clearfix"></div>
 			
-	</header>
+	</header-->
 
 	<div id="main">

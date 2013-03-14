@@ -51,18 +51,37 @@ class wellthemes_popular_posts_widget extends WP_Widget {
        <?php
 	   $entries_display = $instance['entries_display'];
 	   if(empty($entries_display)){ $entries_display = '5'; }
-			$display_category = $instance['display_category'];
 
-        $args = array(
-			'cat' => $display_category,
-			'post_type' => 'post',
-			'ignore_sticky_posts' => 1,
-			'posts_per_page' => $entries_display,
-			'orderby' => 'views'			
-		);
+
+			global $wpdb;
+			$views_options = get_option('views_options');
+			$where = '';
+			$temp = '';
+			$output = '';
+			if(!empty($mode) && $mode != 'both') {
+				$where = "post_type = 'post'";
+			} else {
+				$where = '1=1';
+			}
+
+			$most_viewed = $wpdb->get_results("SELECT DISTINCT $wpdb->posts.*, (meta_value+0) AS views FROM $wpdb->posts LEFT JOIN $wpdb->postmeta ON $wpdb->postmeta.post_id = $wpdb->posts.ID WHERE post_date < '".current_time('mysql')."' AND $where AND post_status = 'publish' AND meta_key = 'views' AND post_password = '' ORDER BY views DESC LIMIT 5");
+
+
+
+		// 	$display_category = $instance['display_category'];
+
+  //       $args = array(
+		// 	'cat' => $display_category,
+		// 	'post_type' => 'post',
+		// 	'ignore_sticky_posts' => 1,
+		// 	'posts_per_page' => $entries_display,
+		// 	'orderby' => 'views'			
+		// );
 		$i = 0;
 		$popular_posts = new WP_Query( $args );
-		while($popular_posts->have_posts()): $popular_posts->the_post();
+		// while($popular_posts->have_posts()): $popular_posts->the_post();
+		if($most_viewed) {
+			foreach ($most_viewed as $post) {
 		$i++;
 		
         ?>
@@ -71,10 +90,10 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 			<div class="post-number"><?php echo $i; ?></div>
 			<div class="post-right">
 				<h4>
-					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), the_title_attribute('echo=0')); ?>">
+					<a href="<?php echo get_permalink($post)//the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), the_title_attribute('echo=0')); ?>">
 						<?php 
 							//display only first 50 characters in the title.	
-							$short_title = mb_substr(the_title('','',FALSE),0, 50);
+							$short_title = mb_substr(/*the_title('','',FALSE)*/get_the_title($post),0, 50);
 							echo $short_title; 
 							if (strlen($short_title) > 49){ 
 								echo '...'; 
@@ -85,13 +104,15 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 				<div class="entry-meta">
 					<span class="date"><?php the_time('M j, Y'); ?></span>
 					<?php if ( comments_open() ) : ?>
-						<span class="comments"><?php comments_popup_link( __('0', 'wellthemes'), __( '1', 'wellthemes'), __('%', 'wellthemes')); ?></span>
+						<span class="comments"><?php echo $post->views; //comments_popup_link( __('0', 'wellthemes'), __( '1', 'wellthemes'), __('%', 'wellthemes')); ?></span>
 					<?php endif; ?>
 				</div>	
 			</div>				
   
 		</div><!-- /item-post -->
-       <?php endwhile; ?>
+       <?php
+       } 
+     }//endwhile; ?>
 	   <?php
 		
 		/* After widget (defined by themes). */

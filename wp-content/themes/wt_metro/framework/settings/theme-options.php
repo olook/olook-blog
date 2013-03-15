@@ -398,7 +398,22 @@ function wt_theme_options_page() {
 												</select>	
 											</div>											
 											<span class="description slcdesc"><?php _e( 'Select the featured products category. Select <strong>none</strong> to hide.', 'wellthemes' ); ?></span>
-									</div>														
+									</div>					
+
+									<div class="field">														
+										<label for="wt_options[wt_feat_recent_products]"><?php _e('Recent Products Category', 'wellthemes'); ?></label>
+										<?php 
+											$categories = get_categories( array( 'hide_empty' => 1, 'hierarchical' => 0 ) );  ?>
+											<div class="select-wrap wide">
+												<select id="wt_feat_recent_products" name="wt_options[wt_feat_recent_products]">
+													<option <?php selected( 0 == $options['wt_feat_recent_products'] ); ?> value="0"><?php _e( '--none--', 'wellthemes' ); ?></option>
+													<?php foreach( $categories as $category ) : ?>
+														<option <?php selected( $category->term_id == $options['wt_feat_recent_products'] ); ?> value="<?php echo $category->term_id; ?>"><?php echo $category->cat_name; ?></option>
+													<?php endforeach; ?>
+												</select>	
+											</div>											
+											<span class="description slcdesc"><?php _e( 'Select the featured products category. Select <strong>none</strong> to hide.', 'wellthemes' ); ?></span>
+									</div>																						
 
 									<div class="field">														
 										<label for="wt_options[wt_look_inspiracao]"><?php _e('Featured Look Inspiração Category', 'wellthemes'); ?></label>
@@ -1091,6 +1106,7 @@ function wt_default_options() {
 		'wt_feat_cat4' => 0,
 		'wt_feat_cat5' => 0,
 		'wt_feat_cat_prod' => 0,
+		'wt_feat_recent_products' => 0,
 		'wt_look_inspiracao' => 0,
 		'wt_show_author_info' => 1,
 		'wt_show_related_posts' => 1,		
@@ -1297,6 +1313,9 @@ function wt_validate_options( $input ) {
 				
 		if( !in_array( $input['wt_feat_cat_prod'], $cat_ids ) && ( $input['wt_feat_cat_prod'] != 0 ) )
 			$input['wt_feat_prod'] = $options['wt_feat_cat_prod'];
+
+		if( !in_array( $input['wt_feat_recent_products'], $cat_ids ) && ( $input['wt_feat_recent_products'] != 0 ) )
+			$input['wt_feat_recent_products'] = $options['wt_feat_recent_products'];
 
 		if( !in_array( $input['wt_look_inspiracao'], $cat_ids ) && ( $input['wt_look_inspiracao'] != 0 ) )
 			$input['wt_feat_prod'] = $options['wt_look_inspiracao'];

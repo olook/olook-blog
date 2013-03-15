@@ -2865,7 +2865,7 @@ body header#new_header .new_content .social_icons {
     width: 150px;
 }
 body header#new_header .new_content .social_icons a.social_facebook {
-    background: url("/assets/common/nav/sprite_header.png") repeat scroll 0 0 transparent;
+    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") repeat scroll 0 0 transparent;
     display: block;
     float: left;
     height: 22px;
@@ -2873,10 +2873,10 @@ body header#new_header .new_content .social_icons a.social_facebook {
     width: 22px;
 }
 body header#new_header .new_content .social_icons a.social_facebook:hover {
-    background: url("/assets/common/nav/sprite_header.png") repeat scroll 0 -31px transparent;
+    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") repeat scroll 0 -31px transparent;
 }
 body header#new_header .new_content .social_icons a.social_twitter {
-    background: url("/assets/common/nav/sprite_header.png") repeat scroll -22px 0 transparent;
+    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") repeat scroll -22px 0 transparent;
     display: block;
     float: left;
     height: 22px;

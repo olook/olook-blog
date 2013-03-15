@@ -114,6 +114,7 @@ if (!function_exists('wellthemes_js')) {
 		wp_enqueue_script('wt_mousewheel', get_template_directory_uri() . '/js/jquery.mousewheel.js', array('jquery')); 		
 		wp_enqueue_script('wt_metrojs', get_template_directory_uri() . '/js/MetroJs.min.js', array('jquery')); 		
 		wp_enqueue_script('wt_custom', get_template_directory_uri() . '/js/custom.js', array('jquery')); 		
+		wp_enqueue_script('wt_header', get_template_directory_uri().'/js/header.js',array('jquery'));
     }
 	
 }

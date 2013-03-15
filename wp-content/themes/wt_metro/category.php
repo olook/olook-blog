@@ -16,19 +16,7 @@
 
 					<?php if ( have_posts() ) : ?>
 
-						<header class="page-header">
-							<h1 class="page-title"><?php
-								printf( __( 'Category Archives: %s', 'wellthemes' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-							?></h1>
-
-							<?php
-								$category_description = category_description();
-								if (( wt_get_option( 'wt_show_archive_cat_info' ) == 1 ) AND ( ! empty( $category_description ))) {
-									echo apply_filters( 'category_archive_meta', '<div class="archive-meta">' . $category_description . '</div>' );
-								}
-							?>
-						</header>
-
+						
 						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>
 
@@ -51,7 +39,7 @@
 							</header><!-- /entry-header -->
 
 							<div class="entry-content">
-								<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'wellthemes' ); ?></p>
+								<p><?php _e( 'Desculpe, mas não foi encontrado nenhum post relacionado a sua busca. Talvez procurando por outro termo você encontre.', 'wellthemes' ); ?></p>
 								<?php get_search_form(); ?>
 							</div><!-- /entry-content -->
 						</article><!-- /post-0 -->
@@ -61,6 +49,5 @@
 			</div><!-- /content -->
 		</section><!-- /primary -->
 
-<?php get_sidebar('left'); ?>
-<?php get_sidebar('right'); ?>
+
 <?php get_footer(); ?>

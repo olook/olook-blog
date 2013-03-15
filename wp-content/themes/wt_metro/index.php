@@ -34,7 +34,6 @@
 						get_template_part( 'includes/feat-cat1' );						
 					}
 			
-							
 				?>
 				</div>
 										

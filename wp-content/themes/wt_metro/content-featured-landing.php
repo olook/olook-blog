@@ -21,7 +21,7 @@
 		
 		
 		</header><!-- /entry-header -->
-
+      
 		<div class="entry-content">
 			<?php 
 				//display only first 200 characters in the slide description.								

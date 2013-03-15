@@ -11,8 +11,8 @@
 <?php get_header(); ?>
 
 		<section id="primary">
-			<div id="content" role="main">
-				<div class="archive">
+			<div id="content" class="category-page" role="main">
+				<div class="archive landing-page">
 
 					<?php if ( have_posts() ) : ?>
 
@@ -25,7 +25,7 @@
 								* If you want to overload this in a child theme then include a file
 								* called content-___.php (where ___ is the Post Format name) and that will be used instead.
 								*/
-                        get_template_part( 'content', 'featured-landing' );
+                        /*get_template_part( 'content', 'featured-landing' );*/
                         
 								get_template_part( 'content', 'excerpt' );
 							?>
@@ -37,7 +37,7 @@
 
 						<article id="post-0" class="post no-results not-found">
 							<header class="entry-header">
-								<h1 class="entry-title"><?php _e( 'Nothing Found', 'wellthemes' ); ?></h1>
+								<h1 class="entry-title"><?php _e( 'Nada encontrado', 'wellthemes' ); ?></h1>
 							</header><!-- /entry-header -->
 
 							<div class="entry-content">
@@ -47,7 +47,26 @@
 						</article><!-- /post-0 -->
 
 					<?php endif; ?>
-				</div> <!-- /archive -->			
+				</div> <!-- /archive -->
+
+				<div id="featured-cats">
+
+   				<?php
+   					//include featured categories
+   					if ( wt_get_option( 'wt_feat_cat1' ) != 0 ) {
+   						get_template_part( 'includes/feat-cat1' );						
+   					}
+			
+   				?>
+               
+               <div class="mais-vistos">
+                  <h3>Posts mais vistos</h3>
+                  <?php the_widget('wellthemes_popular_posts_widget', 'number=5'); ?>	
+               </div>
+				</div>
+            
+            
+            			
 			</div><!-- /content -->
 		</section><!-- /primary -->
 

@@ -2627,7 +2627,6 @@ ul.sp-list li{
 
 /* 6. FOOTER
 * ==================== */
-
 footer {
     border-top: 1px solid #CBCBCB;
     clear: both;
@@ -2715,8 +2714,14 @@ footer section dl dt {
 footer section dl dd, footer section dl dd a {
     color: #939598;
     font-size: 12px;
-    margin: 0 0 4px;
+    margin: 0 0 1px;
     text-decoration: none;
+}
+footer section dl dd a:link {
+    color: #939598;
+}
+footer section dl dd a:visited {
+    color: #939598;
 }
 footer section dl dd a:hover {
     color: #BCBEC0;
@@ -2769,11 +2774,13 @@ footer section dl.double.security dd {
     float: left;
 }
 footer section p {
-    clear: both;
-    color: #767676;
-    font-size: 11px;
-    line-height: 13px;
-    padding: 0 0 20px;
+  clear: left;
+  float: left;
+  color: #767676;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 0 0 20px;
+  margin-top:30px;
 }
 ol, ul {
     list-style: none outside none;

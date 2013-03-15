@@ -65,7 +65,7 @@
 						  <script type="text/javascript" id="getSelo" src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?21709" ></script>
 					</dd>
    			</dl>
-    		<p>© <?php echo Date("Y"); ?> - olook<br />Todos os direitos reservados</p>
+   			<p>© <?php echo Date("Y"); ?> - olook<br />Todos os direitos reservados</p>
 		  </section>
 		</footer>
 

@@ -12,8 +12,6 @@
 ?>
 	</div><!-- /main -->
 
-<?php	get_template_part( 'includes/featured-products' ); ?>
-
     <footer>
 		  <section>
 		    <dl>

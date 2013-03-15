@@ -1,14 +1,3 @@
-<?php
-/**
- * The template for displaying content in the archive and search results template
- *
- * @package  WellThemes
- * @file     content-excerpt.php
- * @author   Well Themes Team
- * @link 	 http://wellthemes.com
- */
-?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 	<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('wt-cat-img'); ?></a>

@@ -20,7 +20,7 @@
 						$matches = array();
 						preg_match("/cat=(([0-9]|,|-[0-9]|%2C)*)/", $query_string, $matches);
 						$landing_description_cat = wt_get_option('wt_landing_description');
-						$query_string = str_replace($matches[0],$matches[0].",-".$landing_description_cat,$query_string);
+						$query_string = str_replace($matches[0],$matches[0].",-".$landing_description_cat."&posts_per_page=8",$query_string);
 						query_posts( $query_string);
 
 					?>

@@ -2700,8 +2700,14 @@ footer section dl dt {
 footer section dl dd, footer section dl dd a {
     color: #939598;
     font-size: 12px;
-    margin: 0 0 4px;
+    margin: 0 0 1px;
     text-decoration: none;
+}
+footer section dl dd a:link {
+    color: #939598;
+}
+footer section dl dd a:visited {
+    color: #939598;
 }
 footer section dl dd a:hover {
     color: #BCBEC0;

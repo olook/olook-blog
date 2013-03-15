@@ -13,6 +13,15 @@
 		<section id="primary">
 			<div id="content" role="main">
 				<div class="archive">
+					<?php 
+						global $query_string;
+						global $cat;
+						$matches = array();
+						preg_match("/cat=(([0-9]|,|-[0-9]|%2C)*)/", $query_string, $matches);
+						$landing_description_cat = wt_get_option('wt_landing_description');
+						$query_string = str_replace($matches[0],$matches[0].",-".$landing_description_cat,$query_string);
+						query_posts( $query_string);
+					?>
 
 					<?php if ( have_posts() ) : ?>
 
@@ -25,7 +34,7 @@
 								* If you want to overload this in a child theme then include a file
 								* called content-___.php (where ___ is the Post Format name) and that will be used instead.
 								*/
-                        get_template_part( 'content', 'featured-landing' );
+                get_template_part( 'content', 'featured-landing' );
                         
 								get_template_part( 'content', 'excerpt' );
 							?>

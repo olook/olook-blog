@@ -2612,7 +2612,6 @@ ul.sp-list li{
 
 /* 6. FOOTER
 * ==================== */
-
 footer {
     border-top: 1px solid #CBCBCB;
     clear: both;
@@ -2760,11 +2759,13 @@ footer section dl.double.security dd {
     float: left;
 }
 footer section p {
-    clear: both;
-    color: #767676;
-    font-size: 11px;
-    line-height: 13px;
-    padding: 0 0 20px;
+  clear: left;
+  float: left;
+  color: #767676;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 0 0 20px;
+  margin-top:30px;
 }
 ol, ul {
     list-style: none outside none;

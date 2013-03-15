@@ -99,7 +99,34 @@
   <nav class="menu_new">
     <div class="content_new">
       <ul class="default_new">
-          <li class="showroom"><a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a></li><li class="lookbooks"><a href="http://www.olook.com.br/tendencias" class="lookbooks#index lookbooks#show">Tendências</a></li><li class="moments"><a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a></li><li class="categories"><a href="http://www.olook.com.br/roupas" class="moments#clothes">Roupas</a></li><li class="categories"><a href="http://www.olook.com.br/sapatos" class="moments#show#1">Sapatos</a></li><li class="categories"><a href="http://www.olook.com.br/bolsas" class="moments#show#2">Bolsas</a></li><li class="categories"><a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a></li><li class="gift"><a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a></li><li class="stylist" style="background-image: none; background-position: initial initial; background-repeat: initial initial;"><a href="http://www.olook.com.br/stylists/helena-linhares" class="stylists#helena_linhares">Stylist</a></li>
+          <li class="showroom">
+            <a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a>
+          </li>
+          <li class="lookbooks">
+            <a href="http://www.olook.com.br/tendencias" class="lookbooks#index lookbooks#show">Tendências</a>
+          </li>
+          <li class="moments">
+            <a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a>
+          </li>
+          <li class="categories">
+            <a href="http://www.olook.com.br/roupas" class="moments#clothes">Roupas</a>
+          </li>
+          <li class="categories">
+            <a href="http://www.olook.com.br/sapatos" class="moments#show#1">Sapatos</a>
+          </li>
+          <li class="categories">
+            <a href="http://www.olook.com.br/bolsas" class="moments#show#2">Bolsas</a>
+          </li>
+          <li class="categories">
+            <a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a>
+          </li>
+          <li class="gift">
+            <a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a>
+          </li>
+          <li class="stylist" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+            <a href="http://www.olook.com.br/stylists/helena-linhares" class="stylists#helena_linhares selected">Stylist</a>
+          </li>
+          <li id="bar"></li>
       </ul>
     </div>
   </nav>

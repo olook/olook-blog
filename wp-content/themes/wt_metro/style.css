@@ -41,7 +41,7 @@ body{
   font-size: 14px;
   font-weight: 400;
 	line-height: 1.7;
-	color: #535353;
+	color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -112,9 +112,15 @@ a:hover{
 
 #left-sidebar{
 	float: left;
-	margin-right: 30px;	
 	overflow: hidden;
 }
+#left-sidebar .widget_popular_posts{margin-right:64px;}
+#left-sidebar .wide-slide{position:relative;margin-bottom:30px;}
+#left-sidebar .wide-slide .excerpt{position:absolute;top:0;left:0;background:#FFF;filter:alpha(opacity=80);opacity:0.8;padding:10px 20px;width:260px;}
+#left-sidebar .wide-slide .excerpt a{font-family:avenir_medium, tahoma, sans-serif;color:#000;}
+#left-sidebar .wide-slide .tile-title{bottom: 15px !important;left: 0;padding: 1px 8px !important;width: 238px;position:absolute;background:#FFF;font-family:johnston, tahoma, sans-serif;font-size:14px;text-transform:uppercase;}
+
+#left-sidebar .wide-slide:nth-child(odd) .tile-title{left:46px !important;text-align:right;}
 
 #right-sidebar{	
 	float: left;	
@@ -122,7 +128,7 @@ a:hover{
 }
 
 .sidebar{
-	width: 270px;
+	width: 300px;
 }
 
 .onesidebar-page{
@@ -736,12 +742,17 @@ a:hover{
 	height: 207px;
 }
 
-.tile-title{
+/*.tile-title{
 	bottom: 15px !important;
-	left: 0 !important;
-	padding: 4px 8px !important;
-	max-width: 90%;	
-}
+	left: 0;
+	padding: 1px 8px !important;
+	width: 238px;	
+  position:absolute;
+  background:#FFF;
+  font-family:johnston, tahoma, sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+}*/
 
 .tile-title a{
 	font-size: 14px !important;
@@ -2413,8 +2424,8 @@ ul.sp-list li{
 .attachment-270x270,
 .attachment-wt-tile-large,
 .widget_tile_posts .wp-post-image{
-	width: 270px;
-	height: 270px;
+	width: 300px;
+	height: 300px;
 	display: block;
 }
 

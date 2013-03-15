@@ -51,14 +51,11 @@ class wellthemes_recent_posts_widget extends WP_Widget {
 		$display_category = $instance['display_category'];
 		$latest_posts = new WP_Query();
         $latest_posts->query('ignore_sticky_posts=1&showposts='.$entries_display.'&cat='.$display_category.'');
-		$i = 0; 
-		$data_delay = "3500"; ?>
+
+      ?>
 		
 		<div id="widget-posts-tiles">
 			<?php while ($latest_posts->have_posts()) : $latest_posts->the_post();   ?>
-				<?php $i++; 
-					$data_delay = $data_delay + 1000;
-				?>
 				<?php if ( has_post_thumbnail() ) {	?>
 					<?php
 						global $post;  
@@ -68,32 +65,39 @@ class wellthemes_recent_posts_widget extends WP_Widget {
 							'post_mime_type' => 'image', 
 							'orderby' => 'menu_order', 
 							'order' => 'ASC', 
-							'numberposts' => 3 );
+							'numberposts' => 1 );
 										
 						$images = get_posts($args);
-						$count = count($images);
+                  
 						?>											
-							<div class="">
-								<span class="tile-title">
-									<a href="<?php the_permalink() ?>" rel="bookmark">
-										<?php 
-											//display only first 60 characters in the title.	
-											$short_title = mb_substr(the_title('','',FALSE),0, 60);
-											echo $short_title; 
-											if (strlen($short_title) > 59){ 
-												echo '...'; 
-											} 
-										?>	
-									</a>
-								</span>
-								<div class="wide-slide">													
-
-										<?php the_post_thumbnail( 'wt-tile-large' ); ?>
-
-								</div>
-								<div><!-- back tile --></div>
+							<div class="wide-slide">
+                        <?php the_post_thumbnail( 'wt-tile-large' ); ?>
+                        
+                        <div class="excerpt">
+                           <span>   
+   									<?php 
+            							//display only first 50 characters in the title.	
+            							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 50);
+            							echo $subtitle; 
+            							if (strlen($subtitle) > 49){ 
+            								echo '...'; 
+            							} 
+            						?>
+                           </span>
+                           <a class="see-more" href="<?php the_permalink() ?>" rel="bookmark">Leia tudo</a>
+                        </div>
+                        
+                        <span class="tile-title">
+									<?php 
+										//display only first 60 characters in the title.	
+										$short_title = mb_substr(the_title('','',FALSE),0, 60);
+										echo $short_title; 
+										if (strlen($short_title) > 59){ 
+											echo '...'; 
+										} 
+									?>
+                        </span>
 							</div>
-											
 						
 						<?php } ?>
 					<?php endwhile; ?>	

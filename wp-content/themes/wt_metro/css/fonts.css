@@ -1,44 +1,44 @@
 @font-face {
     font-family: 'Kepler Std Italic';
-    src: url('../fonts/kepler/adobe_-_keplerstd-italic-webfont.eot');
-    src: url('../fonts/kepler/adobe_-_keplerstd-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/kepler/adobe_-_keplerstd-italic-webfont.woff') format('woff'),
-         url('../fonts/kepler/adobe_-_keplerstd-italic-webfont.ttf') format('truetype'),
-         url('../fonts/kepler/adobe_-_keplerstd-italic-webfont.svg#Kepler Std Italic') format('svg');
+    src: url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.eot');
+    src: url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.woff') format('woff'),
+         url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.ttf') format('truetype'),
+         url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.svg#Kepler Std Italic') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'avenir';
-    src: url('../fonts/avenir/avenir-book-webfont.eot');
-    src: url('../fonts/avenir/avenir-book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/avenir/avenir-book-webfont.woff') format('woff'),
-         url('../fonts/avenir/avenir-book-webfont.ttf') format('truetype'),
-         url('../fonts/avenir/avenir-book-webfont.svg#avenir') format('svg');
+    src: url('http://www.olook.com.br/assets/avenir/avenir-book-webfont.eot');
+    src: url('http://www.olook.com.br/assets/avenir/avenir-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.olook.com.br/assets/avenir/avenir-book-webfont.woff') format('woff'),
+         url('http://www.olook.com.br/assets/avenir/avenir-book-webfont.ttf') format('truetype'),
+         url('http://www.olook.com.br/assets/avenir/avenir-book-webfont.svg#avenir') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'johnston';
-    src: url('../fonts/johnston/johnston_itc_bold_0-webfont.eot');
-    src: url('../fonts/johnston/johnston_itc_bold_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/johnston/johnston_itc_bold_0-webfont.woff') format('woff'),
-         url('../fonts/johnston/johnston_itc_bold_0-webfont.ttf') format('truetype'),
-         url('../fonts/johnston/johnston_itc_bold_0-webfont.svg#johnston') format('svg');
+    src: url('http://www.olook.com.br/assets/johnston/johnston_itc_bold_0-webfont.eot');
+    src: url('http://www.olook.com.br/assets/johnston/johnston_itc_bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.olook.com.br/assets/johnston/johnston_itc_bold_0-webfont.woff') format('woff'),
+         url('http://www.olook.com.br/assets/johnston/johnston_itc_bold_0-webfont.ttf') format('truetype'),
+         url('http://www.olook.com.br/assets/johnston/johnston_itc_bold_0-webfont.svg#johnston') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'avenir_medium';
-    src: url('../fonts/avenir_medium/avenir-medium.eot');
-    src: url('../fonts/avenir_medium/avenir-medium.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/avenir_medium/avenir-medium.otf') format('opentype'),
-         url('../fonts/avenir_medium/avenir-medium.woff') format('woff'),
-         url('../fonts/avenir_medium/avenir-medium.ttf') format('truetype'),
-         url('../fonts/avenir_medium/avenir-medium.svg#avenir_medium') format('svg');
+    src: url('http://www.olook.com.br/assets/avenir_medium/avenir-medium.eot');
+    src: url('http://www.olook.com.br/assets/avenir_medium/avenir-medium.eot?#iefix') format('embedded-opentype'),
+         url('http://www.olook.com.br/assets/avenir_medium/avenir-medium.otf') format('opentype'),
+         url('http://www.olook.com.br/assets/avenir_medium/avenir-medium.woff') format('woff'),
+         url('http://www.olook.com.br/assets/avenir_medium/avenir-medium.ttf') format('truetype'),
+         url('http://www.olook.com.br/assets/avenir_medium/avenir-medium.svg#avenir_medium') format('svg');
     font-weight: normal;
     font-style: normal;
 }

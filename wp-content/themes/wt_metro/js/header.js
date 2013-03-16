@@ -33,5 +33,5 @@ function slideMenuBar(){
 }
 
 $(document).ready(function() {  
-  setTimeout(function(){slideMenuBar();},3000);
+  setTimeout(function(){slideMenuBar();},1000);
 });

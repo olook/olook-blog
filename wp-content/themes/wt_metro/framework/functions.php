@@ -306,4 +306,20 @@ if ( ! function_exists( 'wellthemes_first_post_tag_link' ) ) :
 	
 endif; // ends check for wellthemes_first_post_tag_link()
 
+
+if ( ! function_exists( 'wellthemes_first_post_tag_name' ) ) :
+	
+	function wellthemes_first_post_tag_name() {
+		if ( $posttags = get_the_tags() ){
+			$tag = current( $posttags );
+			printf(
+				'<span class="tag-title">%2$s</span>',
+				get_tag_link( $tag->term_id ),
+				esc_html( $tag->name )
+			);
+		}
+	}
+	
+endif; // ends check for wellthemes_first_post_tag_name()
+
 ?>

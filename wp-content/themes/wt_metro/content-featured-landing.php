@@ -23,9 +23,9 @@
            <?php $i = 0 ; ?>
            <?php while ( $query -> have_posts() ) : $query -> the_post(); ?>           
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div id="post-<?php the_ID(); ?>" class="destaque-landing">
 	
-	<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('wt-cat-img'); ?></a>
+	<?php the_post_thumbnail('full'); ?>
 	
 	<div class="post-right">
 	
@@ -41,10 +41,7 @@
 						} 
 					?>	
 				</a>
-									
 			</h3>
-		
-		
 		</header><!-- /entry-header -->
       
 		<div class="entry-content">
@@ -56,15 +53,13 @@
 					echo '...'; 
 				} 
 			?>
+         <a href="<?php the_permalink() ?>">Saiba mais sobre este look</a>
 		</div><!-- /entry-content -->
 
-		<footer class="entry-footer">
-
-		</footer><!-- /entry-footer -->
 		
 	</div> <!-- /post-right -->
 	
-</article><!-- /post-<?php the_ID(); ?> -->
+</div><!-- /post-<?php the_ID(); ?> -->
        <?php endwhile; ?>           
      <?php endif; ?> 
    <?php wp_reset_query();   //reset the query ?>    

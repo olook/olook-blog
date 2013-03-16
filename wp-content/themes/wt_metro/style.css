@@ -404,19 +404,19 @@ a:hover{
 
  /* 4. CONTENT
  * ==================== */
-.category-page{width:990px !important;} 
-.category-page .landing-page article{position:relative;float:left;width:230px;height:465px;margin-right:20px;clear:none !important;} 
-.category-page .landing-page article a.landing-photo{display:block;float:left;height:345px;}
-.category-page .landing-page article:nth-child(4n){margin-right:0;} 
-.category-page .landing-page article .entry-content{float:left;border:solid 1px #000;padding:30px 15px 20px;height:68px;}
-.category-page .landing-page article .entry-content p{margin-bottom:0;}
-.category-page .landing-page article .tag-look{position:absolute;bottom:106px;left:10px;background:#FFF;box-shadow:3px 2px 0 #000;width:210px;height:25px;text-align:center;}
-.category-page .landing-page article .tag-look p{line-height:27px;margin:0;font-size:14px;text-transform:uppercase;}
-.category-page .landing-page article .tag-look p span.titulo-look{color:#EF3742;margin-left:5px;}
-.category-page .landing-page article .tag-look p a{display:inline-block;height:18px;background: url("images/sprite.png") right -280px no-repeat;padding-right:15px;}
-.category-page .feat-cat{float:left;}
-.category-page .mais-vistos{float:right;margin-top:5px;}
-.category-page .mais-vistos h3{background: url("images/sprite.png") no-repeat scroll 0 -66px transparent;height: 57px;text-indent: -9999em;width: 185px;margin-bottom:35px;}
+.landing-page{width:990px !important;} 
+.landing-page article{position:relative;float:left;width:230px;height:465px;margin-right:20px;clear:none !important;} 
+.landing-page article a.landing-photo{display:block;float:left;height:345px;}
+.landing-page .result-posts article:nth-child(4n){margin-right:0;} 
+.landing-page article .entry-content{float:left;border:solid 1px #000;padding:30px 15px 20px;height:68px;}
+.landing-page article .entry-content p{margin-bottom:0;}
+.landing-page article .tag-look{position:absolute;bottom:106px;left:10px;background:#FFF;box-shadow:3px 2px 0 #000;width:210px;height:25px;text-align:center;}
+.landing-page article .tag-look p{line-height:27px;margin:0;font-size:14px;text-transform:uppercase;}
+.landing-page article .tag-look p span.titulo-look{color:#EF3742;margin-left:5px;}
+.landing-page article .tag-look p a{display:inline-block;height:18px;background: url("images/sprite.png") right -280px no-repeat;padding-right:15px;}
+.landing-page .feat-cat{float:left;}
+.landing-page .mais-vistos{float:right;margin-top:5px;}
+.landing-page .mais-vistos h3{background: url("images/sprite.png") no-repeat scroll 0 -66px transparent;height: 57px;text-indent: -9999em;width: 185px;margin-bottom:35px;}
  
 #top-stories {
 	overflow: hidden;

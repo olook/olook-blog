@@ -15,7 +15,7 @@ global $cfs;
 
 	<div class="post-excerpt">
       <div class="tag-look">
-         <p class="tag-link"><?php wellthemes_first_post_tag_link(); ?><span class="titulo-look"><?php echo $cfs->get('titulo_look'); ?></span></p>
+         <p class="tag-link"><?php wellthemes_first_post_tag_name(); ?><span class="titulo-look"><?php echo $cfs->get('titulo_look'); ?></span></p>
       </div>
 		<div class="entry-content">
 			<p><a href="<?php the_permalink() ?>">

@@ -406,6 +406,7 @@ a:hover{
  * ==================== */
 .landing-page{width:990px !important;}
 .landing-page .destaque-landing{width:995px;overflow:hidden;margin-bottom:30px;} 
+.landing-page .destaque-landing a.link-post{display:block;}
 .landing-page .destaque-landing img,.landing-page .destaque-landing .post-right{float:left;}
 .landing-page .destaque-landing img{margin-right:10px;}
 .landing-page .destaque-landing .post-right{width:350px;position:relative;}
@@ -423,7 +424,7 @@ a:hover{
 .landing-page article .tag-look{position:absolute;bottom:106px;left:10px;background:#FFF;box-shadow:3px 2px 0 #000;width:210px;height:25px;text-align:center;}
 .landing-page article .tag-look p{line-height:27px;margin:0;font-size:14px;text-transform:uppercase;}
 .landing-page article .tag-look p span.titulo-look{color:#EF3742;margin-left:5px;}
-.landing-page article .tag-look p a{display:inline-block;height:18px;background: url("images/sprite.png") right -280px no-repeat;padding-right:15px;}
+.landing-page article .tag-look p .tag-title{display:inline-block;height:18px;background: url("images/sprite.png") right -281px no-repeat;padding-right:15px;}
 #featured-cats .feat-cat{float:left;}
 #featured-cats .mais-vistos{float:right;margin-top:5px;}
 #featured-cats .mais-vistos h3{background: url("images/sprite.png") no-repeat scroll 0 -66px transparent;height: 57px;text-indent: -9999em;width: 185px;margin-bottom:35px;}

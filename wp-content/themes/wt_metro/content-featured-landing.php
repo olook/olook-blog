@@ -25,7 +25,7 @@
 
 <div id="post-<?php the_ID(); ?>" class="destaque-landing">
 	
-	<?php the_post_thumbnail('full'); ?>
+	<a href="<?php the_permalink() ?>" class="link-post"><?php the_post_thumbnail('full'); ?></a>
 	
 	<div class="post-right">
 	

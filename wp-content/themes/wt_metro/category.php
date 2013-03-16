@@ -52,7 +52,7 @@
 
    							<div class="entry-content">
    								<p><?php _e( 'Desculpe, mas não foi encontrado nenhum post relacionado a sua busca. Talvez procurando por outro termo você encontre.', 'wellthemes' ); ?></p>
-   								<?php get_search_form(); ?>
+
    							</div><!-- /entry-content -->
    						</article><!-- /post-0 -->
 

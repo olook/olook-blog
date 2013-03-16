@@ -76,118 +76,94 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div id="container" class="hfeed">	
+   <div id="container" class="hfeed">	
 
-<header id="new_header">
-  <div class="new_content">
-    <div class="box_left">
-      <p>SAC (11) 2626-3489 | <a class="contact" href="mailto:falecom@olook.com.br">falecom@olook.com.br</a></p>
-      <ul class="social_icons">
-        <li><a href="http://facebook.com/olook" class="social_facebook" target="_blank" title="Acompanhe pelo Facebook">Acompanhe pelo Facebook</a></li>
-        <li><a href="http://twitter.com/olook" class="social_twitter" target="_blank" title="Acompanhe pelo Twitter">Acompanhe pelo Twitter</a></li>
-        <li><a href="http://blog.olook.com.br/feed/" class="social_rss" target="_blank" title="Acompanhe por RSS">Acompanhe por RSS</a></li>
-        <li><a href="http://instagram.com/olook" class="social_instagram" target="_blank" title="Acompanhe pelo Instagram">Acompanhe pelo Instagram</a></li>
-      </ul>
-    </div>
-    <div class="olook_logo">
-        <h1><a href="http://www.olook.com.br">Olook</a></h1>
-    </div>
-  </div>
-</header>
+      <header id="new_header">
+        <div class="new_content">
+          <div class="box_left">
+            <p>SAC (11) 2626-3489 | <a class="contact" href="mailto:falecom@olook.com.br">falecom@olook.com.br</a></p>
+            <ul class="social_icons">
+              <li><a href="http://facebook.com/olook" class="social_facebook" target="_blank" title="Acompanhe pelo Facebook">Acompanhe pelo Facebook</a></li>
+              <li><a href="http://twitter.com/olook" class="social_twitter" target="_blank" title="Acompanhe pelo Twitter">Acompanhe pelo Twitter</a></li>
+              <li><a href="http://blog.olook.com.br/feed/" class="social_rss" target="_blank" title="Acompanhe por RSS">Acompanhe por RSS</a></li>
+              <li><a href="http://instagram.com/olook" class="social_instagram" target="_blank" title="Acompanhe pelo Instagram">Acompanhe pelo Instagram</a></li>
+            </ul>
+          </div>
+          <div class="olook_logo">
+              <h1><a href="http://www.olook.com.br">Olook</a></h1>
+          </div>
+        </div>
+      </header>
 
-  <div id="wrapper_new_menu">
-  <nav class="menu_new">
-    <div class="content_new">
-      <ul class="default_new">
-          <li class="showroom">
-            <a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a>
-          </li>
-          <li class="lookbooks">
-            <a href="http://www.olook.com.br/tendencias" class="lookbooks#index lookbooks#show">Tendências</a>
-          </li>
-          <li class="moments">
-            <a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a>
-          </li>
-          <li class="categories">
-            <a href="http://www.olook.com.br/roupas" class="moments#clothes">Roupas</a>
-          </li>
-          <li class="categories">
-            <a href="http://www.olook.com.br/sapatos" class="moments#show#1">Sapatos</a>
-          </li>
-          <li class="categories">
-            <a href="http://www.olook.com.br/bolsas" class="moments#show#2">Bolsas</a>
-          </li>
-          <li class="categories">
-            <a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a>
-          </li>
-          <li class="gift">
-            <a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a>
-          </li>
-          <li class="stylist" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
-            <a href="http://blog.olook.com.br" class="stylists selected">Stylist News</a>
-          </li>
-          <li id="bar"></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-	<!--header id="header" role="banner">			
-		<div class="wrap">						
-			<div class="logo">
-			<?php if (wt_get_option( 'wt_logo_url' )) { ?>
-				<h1>
-					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
-						<img src="<?php echo wt_get_option( 'wt_logo_url' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
-					</a>
-				</h1>	
-			<?php } else {?>
-				<h1 class="site-title">
-					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
-						<?php bloginfo('name'); ?>
-					</a>
-				</h1> 
-				<h3>
-					<?php bloginfo('description'); ?>
-				</h3>
-			<?php } ?>	
-			</div>		
-		
+      <div id="wrapper_new_menu">
+        <nav class="menu_new">
+          <div class="content_new">
+            <ul class="default_new">
+                <li class="showroom">
+                  <a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a>
+                </li>
+                <li class="lookbooks">
+                  <a href="http://www.olook.com.br/tendencias" class="lookbooks#index lookbooks#show">Tendências</a>
+                </li>
+                <li class="moments">
+                  <a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a>
+                </li>
+                <li class="categories">
+                  <a href="http://www.olook.com.br/roupas" class="moments#clothes">Roupas</a>
+                </li>
+                <li class="categories">
+                  <a href="http://www.olook.com.br/sapatos" class="moments#show#1">Sapatos</a>
+                </li>
+                <li class="categories">
+                  <a href="http://www.olook.com.br/bolsas" class="moments#show#2">Bolsas</a>
+                </li>
+                <li class="categories">
+                  <a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a>
+                </li>
+                <li class="gift">
+                  <a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a>
+                </li>
+                <li class="stylist" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+                  <a href="http://blog.olook.com.br" class="stylists selected">Stylist News</a>
+                </li>
+                <li id="bar"></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 			
-			<div class="search">
-				<?php get_search_form(); ?>
-			</div>
-			
-			<div class="social">
-				<ul>
-					<?php if (wt_get_option( 'wt_twitter_url' )) { ?>
-						<li><a class="twitter" href="<?php echo wt_get_option( 'wt_twitter_url' ); ?>">Twitter</a></li>
-					<?php } ?>
-					
-					<?php if (wt_get_option( 'wt_fb_url' )) { ?>
-						<li><a class="fb" href="<?php echo wt_get_option( 'wt_fb_url' ); ?>">Facebook</a></li>
-					<?php } ?>
-					
-					<?php if (wt_get_option( 'wt_gplus_url' )) { ?>
-						<li><a class="gplus" href="<?php echo wt_get_option( 'wt_gplus_url' ); ?>">Google+</a></li>
-					<?php } ?>
-					
-					<?php if (wt_get_option( 'wt_rss_url' )) { ?>
-						<li><a class="rss" href="<?php echo wt_get_option( 'wt_rss_url' ); ?>">RSS</a></li>
-					<?php } else { ?>
-						<li><a class="rss" href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
-					<?php } ?>					
-				</ul>
-			</div>
 		
-		
-		</div> 		
+
 		
 		<div id="main-menu">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '0', 'fallback_cb' => 'wellthemes_main_menu_fallback',) ); ?>	
 		</div>
 		
-		<div class="clearfix"></div>
-			
-	</header-->
+		<!--div class="social">
+			<ul>
+				<?php if (wt_get_option( 'wt_twitter_url' )) { ?>
+					<li><a class="twitter" href="<?php echo wt_get_option( 'wt_twitter_url' ); ?>">Twitter</a></li>
+				<?php } ?>
+					
+				<?php if (wt_get_option( 'wt_fb_url' )) { ?>
+					<li><a class="fb" href="<?php echo wt_get_option( 'wt_fb_url' ); ?>">Facebook</a></li>
+				<?php } ?>
+					
+				<?php if (wt_get_option( 'wt_gplus_url' )) { ?>
+					<li><a class="gplus" href="<?php echo wt_get_option( 'wt_gplus_url' ); ?>">Google+</a></li>
+				<?php } ?>
+					
+				<?php if (wt_get_option( 'wt_rss_url' )) { ?>
+					<li><a class="rss" href="<?php echo wt_get_option( 'wt_rss_url' ); ?>">RSS</a></li>
+				<?php } else { ?>
+					<li><a class="rss" href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
+				<?php } ?>					
+			</ul>
+		</div>
+		
+		
+	   </div--> 		
+      
+
 
 	<div id="main">

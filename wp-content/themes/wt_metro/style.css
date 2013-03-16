@@ -101,6 +101,7 @@ a:hover{
 
 #main{
 	overflow:hidden;	
+  clear:both;
 }
 
 #content {
@@ -265,13 +266,18 @@ a:hover{
  * ======================== */
 /*-- Main Menu --*/
 #main-menu {
-	width: 100%;
-	background: #333333;
+	width: 945px;
+	background: #FFF;
 	float: left;
-	position: relative;
-	z-index: 30;
-	margin-top: 30px;
-	height: 58px;	
+	/*position: relative;*/
+	/*z-index: 30;*/
+  clear:both;
+
+  padding:0 21px;
+	margin: 20px 0;
+	height: 29px;
+  border:solid 1px #000;
+  box-shadow:3px 2px 0 #939598;	
 }
 
 #main-menu select {
@@ -296,33 +302,47 @@ a:hover{
 }
 
 #main-menu ul li {
-	float:left;	padding:0px;
+	float:left;	padding:0px 21px;
 	margin:0px;
-	position:relative;
+  position:relative;
 }
 
 #main-menu ul li a {
 	display: block;
-	padding: 18px 22px;
+	padding: 0 15px;
 	text-align: center;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 22px;
-	color: #FFFFFF;	
+	font-size: 10px;
+	font-family: johnston, tahoma, sans-serif;
+	line-height: 28px;
+	color: #000;
+  text-transform:uppercase;	
+  letter-spacing:3px;
+  border-left:solid 1px #FFF;
+  border-right:solid 1px #FFF;
+  border-bottom:solid 1px #FFF;
+  position:relative;
+  z-index:10;
 }
 
-#main-menu .current-menu-item ,
+#main-menu .current-menu-item a,
 #main-menu .current_page_item,
 #main-menu ul li a:hover{
-	background: #359BED;
+	color: #EF3742;
+
 }
 
+#main-menu ul li.over a,#main-menu ul li.over a:hover{border-right-color:#000;border-left-color:#000;}
+
 #main-menu ul li ul {
-	display:none;
+  display:none;
 	position:absolute;
 	padding:0;
-	background: #F2F2F2;
+	background: #FFF;
 	margin-top: 0;
+  border:solid 1px #000;
+  box-shadow:3px 2px 0 #939598;
+  top:28px;
+  z-index:8;
 }
 
 #main-menu ul li ul li {
@@ -333,22 +353,20 @@ a:hover{
 #main-menu ul li ul li a, 
 #main-menu ul li:hover ul li a, 
 #main-menu ul li.over ul li a {	
-	padding: 12px 20px 12px 18px;	
+	padding: 0 20px;	
 	display: block;	
-	width: 142px;	
+	width: 133px;	
 	text-align: left;	
 	height: auto;	
-	background: #EEEEEE;		
-	font-size: 14px;	
-	font-weight: 400;	
-	border-bottom: 1px solid #CCC;	
-	color: #333333;	
-	text-transform: none;	
+	background: #FFF;		
+	color: #000;	
+	text-transform: upppercase;	
+  border:none;
 }
 
 #main-menu ul li ul li:hover a, 
 #main-menu ul li ul li.over a {	
-	color: #000000;
+	color: #EF3742;
 }
 
 #main-menu ul li ul li ul {	
@@ -2119,7 +2137,7 @@ ul.sp-list li{
   float:right;width:210px;
 }
 
-.look-inspiracao{margin-bottom:80px;width:300px;}
+.look-inspiracao{margin-bottom:80px;width:320px;}
   
 .widget_popular_posts .item-post:last-child{
 	margin-bottom: 0;

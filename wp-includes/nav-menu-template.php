@@ -14,6 +14,32 @@
  * @since 3.0.0
  * @uses Walker
  */
+
+	function removeAcento($item){
+	    $acentos = array(
+	        'À','Á','Ã','Â', 'à','á','ã','â',
+	        'Ê', 'É',
+	        'Í', 'í', 
+	        'Ó','Õ','Ô', 'ó', 'õ', 'ô',
+	        'Ú','Ü',
+	        'Ç', 'ç',
+	        'é','ê', 
+	        'ú','ü',
+	        );
+	    $remove_acentos = array(
+	        'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a',
+	        'e', 'e',
+	        'i', 'i',
+	        'o', 'o','o', 'o', 'o','o',
+	        'u', 'u',
+	        'c', 'c',
+	        'e', 'e',
+	        'u', 'u',
+	        );
+	    return str_replace($acentos, $remove_acentos, $item);
+	}
+	
+	
 class Walker_Nav_Menu extends Walker {
 	/**
 	 * @see Walker::$tree_type
@@ -54,6 +80,7 @@ class Walker_Nav_Menu extends Walker {
 		$output .= "$indent</ul>\n";
 	}
 
+	
 	/**
 	 * @see Walker::start_el()
 	 * @since 3.0.0
@@ -74,23 +101,35 @@ class Walker_Nav_Menu extends Walker {
 
 		$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
 		$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
-
-		$id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+		
+		$titleMenuItem = removeAcento(strtolower(str_replace(" ", "-", $item->title)));
+		
+		$id = apply_filters( 'nav_menu_item_id', 'menu-item-'.$titleMenuItem , $item, $args );
 		$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
 
 		$output .= $indent . '<li' . $id . $value . $class_names .'>';
+		
+		$a = strstr($item->url, "#");
+		if($a){
+			$item_output = $args->before;
+			$item_output .= '<span>';
+			$item_output .= apply_filters( 'the_title', $item->title, $item->ID );
+			$item_output .= '</span>';
+			$item_output .= $args->after;
+			
+		} else{
 
-		$attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
-		$attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
-		$attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
-		$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+			$attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+			$attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+			$attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+			$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
 
-		$item_output = $args->before;
-		$item_output .= '<a'. $attributes .'>';
-		$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
-		$item_output .= '</a>';
-		$item_output .= $args->after;
-
+			$item_output = $args->before;
+			$item_output .= '<a'. $attributes .'>';
+			$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+			$item_output .= '</a>';
+			$item_output .= $args->after;
+		}
 		$output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
 	}
 

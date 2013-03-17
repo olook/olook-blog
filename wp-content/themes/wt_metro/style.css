@@ -302,12 +302,13 @@ a:hover{
 }
 
 #main-menu ul li {
-	float:left;	padding:0px 21px;
+	float:left;	
+	padding:1px 21px 0;
 	margin:0px;
   position:relative;
 }
 
-#main-menu ul li a {
+#main-menu ul li a, #main-menu ul li ul li span{
 	display: block;
 	padding: 0 15px;
 	text-align: center;
@@ -319,7 +320,6 @@ a:hover{
   letter-spacing:3px;
   border-left:solid 1px #FFF;
   border-right:solid 1px #FFF;
-  border-bottom:solid 1px #FFF;
   position:relative;
   z-index:10;
 }
@@ -332,6 +332,8 @@ a:hover{
 }
 
 #main-menu ul li.over a,#main-menu ul li.over a:hover{border-right-color:#000;border-left-color:#000;}
+#main-menu ul li.over a{z-index:12;border-bottom:solid 1px #FFF;}
+#main-menu ul li.over ul{z-index:11;}
 
 #main-menu ul li ul {
   display:none;
@@ -341,21 +343,24 @@ a:hover{
 	margin-top: 0;
   border:solid 1px #000;
   box-shadow:3px 2px 0 #939598;
-  top:28px;
+  top:29px;
   z-index:8;
 }
 
 #main-menu ul li ul li {
 	float:none;
-	padding:0px;
+	padding:0px 20px;
 }
+
+#main-menu ul li ul li span{text-align:left;padding:0 0 0 5px;width:182px;margin:5px 0;}
+#main-menu ul li ul li#menu-item-looks-por-ocasiao span{border-top:solid 1px #000}
 
 #main-menu ul li ul li a, 
 #main-menu ul li:hover ul li a, 
 #main-menu ul li.over ul li a {	
-	padding: 0 20px;	
+	padding: 0 0 0 5px;	
 	display: block;	
-	width: 133px;	
+	width: 133px;
 	text-align: left;	
 	height: auto;	
 	background: #FFF;		
@@ -363,6 +368,7 @@ a:hover{
 	text-transform: upppercase;	
   border:none;
 }
+
 
 #main-menu ul li ul li:hover a, 
 #main-menu ul li ul li.over a {	
@@ -1091,7 +1097,7 @@ a:hover{
 	background:#FFF;border:solid 1px #000;box-shadow:3px 2px 0 #000;position:absolute;top:205px;left:23px;display:block;height:28px;padding:8px 10px;text-align:center;font-weight:normal;margin:0;
 }
 
-#feat-cat1 .tag-title a{color:#000;text-transform:uppercase;font-size:22px;line-height:32px;}
+#feat-cat1 .tag-title a, #feat-cat1 .tag-title span{color:#000;text-transform:uppercase;font-size:22px;line-height:32px;}
 
 #feat-cat2 .cat-header{	
 	background: #5FB435;

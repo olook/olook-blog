@@ -10,6 +10,7 @@
  * @link 	 http://wellthemes.com
  *
  */
+global $cfs;
 ?>
 <?php
 	$cat_id = "";
@@ -56,7 +57,8 @@
 				<div class="post-wrap">
 					<header class="entry-header">
                   <img src="../wp-content/themes/wt_metro/images/ponta.png" class="ponta" />
-						<?php wellthemes_first_post_tag_link(); ?>					
+						<?php// wellthemes_first_post_tag_link(); ?>	
+						<p class="tag-title"><span><?php echo $cfs->get('tag_destaque'); ?></span></p>				
 					</header>
 					
 					<p>

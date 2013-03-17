@@ -77,7 +77,7 @@
 <body <?php body_class(); ?>>
 
    <div id="container" class="hfeed">	
-
+	<div id="content-blog">	
       <header id="new_header">
         <div class="new_content">
           <div class="box_left">

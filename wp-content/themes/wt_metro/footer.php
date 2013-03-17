@@ -68,6 +68,7 @@
 </footer>
 
 	</div><!-- /main -->
+	</div><!-- /content-blog -->
     
 
 <?php wp_footer(); ?>

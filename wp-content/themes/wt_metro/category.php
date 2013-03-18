@@ -9,17 +9,6 @@
  */
 ?>
 <?php get_header(); ?>
-
-<?php
-wp_link_pages( array(
-    'before' => '<p>',
-    'after' => '</p>',
-    'next_or_number' => 'pr&oacute;xima', 
-    'previouspagelink' => ' anterior ', 
-    'nextpagelink' => ' pr&oacute;xima'
-    )
-); 
-?>
 		<section id="primary">
 
 			<div id="content" class="landing-page" role="main">

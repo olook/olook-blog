@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Kepler Std Italic';
     src: url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.eot');
-    src: url('http://www.olook.com.br/assets/adobe_-_keplerstd-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.woff') format('woff'),
          url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.ttf') format('truetype'),
          url('http://www.olook.com.br/assets/kepler/adobe_-_keplerstd-italic-webfont.svg#Kepler Std Italic') format('svg');

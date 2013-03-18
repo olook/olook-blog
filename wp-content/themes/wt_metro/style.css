@@ -1869,6 +1869,12 @@ ul.sp-list li{
   font-weight:bold;
 }
 
+/*#content .pagination .page-numbers.next,#content .pagination .page-numbers.prev{background: url("images/sprite.png") no-repeat}
+#content .pagination .page-numbers.next{background-position:-431px -92px;}
+#content .pagination .page-numbers.next:hover{background-position:-431px -61px;}
+#content .pagination .page-numbers.prev{background-position:-431px -127px;}
+#content .pagination .page-numbers.prev:hover;{background-position:-431px -153px;}*/
+
 #content .pagination .current {
 	background: #FFF;
 	color: #EF3742;

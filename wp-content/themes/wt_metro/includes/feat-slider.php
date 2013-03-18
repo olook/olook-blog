@@ -10,6 +10,7 @@
  * @link 	 http://wellthemes.com
  * 
  **/
+ global $cfs;
 ?>
 <?php		
 	$cat_id = wt_get_option('wt_slider_category');	//get category id
@@ -30,7 +31,7 @@
 					<?php if ( has_post_thumbnail()) { ?>
 							<li>
 								<a href="<?php the_permalink(); ?>" >
-									<?php the_post_thumbnail( 'wt-slider-img', array('title' => '') ); ?>
+									<img src="<?php echo $cfs->get('foto_destaque_home_tv'); ?>" />
 								</a>
 			
 								<div class="slider-text">

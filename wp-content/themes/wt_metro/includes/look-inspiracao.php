@@ -10,6 +10,7 @@
  * @link   http://wellthemes.com
  *
  */
+ global $cfs;
 ?>
 <?php
   $cat_id = "";
@@ -39,7 +40,7 @@
           <aside class="look-inspiracao">
              <div class="thumb-wrap">
                <div class="thumb">
-                 <?php the_post_thumbnail( 'wt-look-inspiracao' ); ?>
+                 <img src="<?php echo $cfs->get('look_inspiracao'); ?>" />
                </div>
              </div>
 

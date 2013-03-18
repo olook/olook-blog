@@ -1,4 +1,5 @@
 <?php
+   global $cfs;
 	global $cat;
   $cat_id = "";
   $cat_id = wt_get_option('wt_landing_description');  //get category id
@@ -25,7 +26,7 @@
 
 <div id="post-<?php the_ID(); ?>" class="destaque-landing">
 	
-	<a href="<?php the_permalink() ?>" class="link-post"><?php the_post_thumbnail('full'); ?></a>
+	<a href="<?php the_permalink() ?>" class="link-post"><img src="<?php echo $cfs->get('foto_destaque_home_tv'); ?>" /></a>
 	
 	<div class="post-right">
 	

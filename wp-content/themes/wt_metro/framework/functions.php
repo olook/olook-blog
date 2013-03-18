@@ -259,8 +259,8 @@ function wt_pagination() {
 		'base' => str_replace( $big, '%#%', get_pagenum_link($big) ),
 		'current' => max( 1, get_query_var('paged') ),
 		'total' => $wp_query->max_num_pages,
-    'previouspagelink' => ' &laquo; ', 
-    'nextpagelink' => ' &raquo;',
+		'prev_text'    => __('« Anterior'),
+		'next_text'    => __('Pr&oacute;xima »'),
 		'mid_size' => 5
 	) );
  

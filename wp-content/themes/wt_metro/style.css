@@ -439,8 +439,8 @@ a:hover{
 .landing-page .destaque-landing img,.landing-page .destaque-landing .post-right{float:left;}
 .landing-page .destaque-landing img{margin-right:10px;}
 .landing-page .destaque-landing .post-right{width:350px;position:relative;}
-.landing-page .destaque-landing .post-right .entry-header{position:absolute;top:75px;left:-96px;width:410px;height:45px;line-height:45px;background:#FFF;padding:0 10px 0 20px;}
-.landing-page .destaque-landing .post-right .entry-header a{font-family:johnston, tahoma, sans-serif;font-size:20px;line-height:45px;text-transform:uppercase;letter-spacing:4px;}
+.landing-page .destaque-landing .post-right .entry-header{position:absolute;top:75px;left:-96px;width:410px;min-height:35px;background:#FFF;padding:10px 10px 0 20px;}
+.landing-page .destaque-landing .post-right .entry-header h3{font-family:johnston, tahoma, sans-serif;font-size:20px;text-transform:uppercase;letter-spacing:4px;}
 .landing-page .destaque-landing .post-right .entry-content{padding-top:145px;}
 .landing-page .destaque-landing .post-right .entry-content p{margin-bottom:40px;}
 .landing-page .destaque-landing .post-right .entry-content a{font-family: 'avenir_medium', tahoma, sans-serif;font-size:14px;} 
@@ -1896,7 +1896,7 @@ ul.sp-list li{
 .featured-posts article{float:left;width:270px;margin:0 30px;}
 .featured-posts article .attachment-wt-stylist-choices{width:270px;height:200px;}
 .featured-posts article:last-child{margin-right:0;}
-
+.featured-posts .main-post p{text-align:center;}
 
 #footer h3{
 	background-color: #333333;

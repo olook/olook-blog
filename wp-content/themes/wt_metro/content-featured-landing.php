@@ -31,16 +31,14 @@
 	
 		<header class="entry-header">
 			<h3 class="entry-title">				
-				<a href="<?php the_permalink() ?>">
-					<?php 
-						//display only first 70 characters in the title.	
-						$short_title = mb_substr(the_title('','',FALSE),0, 70);
-						echo $short_title; 
-						if (strlen($short_title) > 69){ 
-							echo '...'; 
-						} 
-					?>	
-				</a>
+				<?php 
+					//display only first 70 characters in the title.	
+					$short_title = mb_substr(the_title('','',FALSE),0, 70);
+					echo $short_title; 
+					if (strlen($short_title) > 69){ 
+						echo '...'; 
+					} 
+				?>	
 			</h3>
 		</header><!-- /entry-header -->
       

@@ -43,22 +43,22 @@
                </div>
              </div>
              <p>
+                <a href="<?php the_permalink() ?>">
 					<?php 
-						
 						$short_title = mb_substr(the_title('','',FALSE),0, 45);
 						echo $short_title; 
 					?>	
-             </p>
-             <p>
-                
-               <?php 
-                 //display only first 150 characters in the excerpt.               
-                 $excerpt = get_the_excerpt();                               
-                 echo mb_substr($excerpt,0, 150);                  
-                 if (strlen($excerpt) > 149){ 
-                   echo '...'; 
-                 } 
-               ?>
+               <br/>
+               <strong>
+   					<?php 
+   						$subtitle = strip_tags(mb_substr(get_the_subtitle($post,'', '', FALSE),0, 50));
+   						echo $subtitle; 
+   						if (strlen($subtitle) > 49){ 
+   							echo '...'; 
+   						} 
+   					?>
+               </strong>
+               </a>
              </p>            
              <?php } ?>
           </article> 

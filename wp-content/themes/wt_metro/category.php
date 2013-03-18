@@ -9,7 +9,6 @@
  */
 ?>
 <?php get_header(); ?>
-
 		<section id="primary">
 
 			<div id="content" class="landing-page" role="main">

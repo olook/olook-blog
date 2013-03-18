@@ -277,9 +277,8 @@ a:hover{
 	/*position: relative;*/
 	/*z-index: 30;*/
   clear:both;
-
   padding:0 21px;
-	margin: 20px 0;
+	margin: 0 0 20px;
 	height: 29px;
   border:solid 1px #000;
   box-shadow:3px 2px 0 #939598;	
@@ -308,7 +307,7 @@ a:hover{
 
 #main-menu ul li {
 	float:left;	
-	padding:1px 21px 0;
+	padding:0 21px 0;
 	margin:0px;
   position:relative;
 }
@@ -343,18 +342,18 @@ a:hover{
 #main-menu ul li ul {
   display:none;
 	position:absolute;
-	padding:0;
+	padding:0 0 8px;
 	background: #FFF;
 	margin-top: 0;
   border:solid 1px #000;
   box-shadow:3px 2px 0 #939598;
-  top:29px;
+  top:28px;
   z-index:8;
 }
 
 #main-menu ul li ul li {
 	float:none;
-	padding:0px 20px;
+	padding:0px 20px 0 9px;
 }
 
 #main-menu ul li ul li span{text-align:left;padding:0 0 0 5px;width:182px;margin:5px 0;}
@@ -640,8 +639,8 @@ a:hover{
     color: #000;
 }
 
-#wt-slider .slider-text p {
-    margin-bottom: 0;padding:5px;background:#000;display:inline;
+#wt-slider .slider-text span {
+    margin-bottom: 0;padding:0 5px;background:#000;float:left;
 }
 
 /*-- Featured Posts text --*/
@@ -1166,8 +1165,8 @@ a:hover{
 
 .feat-cat .main-post .overlay{
   position: absolute;
-  width: 99%;
-  height: 99%;
+  width: 303px;
+  height: 237px;
   top: 0;
   left:0;
   }
@@ -2919,6 +2918,7 @@ body header#new_header .new_content .social_icons {
     clear: both;
     float: left;
     width: 150px;
+    margin:0;
 }
 body header#new_header .new_content .social_icons a.social_facebook {
     background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") repeat scroll 0 0 transparent;

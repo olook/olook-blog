@@ -91,14 +91,16 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 			<div class="post-right">
 				<h4>
 					<a href="<?php echo get_permalink($post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($post,'', '', FALSE)); ?>">
-						<?php 
+						<strong>
+                  <?php 
 							//display only first 50 characters in the title.	
 							$short_title = mb_substr(get_the_title($post,'', '', FALSE),0, 50);
 							echo $short_title; 
 							if (strlen($short_title) > 49){ 
 								echo '...'; 
 							} 
-						?> <br />
+						?> 
+                  </strong><br />
 						<?php 
 							//display only first 50 characters in the title.	
 							$subtitle = mb_substr(get_the_subtitle($post,'', '', FALSE),0, 50);

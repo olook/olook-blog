@@ -47,21 +47,16 @@
 												?>	
 											</a>
 										</h2>
-										<span>
+										<p>
+																			
 											<?php 
 												$excerpt = get_the_excerpt();
-												echo mb_substr($excerpt,0, 75);
-											?>
-										</span><br/>
-										<span>
-											<?php 
-												$excerpt = get_the_excerpt();
-												echo mb_substr($excerpt,75, 80);
-												if (strlen($excerpt) > 79){ 
+												echo mb_substr($excerpt,0, 150);
+												if (strlen($excerpt) > 149){ 
 													echo '...'; 
 												}
 											?>
-										</span>
+										</p>
 									</div>								
 								</div>									
 							</li>

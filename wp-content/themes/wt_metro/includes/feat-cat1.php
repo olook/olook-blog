@@ -91,7 +91,7 @@ global $cfs;
 	
 	<?php $query = new WP_Query( $args ); ?>
 			<?php if ( $query -> have_posts() ) : ?>
-				<div class="slide-cat1 one-half last-col">
+				<div class="slide-cat1 last-col">
 					<ul class="slides">
 				<?php $i = 0 ; ?>
 				<?php while ( $query -> have_posts() ) : $query -> the_post(); ?>					

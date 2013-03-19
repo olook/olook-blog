@@ -20,9 +20,14 @@
    						global $query_string;
    						global $cat;
    						$matches = array();
+                     $cat_slug = array();
    						preg_match("/cat=(([0-9]|,|-[0-9]|%2C)*)/", $query_string, $matches);
+                     preg_match("/category_name=([a-z0-9-]+)/", $query_string, $cat_slug);
    						$landing_description_cat = wt_get_option('wt_landing_description');
-   						$query_string = str_replace($matches[0],$matches[0].",-".$landing_description_cat."&posts_per_page=8",$query_string);
+   						
+                     $query_string = str_replace($matches[0],$matches[0].",-".$landing_description_cat."&posts_per_page=8",$query_string);
+                     // $query_string = str_replace($cat_slug[0],'',$query_string);
+
    						query_posts( $query_string);
 
    					?>

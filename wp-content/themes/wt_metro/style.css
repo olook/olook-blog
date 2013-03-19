@@ -1522,8 +1522,9 @@ a:hover{
 /* pagina 404 */
 article.error404{text-align:center;margin-top:15px;}
 
-/* comentários do facebook */
+/* comentários do facebook e like button */
 .fb_iframe_widget{margin-top:30px;}
+.FacebookLikeButton{float:right;margin:10px 0 20px;}
 
 .post h1{text-align:center;font-family:johnston,tahoma, sans-serif;font-size:24px;text-transform:uppercase;letter-spacing:3px;}
 

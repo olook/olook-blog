@@ -15,16 +15,11 @@ get_header(); ?>
 
 			<article id="post-0" class="post error404 not-found">
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'wellthemes' ); ?></h1>
+					<h1 class="entry-title"><?php _e( 'Página não encontrada.', 'wellthemes' ); ?></h1>
 				</header>
 
 				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help.', 'wellthemes' ); ?></p>
-
-					<?php get_search_form(); ?>
-
-					<?php the_widget( 'WP_Widget_Recent_Posts', array( 'number' => 10 ), array( 'widget_id' => '404' ) ); ?>
-					
+					<p><a href="http://olook.com.br/stylist-news"><?php _e( 'Voltar para home da Revista.', 'wellthemes' ); ?></a></p>
 				</div><!-- /entry-content -->
 			</article><!-- /post-0 -->
 

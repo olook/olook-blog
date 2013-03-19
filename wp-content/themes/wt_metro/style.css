@@ -1519,6 +1519,12 @@ a:hover{
 	background: #FFFFFF;
 }
 
+/* pagina 404 */
+article.error404{text-align:center;margin-top:15px;}
+
+/* comentários do facebook */
+.fb_iframe_widget{margin-top:30px;}
+
 .post h1{text-align:center;font-family:johnston,tahoma, sans-serif;font-size:24px;text-transform:uppercase;letter-spacing:3px;}
 
 /*-- Archives page --*/
@@ -1912,6 +1918,7 @@ ul.sp-list li{
 .featured-posts article .attachment-wt-stylist-choices{width:270px;height:200px;}
 .featured-posts article:last-child{margin-right:0;}
 .featured-posts .main-post p{text-align:center;margin-top:5px;}
+
 
 #footer h3{
 	background-color: #333333;

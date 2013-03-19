@@ -303,7 +303,7 @@ a:hover{
 	padding:0px;
 	/*position:relative;
 	z-index:99;*/
-  width:585px;
+  width: 410px; /*width:585px;*/ /* trocar na 5a */
 }
 
 #main-menu ul li {

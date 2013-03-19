@@ -15,15 +15,15 @@ global $cfs;
 
 	<div class="post-excerpt">
       <div class="tag-look">
-         <p class="tag-link"><?php wellthemes_first_post_tag_name(); ?><span class="titulo-look"><?php echo $cfs->get('titulo_look'); ?></span></p>
+         <p class="tag-link"><span class="tag-esquerda"><?php echo $cfs->get('tag_esquerda'); ?></span><span class="tag-direita"><?php echo $cfs->get('tag_direita'); ?></span></p>
       </div>
 		<div class="entry-content">
 			<p><a href="<?php the_permalink() ?>">
             <?php 
 				//display only first 70 characters in the slide description.								
 				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));
-				echo mb_substr($excerpt,0, 69);									
-				if (strlen($excerpt) > 70){ 
+				echo mb_substr($excerpt,0, 50);									
+				if (strlen($excerpt) > 49){ 
 					echo '...'; 
 				} 
 			   ?>

@@ -168,7 +168,7 @@ img{
 
 .alignnone{
 	display: inline;
-	float: left;
+	/*float: left;*/
 	margin-right: 1.25em;
 }
 

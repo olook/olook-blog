@@ -28,7 +28,7 @@
 		<?php $query = new WP_Query( $args ); ?>
 			<?php if ( $query -> have_posts() ) : ?>
 				<?php while ( $query -> have_posts() ) : $query -> the_post(); ?>
-					<?php if ( has_post_thumbnail()) { ?>
+					<?php// if ( has_post_thumbnail()) { ?>
 							<li>
 								<a href="<?php the_permalink(); ?>" >
 									<img src="<?php echo $cfs->get('foto_destaque_home_tv'); ?>" />
@@ -61,7 +61,7 @@
 									</div>								
 								</div>									
 							</li>
-						<?php } ?>
+						<?php //} ?>
 				<?php endwhile; ?>
 			<?php endif;?>
 		<?php wp_reset_query();?>				

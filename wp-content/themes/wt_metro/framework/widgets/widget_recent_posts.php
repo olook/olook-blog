@@ -50,7 +50,7 @@ class wellthemes_recent_posts_widget extends WP_Widget {
 		if(empty($entries_display)){ $entries_display = '5'; }
 		// $display_category = $instance['display_category'];
 	  $cat_id = "";
-	  $cat_id = wt_get_option('wt_feat_recent_products');  //get category id
+	  $cat_id = wt_get_option('wt_feat_recent_posts');  //get category id
 		$latest_posts = new WP_Query();
     $latest_posts->query('ignore_sticky_posts=1&showposts='.$entries_display.'&cat='.$cat_id/*$display_category*/.'');
 		$i = 0; 

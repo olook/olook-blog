@@ -401,7 +401,7 @@ function wt_theme_options_page() {
 									</div>					
 
 									<div class="field">														
-										<label for="wt_options[wt_feat_recent_products]"><?php _e('Recent Products Category', 'wellthemes'); ?></label>
+										<label for="wt_options[wt_feat_recent_products]"><?php _e('Recent Posts Category', 'wellthemes'); ?></label>
 										<?php 
 											$categories = get_categories( array( 'hide_empty' => 1, 'hierarchical' => 0 ) );  ?>
 											<div class="select-wrap wide">

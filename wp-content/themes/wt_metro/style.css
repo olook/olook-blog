@@ -624,7 +624,7 @@ a:hover{
   height: 80px;color: #GGG;padding: 5px 20px 15px 0;color: #FFF;
 }
 
-#wt-slider .slider-text h2{height:28px;text-transform:uppercase;line-height:43px;}
+#wt-slider .slider-text h2{height:28px;text-transform:uppercase;line-height:44px;font-size:20px;}
 
 #wt-slider .slider-text h2 a {
 	color: #000;
@@ -1901,7 +1901,7 @@ ul.sp-list li{
 
 .widget_tile_posts h3{background:none;font-family:johnston, Tahoma, sans-serif;font-size:26px;color:#000;text-align:center;letter-spacing:5px;text-transform:uppercase;line-height:30px;}
 
-.featured-posts{margin-top:60px;color:#000;float:left;}
+.featured-posts{margin:60px 0 30px;color:#000;float:left;}
 .featured-posts h3{width:500px;height:90px;background: url("images/sprite.png") -340px -167px no-repeat;font-family:'Kepler Std Italic', Tahoma, sans-serif;font-size:27px;line-height:90px;padding-left:105px;margin:0 auto 10px;}
 .featured-posts article{float:left;width:270px;margin:0 30px;}
 .featured-posts article .attachment-wt-stylist-choices{width:270px;height:200px;}

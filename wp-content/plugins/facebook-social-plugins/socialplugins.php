@@ -235,7 +235,7 @@ class OlussierFacebookSocialPlugins {
 		return $content;
 	}
 	
-	function Footer() {
+/*	function Footer() {
 		$options = get_option('olussier-facebook-social-plugins');
 		
 		if (!empty($options['application_id'])) {
@@ -255,7 +255,7 @@ class OlussierFacebookSocialPlugins {
 <?php
 		}
 	}
-	
+	*/
 	function GetLanguage() {
 		$fbLangs = array('af' => array('af_ZA'),'ar' => array('ar_AR'),'bg' => array('bg_BG'),'bn' => array('bn_IN'),'ca' => array('ca_ES'),'cs' => array('cs_CZ'),'cy' => array('cy_GB'),'da' => array('da_DK'),'de' => array('de_DE'),'el' => array('el_GR'),'en' => array('en_US','en_GB','en_UD'),'es' => array('es_LA','es_ES'),'fi' => array('fi_FI'),'fr' => array('fr_FR','fr_CA'),'he' => array('he_IL'),'hi' => array('hi_IN'),'hr' => array('hr_HR'),'hu' => array('hu_HU'),'id' => array('id_ID'),'it' => array('it_IT'),'ja' => array('ja_JP'),'ko' => array('ko_KR'),'lt' => array('lt_LT'),'ml' => array('ml_IN'),'ms' => array('ms_MY'),'nb' => array('nb_NO'),'nl' => array('nl_NL'),'pa' => array('pa_IN'),'pl' => array('pl_PL'),'pt' => array('pt_PT','pt_BR'),'ro' => array('ro_RO'),'ru' => array('ru_RU'),'sk' => array('sk_SK'),'sl' => array('sl_SI'),'sr' => array('sr_RS'),'sv' => array('sv_SE'),'ta' => array('ta_IN'),'te' => array('te_IN'),'th' => array('th_TH'),'tl' => array('tl_PH'),'tr' => array('tr_TR'),'vi' => array('vi_VN'),'zh' => array('zh_CN','zh_TW','zh_HK'));
 		

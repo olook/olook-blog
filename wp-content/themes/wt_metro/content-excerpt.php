@@ -22,8 +22,8 @@ global $cfs;
             <?php 
 				//display only first 70 characters in the slide description.								
 				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));
-				echo mb_substr($excerpt,0, 50);									
-				if (strlen($excerpt) > 49){ 
+				echo mb_substr($excerpt,0, 85);									
+				if (strlen($excerpt) > 84){ 
 					echo '...'; 
 				} 
 			   ?>

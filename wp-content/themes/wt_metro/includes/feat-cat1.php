@@ -133,8 +133,8 @@ global $cfs;
          					   <p>
             						<?php 
             							$excerpt = get_the_excerpt();																
-            							echo mb_substr($excerpt,0, 45);									
-            							if (strlen($excerpt) > 44){ 
+            							echo mb_substr($excerpt,0, 40);									
+            							if (strlen($excerpt) > 39){ 
             								echo '...'; 
             							} 
             						?>

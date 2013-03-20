@@ -2882,7 +2882,7 @@ body div#wrapper_new_menu nav.menu_new {
     width: 990px;
 }
 body div#wrapper_new_menu nav.menu_new .default_new {
-    margin: 0 auto 20px;
+    margin: 0 auto 20px 14px;
     overflow: hidden;
     position: relative;
     width: 990px;

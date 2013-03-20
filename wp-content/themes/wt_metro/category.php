@@ -69,19 +69,6 @@
    						<?php endwhile; ?>
    						<?php wt_pagination(); ?>
 
-   					<?php else : ?>
-
-   						<article id="post-0" class="post no-results not-found">
-   							<header class="entry-header">
-   								<h1 class="entry-title"><?php _e( 'Nada encontrado', 'wellthemes' ); ?></h1>
-   							</header><!-- /entry-header -->
-
-   							<div class="entry-content">
-   								<p><?php _e( 'Desculpe, mas não foi encontrado nenhum post relacionado a sua busca. Talvez procurando por outro termo você encontre.', 'wellthemes' ); ?></p>
-
-   							</div><!-- /entry-content -->
-   						</article><!-- /post-0 -->
-
    					<?php endif; ?>
                </div>
                

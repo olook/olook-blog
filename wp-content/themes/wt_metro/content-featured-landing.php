@@ -54,7 +54,7 @@
 				} 
 			?>
          </p>
-         <a class="see-more" href="<?php the_permalink() ?>">Saiba mais sobre este look</a>
+         <a class="see-more" href="<?php the_permalink() ?>">Leia tudo</a>
 		</div><!-- /entry-content -->
 
 		

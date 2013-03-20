@@ -125,7 +125,7 @@ a:hover{
 #left-sidebar .wide-slide .excerpt{position:absolute;top:0;left:0;background:#FFF;filter:alpha(opacity=80);opacity:0.8;padding:10px 20px;width:260px;line-height:17px;}
 #left-sidebar .wide-slide .excerpt a{font-family:avenir, tahoma, sans-serif;color:#000;line-height:22px;}
 #left-sidebar .wide-slide .excerpt a:hover{color:#EF3742;}
-#left-sidebar .wide-slide .tile-title{bottom: 15px !important;left: 0;padding: 1px 8px !important;width: 238px;position:absolute;background:#FFF;font-family:johnston, tahoma, sans-serif;font-size:14px;text-transform:uppercase;}
+#left-sidebar .wide-slide .tile-title{bottom: 15px !important;left: 0;padding: 1px 8px !important;width: 238px;position:absolute;background:#FFF;font-family:johnston, tahoma, sans-serif;font-size:15px;text-transform:uppercase;}
 
 #left-sidebar .wide-slide:nth-child(odd) .tile-title{left:46px !important;text-align:right;}
 
@@ -303,7 +303,7 @@ a:hover{
 	padding:0px;
 	/*position:relative;
 	z-index:99;*/
-  width: 410px; /*width:585px;*/ /* trocar na 5a */
+  width:625px;
 }
 
 #main-menu ul li {
@@ -453,10 +453,10 @@ a:hover{
 .landing-page .result-posts article:nth-child(4n){margin-right:0;} 
 .landing-page article .entry-content{float:left;border:solid 1px #000;padding:30px 15px 0px;height:68px;}
 .landing-page article .entry-content p{margin-bottom:0;}
-.landing-page article .tag-look{position:absolute;bottom:106px;left:10px;background:#FFF;box-shadow:3px 2px 0 #000;width:210px;height:25px;text-align:center;}
-.landing-page article .tag-look p{line-height:27px;margin:0;font-size:14px;text-transform:uppercase;}
+.landing-page article .tag-look{position:absolute;bottom:106px;left:8px;background:#FFF;box-shadow:3px 2px 0 #000;width:210px;height:25px;text-align:center;}
+.landing-page article .tag-look p{line-height:27px;margin:0;font-size:13px;text-transform:uppercase;}
 .landing-page article .tag-look p span.tag-direita{color:#EF3742;margin-left:5px;}
-.landing-page article .tag-look p .tag-esquerda{display:inline-block;height:18px;background: url("images/sprite.png") right -280px no-repeat;padding-right:15px;}
+.landing-page article .tag-look p .tag-esquerda{display:inline-block;height:18px;background: url("images/sprite.png") right -279px no-repeat;padding-right:15px;}
 #featured-cats .feat-cat{float:left;}
 #featured-cats .mais-vistos{float:right;margin-top:5px;}
 #featured-cats .mais-vistos h3{background: url("images/sprite.png") no-repeat scroll 0 -66px transparent;height: 57px;text-indent: -9999em;width: 185px;margin-bottom:35px;}
@@ -1523,7 +1523,7 @@ a:hover{
 article.error404{text-align:center;margin-top:15px;}
 
 /* comentários do facebook e like button */
-.FacebookLikeButton{float:left;margin:5px 0 20px;}
+.FacebookLikeButton{margin:5px 0 20px;}
 
 .post h1{text-align:center;font-family:johnston,tahoma, sans-serif;font-size:24px;text-transform:uppercase;letter-spacing:3px;}
 
@@ -1910,7 +1910,7 @@ ul.sp-list li{
 
 .widget_popular_posts h3{background: url("images/sprite.png") 0 -66px no-repeat;text-indent:-9999em;width:183px;height:57px;}
 
-.widget_tile_posts h3{background:none;font-family:johnston, Tahoma, sans-serif;font-size:26px;color:#000;text-align:center;letter-spacing:5px;text-transform:uppercase;line-height:30px;}
+.widget_tile_posts h3{background:none;font-family:johnston, Tahoma, sans-serif;font-size:27px;color:#000;text-align:center;letter-spacing:5px;text-transform:uppercase;line-height:30px;}
 
 .featured-posts{margin:60px 0 30px;color:#000;float:left;}
 .featured-posts h3{width:500px;height:90px;background: url("images/sprite.png") -340px -167px no-repeat;font-family:'Kepler Std Italic', Tahoma, sans-serif;font-size:27px;line-height:90px;padding-left:105px;margin:0 auto 10px;}

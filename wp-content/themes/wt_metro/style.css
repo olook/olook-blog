@@ -156,7 +156,7 @@ a:hover{
 .one-half .ponta{position: absolute;top: 174px;left: 30px;z-index: 2;}
 
 .olook-tv{float:left;}
-.olook-tv p{width:255px;height:110px;text-indent:-9999em;background: url("images/sprite.png") 0 -143px no-repeat;margin:15px auto 10px;}
+.olook-tv p.logo{width:255px;height:110px;text-indent:-9999em;background: url("images/sprite.png") 0 -143px no-repeat;margin:15px auto 10px;}
 
 .last-col{
 	margin-right: 0;
@@ -300,11 +300,10 @@ a:hover{
 #main-menu ul {
 	/*float:left;*/
 	list-style-type:none;
-	margin:0px auto;
 	padding:0px;
+  margin:0;
 	/*position:relative;
 	z-index:99;*/
-  width:800px;
 }
 
 #main-menu ul li {
@@ -4123,3 +4122,8 @@ body div#wrapper_menu nav.menu.fixed {
 	}
 	
 }
+
+/*======
+CLASSE GENERICAS
+======*/
+.mb30{margin-bottom:30px;}

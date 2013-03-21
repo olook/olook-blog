@@ -75,7 +75,7 @@ class wellthemes_recent_posts_widget extends WP_Widget {
                   
 						?>											
 							<div class="wide-slide">
-                        <?php the_post_thumbnail( 'wt-tile-large' ); ?>
+                        <?php the_post_thumbnail( 'wt-recent-tips' ); ?>
                         
                         <div class="excerpt">
                            <span>   

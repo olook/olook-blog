@@ -10,8 +10,8 @@
 global $cfs;
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-	<a href="<?php the_permalink() ?>" class="landing-photo"><img src="<?php echo $cfs->get('landing_photo'); ?>" /></a>
+   
+   <a href="<?php the_permalink() ?>" class="landing-photo"><img src="<?php echo $cfs->get('landing_photo'); ?>" /></a>
 
 	<div class="post-excerpt">
       <div class="tag-look">

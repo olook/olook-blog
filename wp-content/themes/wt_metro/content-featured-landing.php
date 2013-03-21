@@ -25,9 +25,9 @@
            <?php while ( $query -> have_posts() ) : $query -> the_post(); ?>           
 
 <div id="post-<?php the_ID(); ?>" class="destaque-landing">
-	
-	<a href="<?php the_permalink() ?>" class="link-post"><img src="<?php echo $cfs->get('foto_destaque_home_tv'); ?>" /></a>
-	
+	<?php if ( has_post_thumbnail()) { ?>
+	   <a href="<?php the_permalink() ?>" class="link-post"><?php the_post_thumbnail( 'wt-home-tv' ); ?></a>
+	<?php } ?>
 	<div class="post-right">
 	
 		<header class="entry-header">

@@ -84,11 +84,13 @@ function max_magazine_setup() {
 	add_image_size( 'wt-slider-img', 640, 320, true );		//for featured slider
 	add_image_size( 'wt-feat-large', 423, 330, true );		//for featured posts
 	add_image_size( 'wt-cat-img', 374, 239 , true );		//for featured category
-	add_image_size( 'wt-tile-large', 300, 300 , true );	//for posts widgets
-	add_image_size( 'wt-feat-img', 207, 207 , true );		//for featured posts
-	add_image_size( 'wt-medium-thumb', 75, 75 , true );	//for featured categories and top posts
-   add_image_size( 'wt-look-inspiracao', 320, 485 , true );	//for look inspiracao 
-   add_image_size( 'wt-stylist-choices', 270, 200 , true );	//for stylists choices 
+
+   add_image_size( 'wt-home-tv', 650, 485, true );	         //for home tv / landing
+	add_image_size( 'wt-recents-tips', 300, 223, true );	   //for recents tips posts widgets
+	add_image_size( 'wt-feat-fashiontips', 375, 280, true );	//for featured posts
+	add_image_size( 'wt-medium-thumb', 100, 74, true );	   //for featured categories and top posts
+   add_image_size( 'wt-look-inspiracao', 320, 485, true );	//for look inspiracao 
+   add_image_size( 'wt-stylist-choices', 270, 200, true );	//for stylists choices 
 }
 endif; // max_magazine_setup
 

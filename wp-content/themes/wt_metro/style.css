@@ -117,8 +117,9 @@ a:hover{
 }
 
 #left-sidebar{
-	float: left;
+	float: right;
 	overflow: hidden;
+  margin-right:14px;
 }
 #left-sidebar .widget_popular_posts{margin-right:64px;}
 #left-sidebar .wide-slide{position:relative;margin-bottom:30px;}
@@ -127,7 +128,7 @@ a:hover{
 #left-sidebar .wide-slide .excerpt a:hover{color:#EF3742;}
 #left-sidebar .wide-slide .tile-title{bottom: 15px !important;left: 0;padding: 1px 8px !important;width: 238px;position:absolute;background:#FFF;font-family:johnston, tahoma, sans-serif;font-size:15px;text-transform:uppercase;}
 
-#left-sidebar .wide-slide:nth-child(odd) .tile-title{left:46px !important;text-align:right;}
+#left-sidebar .wide-slide:nth-child(odd) .tile-title{left:35px !important;text-align:right;}
 
 #right-sidebar{	
 	float: left;	
@@ -567,7 +568,7 @@ a:hover{
 }
 
 #wt-slider .slider-nav {
-    bottom: 104px;
+    bottom: 100px;
     display: inline-block;
     position: absolute;
     right: 0px;
@@ -577,7 +578,7 @@ a:hover{
 }
 
 #wt-slider .slider-nav .flex-direction-nav{
-	margin-top: 18px;
+	margin-top: 22px;
 	overflow: hidden;
 	width: 650px;
 }
@@ -854,13 +855,13 @@ a:hover{
 }
 
 .feat-cat .attachment-wt-cat-img{
-	width: 374px;
-	height: 239px;
+	width: 375px;
+	height: 280px;
 }
 
 .attachment-wt-medium-thumb{
-	width: 75px;
-	height: 75px;
+	width: 100px;
+	height: 74px;
 }
 
 .feat-cat .item-post{
@@ -875,12 +876,12 @@ a:hover{
 }
 
 .feat-cat .item-post .thumb-wrap{
-	width: 75px;
-	margin-right: 15px;
+	width: 100px;
+	margin-right: 6px;
 	float: left;
 }
 
-#feat-cat1 ul.slides li article:nth-child(even) div.thumb-wrap{float:right;margin-left:15px;margin-right:0;}
+#feat-cat1 ul.slides li article:nth-child(even) div.thumb-wrap{float:right;margin-left:6px;margin-right:0;}
 #feat-cat1 ul.slides li article:nth-child(even) div.post-wrap{text-align:right;}
 
 #feat-cat1 ul.slides .item-post a h4{font-family:avenir,"Tahoma","Verdana","Arial", sans-serif;font-weight:bold;}
@@ -899,7 +900,7 @@ a:hover{
 
 .feat-cat .item-post .post-wrap{
 	float: left;
-	width: 170px;
+	width: 152px;
 }
 
 .feat-cat .item-post:nth-child(4){
@@ -1177,8 +1178,8 @@ a:hover{
 
 .feat-cat .main-post .overlay{
   position: absolute;
-  width: 374px;
-  height: 237px;
+  width: 375px;
+  height: 280px;
   top: 0;
   left:0;
   }
@@ -1186,7 +1187,7 @@ a:hover{
 #feat-cat1 .overlay:hover{
 	background: #FFF;
 	background: rgba(256, 256, 256, 0.7);  
-  border:solid 1px #DDD;
+  
 }
 
 #feat-cat2 .overlay:hover{
@@ -1264,7 +1265,7 @@ a:hover{
 .feat-cat .item-post .overlay{
 	position: absolute;
 	width: 100%;
-	height: 75px;
+	height: 74px;
 	top: 0;  
 }
 
@@ -1298,8 +1299,8 @@ a:hover{
 }
 
 #content .attachment-wt-cat-img{
-  width: 374px;
-  height: 239px;
+  width: 375px;
+  height: 280px;
 	float: left;
 	margin-right: 30px;	
 }
@@ -1897,7 +1898,7 @@ ul.sp-list li{
  /* 5. WIDGETS
  * ===================== */
 .sidebar .widget{
-	margin-bottom: 30px;
+	margin:0 0 26px 12px;
 	overflow: hidden;
 }
   
@@ -2508,7 +2509,7 @@ ul.sp-list li{
 .attachment-wt-tile-large,
 .widget_tile_posts .wp-post-image{
 	width: 300px;
-	height: 300px;
+	height: 223px;
 	display: block;
 }
 

@@ -35,10 +35,10 @@ function slideMenuBar(){
 function slideExcerpt(){
   $("#widget-posts-tiles .wide-slide").each(function(){
     $(this).hover(function(e){
-        $(".excerpt", this).slideDown();
+        $(".excerpt", this).slideDown("fast");
       },
         function(){
-          $(".excerpt", this).slideUp();
+          $(".excerpt", this).slideUp("fast");
       })
   })
 }

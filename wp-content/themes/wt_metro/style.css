@@ -122,7 +122,7 @@ a:hover{
 }
 #left-sidebar .widget_popular_posts{margin-right:64px;}
 #left-sidebar .wide-slide{position:relative;margin-bottom:30px;}
-#left-sidebar .wide-slide .excerpt{position:absolute;top:0;left:0;background:#FFF;filter:alpha(opacity=80);opacity:0.8;padding:10px 20px;width:260px;line-height:17px;}
+#left-sidebar .wide-slide .excerpt{position:absolute;top:0;left:0;background:#FFF;filter:alpha(opacity=80);opacity:0.8;padding:10px 20px;width:260px;line-height:17px;display:none;}
 #left-sidebar .wide-slide .excerpt a{font-family:avenir, tahoma, sans-serif;color:#000;line-height:22px;}
 #left-sidebar .wide-slide .excerpt a:hover{color:#EF3742;}
 #left-sidebar .wide-slide .tile-title{bottom: 15px !important;left: 0;padding: 1px 8px !important;width: 238px;position:absolute;background:#FFF;font-family:johnston, tahoma, sans-serif;font-size:15px;text-transform:uppercase;}
@@ -436,6 +436,9 @@ a:hover{
 
  /* 4. CONTENT
  * ==================== */
+ 
+.entry-content p img{margin-bottom:1.25em;}
+
 .landing-page{width:990px !important;}
 .landing-page .destaque-landing{width:995px;overflow:hidden;margin-bottom:30px;} 
 .landing-page .destaque-landing a.link-post{display:block;}

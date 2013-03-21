@@ -196,7 +196,7 @@ add_filter( 'pingback_ping_source_uri', 'pingback_ping_source_uri'            );
 add_filter( 'xmlrpc_pingback_error',    'xmlrpc_pingback_error'               );
 
 // Actions
-add_action( 'wp_head',             'wp_enqueue_scripts',              1     );
+add_action( 'wp_footer',           'wp_enqueue_scripts',              1     );
 add_action( 'wp_head',             'feed_links',                      2     );
 add_action( 'wp_head',             'feed_links_extra',                3     );
 add_action( 'wp_head',             'rsd_link'                               );

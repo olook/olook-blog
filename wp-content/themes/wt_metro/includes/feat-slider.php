@@ -49,7 +49,7 @@
 											</a>
 										</h2>
 										<p>
-																			
+                                 <a href="<?php the_permalink() ?>">
 											<?php 
 												$excerpt = get_the_excerpt();
 												echo mb_substr($excerpt,0, 150);
@@ -57,6 +57,7 @@
 													echo '...'; 
 												}
 											?>
+                                 </a>
 										</p>
 									</div>								
 								</div>									

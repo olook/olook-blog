@@ -40,7 +40,7 @@
           <aside class="look-inspiracao">
              <div class="thumb-wrap">
                <div class="thumb">
-                 <img src="<?php echo $cfs->get('look_inspiracao'); ?>" />
+                 <a href="<?php the_permalink() ?>"><img src="<?php echo $cfs->get('look_inspiracao'); ?>" /></a>
                </div>
              </div>
 

@@ -75,20 +75,23 @@ class wellthemes_recent_posts_widget extends WP_Widget {
                   
 						?>											
 							<div class="wide-slide">
-                        <?php the_post_thumbnail( 'wt-recent-tips' ); ?>
+                        <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail( 'wt-recent-tips' ); ?></a>
                         
                         <div class="excerpt">
-                           <span>   
-   									<?php 
-            							//display only first 50 characters in the title.	
-            							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 50);
-            							echo $subtitle; 
-            							if (strlen($subtitle) > 49){ 
-            								echo '...'; 
-            							} 
-            						?>
-                           </span>
-                           <a class="see-more" href="<?php the_permalink() ?>" rel="bookmark">Leia tudo</a>
+                           <a href="<?php the_permalink() ?>" rel="bookmark"> 
+                              <span>
+                                
+      									<?php 
+               							//display only first 50 characters in the title.	
+               							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 50);
+               							echo $subtitle; 
+               							if (strlen($subtitle) > 49){ 
+               								echo '...'; 
+               							} 
+               						?>
+                              </span>
+                              <span class="see-more">Leia tudo</span>
+                           </a>
                         </div>
                         
                         <span class="tile-title">

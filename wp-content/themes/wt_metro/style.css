@@ -641,6 +641,9 @@ a:hover{
 	width: 575px;margin-top:6px;overflow:hidden;
 }
 
+#wt-slider .slider-text .wrap p a{color:#FFF;}
+#wt-slider .slider-text .wrap p a:hover{color:#EF3742;}
+
 #wt-slider .slider-text h3 {
     display: block;
     margin-bottom: 7px;

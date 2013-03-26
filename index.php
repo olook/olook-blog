@@ -11,6 +11,7 @@
  *
  * @var bool
  */
+ini_set('session.cookie_domain', substr($_SERVER['SERVER_NAME'], strpos($_SERVER['SERVER_NAME'],"."), 100));
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */

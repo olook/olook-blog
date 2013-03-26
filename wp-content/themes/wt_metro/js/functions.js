@@ -43,9 +43,17 @@ function slideExcerpt(){
   })
 }
 
+function removeSpaces(){
+  $(".widget_popular_posts h4 a span, div.slider-text div.wrap p a").each(function() {
+      var $this = $(this);
+      $this.html($this.html().replace(/&nbsp;/g, '')).delay(100).show();
+  });
+}
+
 $(function() {  
   setTimeout(function(){slideMenuBar();},1000);
   
+  removeSpaces();
   slideExcerpt();
 });
 

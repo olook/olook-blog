@@ -208,6 +208,7 @@
 						jQuery(document).triggerHandler('wpcountwords', [ ed.getContent({format : 'raw'}) ]);
 
 					last = k;
+
 				});
 			};
 

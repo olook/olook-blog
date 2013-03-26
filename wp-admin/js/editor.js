@@ -60,7 +60,7 @@ var switchEditors = {
 	},
 
 	_wp_Nop : function(content) {
-		var blocklist1, blocklist2, preserve_linebreaks = false, preserve_br = false;
+		var blocklist1, blocklist2, preserve_linebreaks = true, preserve_br = true;
 
 		// Protect pre|script tags
 		if ( content.indexOf('<pre') != -1 || content.indexOf('<script') != -1 ) {
@@ -137,7 +137,7 @@ var switchEditors = {
 	},
 
 	_wp_Autop : function(pee) {
-		var preserve_linebreaks = false, preserve_br = false,
+		var preserve_linebreaks = true, preserve_br = true,
 			blocklist = 'table|thead|tfoot|caption|col|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|option|form|map|area|blockquote|address|math|style|p|h[1-6]|hr|fieldset|noscript|samp|legend|section|article|aside|hgroup|header|footer|nav|figure|figcaption|details|menu|summary';
 
 		if ( pee.indexOf('<object') != -1 ) {
@@ -173,15 +173,15 @@ var switchEditors = {
 			});
 		}
 
-		pee = pee + '\n\n';
-		pee = pee.replace(/<br \/>\s*<br \/>/gi, '\n\n');
+		pee = pee;
+		//pee = pee.replace(/<br \/>\s*<br \/>/gi, '\n\n');
 		pee = pee.replace(new RegExp('(<(?:'+blocklist+')(?: [^>]*)?>)', 'gi'), '\n$1');
 		pee = pee.replace(new RegExp('(</(?:'+blocklist+')>)', 'gi'), '$1\n\n');
 		pee = pee.replace(/<hr( [^>]*)?>/gi, '<hr$1>\n\n'); // hr is self closing block element
 		pee = pee.replace(/\r\n|\r/g, '\n');
 		pee = pee.replace(/\n\s*\n+/g, '\n\n');
 		pee = pee.replace(/([\s\S]+?)\n\n/g, '<p>$1</p>\n');
-		pee = pee.replace(/<p>\s*?<\/p>/gi, '');
+		pee = pee.replace(/<p>\s*?<\/p>/gi, '<br>');
 		pee = pee.replace(new RegExp('<p>\\s*(</?(?:'+blocklist+')(?: [^>]*)?>)\\s*</p>', 'gi'), "$1");
 		pee = pee.replace(/<p>(<li.+?)<\/p>/gi, '$1');
 		pee = pee.replace(/<p>\s*<blockquote([^>]*)>/gi, '<blockquote$1><p>');
@@ -205,6 +205,7 @@ var switchEditors = {
 			pee = pee.replace(/<wp-temp-lb>/g, '\n');
 
 		if ( preserve_br )
+    console.log(preserve_br);
 			pee = pee.replace(/<wp-temp-br([^>]*)>/g, '<br$1>');
 
 		return pee;
@@ -235,4 +236,4 @@ var switchEditors = {
 
 		return o.data;
 	}
-}
+};

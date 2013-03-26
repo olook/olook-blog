@@ -101,14 +101,16 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 							} 
 						?> 
                   </strong><br />
+                  <span>
 						<?php 
 							//display only first 42 characters in the title.	
-							$subtitle = mb_substr(trim(strip_tags(get_the_subtitle($post,'', '', FALSE))),0, 42);
+							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 42);
 							echo $subtitle; 
 							if (strlen($subtitle) > 41){ 
 								echo '...'; 
 							} 
-						?>						
+						?>
+                  </span>						
 					</a>
 				</h4>
 			</div>				

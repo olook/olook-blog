@@ -1,6 +1,7 @@
 <?php
    global $cfs;
 	global $cat;
+   global $featured_post_id;
   $cat_id = "";
   $cat_id = wt_get_option('wt_landing_description');  //get category id
 
@@ -25,6 +26,7 @@
            <?php while ( $query -> have_posts() ) : $query -> the_post(); ?>           
 
 <div id="post-<?php the_ID(); ?>" class="destaque-landing">
+   <?php $featured_post_id = get_the_ID();?>
 	<?php if ( has_post_thumbnail()) { ?>
 	   <a href="<?php the_permalink() ?>" class="link-post"><?php the_post_thumbnail( 'wt-home-tv' ); ?></a>
 	<?php } ?>

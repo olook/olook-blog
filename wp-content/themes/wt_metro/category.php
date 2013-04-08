@@ -17,6 +17,7 @@
                
                <div class="result-posts">
    					<?php 
+
    						global $query_string;
    						global $cat;
                      global $paged;
@@ -31,19 +32,35 @@
                         'order' => 'DESC'
                      );
    						query_posts($query_string);
+
    					?>
 
-
+                 
    					<?php if ( have_posts() ) : ?>
+                     
 
-						
    						<?php /* Start the Loop */ ?>
    						<?php while ( have_posts() ) : the_post(); ?>
 
-   							<?php
-
+                        
+   							<?php 
+                        /*$categories = get_the_category($post->ID);
+                        $tendencies_post = false;
+                        foreach($categories as $cat){
+                           if($cat->slug == "tendencias-tips"){
+                              $tendencies_post = true;
+                              break;
+                           }
+                        }
+                        
+                        if($tendencies_post){
+   								get_template_part( 'content', 'excerpt-tendencias' );
+                        } else {*/
    								get_template_part( 'content', 'excerpt' );
+                           //}                        
+                           
    							?>
+                        
 
    						<?php endwhile; ?>
    						<?php wt_pagination(); ?>

@@ -451,9 +451,9 @@ a:hover{
 .landing-page .destaque-landing .post-right .entry-content p{margin-bottom:40px;}
 .landing-page .destaque-landing .post-right .entry-content a{font-family: 'avenir_medium', tahoma, sans-serif;font-size:14px;} 
 
-.landing-page article{position:relative;float:left;width:230px;height:465px;margin-right:20px;clear:none !important;} 
+.landing-page article{position:relative;float:left;width:230px;height:465px;margin:0 5px;clear:none !important;} 
 .landing-page article a.landing-photo{display:block;float:left;height:345px;}
-.landing-page .result-posts article:nth-child(4n){margin-right:0;} 
+/*.landing-page .result-posts article:nth-child(4n){margin-right:0;} */
 .landing-page article .entry-content{float:left;border:solid 1px #000;padding:30px 15px 0px;height:68px;}
 .landing-page article .entry-content p{margin-bottom:0;}
 .landing-page article .tag-look{position:absolute;bottom:106px;left:8px;background:#FFF;box-shadow:3px 2px 0 #000;width:210px;height:25px;text-align:center;}
@@ -463,6 +463,15 @@ a:hover{
 #featured-cats .feat-cat{float:left;}
 #featured-cats .mais-vistos{float:right;margin-top:5px;}
 #featured-cats .mais-vistos h3{background: url("images/sprite.png") no-repeat scroll 0 -66px transparent;height: 57px;text-indent: -9999em;width: 185px;margin-bottom:35px;}
+ 
+/***** OVERRIDE PARA AJUSTAR AO LAYOUT DA LANDING PAGE DE TENDENCIAS ******/ 
+.landing-page article.category-tendencias-tips{width:485px;} 
+.landing-page article.category-tendencias-tips .tag-look{width:360px;height:38px;}
+.landing-page article.category-tendencias-tips .entry-content{width:448px;}
+.landing-page article.category-tendencias-tips .tag-look{left:62px;}
+.landing-page article.category-tendencias-tips .tag-look p{line-height:42px;}
+.landing-page article.category-tendencias-tips .tag-look p .tag-esquerda{height:30px;background-position:right -272px;}
+
  
 .landing-page article.no-results{width:99%;height:100px;text-align:center;margin:40px 0;} 
 .landing-page article.no-results .entry-content{border:none;float:none;padding:0 15px;}

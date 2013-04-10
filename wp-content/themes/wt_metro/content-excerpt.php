@@ -20,12 +20,24 @@ global $cfs;
 		<div class="entry-content">
 			<p><a href="<?php the_permalink() ?>">
             <?php 
-				//display only first 70 characters in the slide description.								
-				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));
-				echo mb_substr($excerpt,0, 85);									
-				if (strlen($excerpt) > 84){ 
-					echo '...'; 
-				} 
+            $categories = get_the_category($post->ID);
+            $tendencies_post = false;
+            foreach($categories as $cat){
+               if($cat->slug == "editoriais" || $cat->slug == "especiais"){
+                  $tendencies_post = true;
+                  break;
+               }
+            }
+            if($cat->slug == "editoriais" || $cat->slug == "especiais"){
+               the_excerpt();
+            }else{
+   				//display only first 70 characters in the slide description.								
+   				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));
+   				echo mb_substr($excerpt,0, 85);									
+   				if (strlen($excerpt) > 84){ 
+   					echo '...'; 
+   				} 
+            }   
 			   ?>
          </a></p>
 		</div><!-- /entry-content -->

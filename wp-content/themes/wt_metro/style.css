@@ -115,6 +115,8 @@ a:hover{
 	margin-right: 18px;	
 	overflow: hidden;
 }
+#content.especiais{float:none;width:780px;margin:0 auto;}
+#content.especiais h2{font-family:'Kepler Std Italic';font-size:27px;margin-bottom:30px;}
 
 #left-sidebar{
 	float: right;
@@ -308,7 +310,7 @@ a:hover{
 
 #main-menu ul li {
 	float:left;	
-	padding:0 21px 0;
+	padding:0 3px 0;
 	margin:0px;
   position:relative;
 }
@@ -368,7 +370,7 @@ a:hover{
 #main-menu ul li.over ul li a {	
 	padding: 0 0 0 5px;	
 	display: block;	
-	width: 133px;
+	width: 123px;
 	text-align: left;	
 	height: auto;	
 	background: #FFF;		
@@ -464,13 +466,12 @@ a:hover{
 #featured-cats .mais-vistos{float:right;margin-top:5px;}
 #featured-cats .mais-vistos h3{background: url("images/sprite.png") no-repeat scroll 0 -66px transparent;height: 57px;text-indent: -9999em;width: 185px;margin-bottom:35px;}
  
-/***** OVERRIDE PARA AJUSTAR AO LAYOUT DA LANDING PAGE DE TENDENCIAS ******/ 
-.landing-page article.category-tendencias-tips{width:485px;} 
-.landing-page article.category-tendencias-tips .tag-look{width:360px;height:38px;}
-.landing-page article.category-tendencias-tips .entry-content{width:448px;}
-.landing-page article.category-tendencias-tips .tag-look{left:62px;}
-.landing-page article.category-tendencias-tips .tag-look p{line-height:42px;}
-.landing-page article.category-tendencias-tips .tag-look p .tag-esquerda{height:30px;background-position:right -272px;}
+/***** OVERRIDE PARA AJUSTAR AO LAYOUT DA LANDING PAGE DE ESPECIAIS E EDITORIAIS ******/ 
+.landing-page article.category-especiais, .landing-page article.category-editoriais{width:485px;} 
+.landing-page article.category-especiais .tag-look, .landing-page article.category-editoriais .tag-look{width:360px;height:38px;left:62px;}
+.landing-page article.category-especiais .entry-content, .landing-page article.category-editoriais .entry-content{width:448px;}
+.landing-page article.category-especiais .tag-look p, .landing-page article.category-editoriais .tag-look p{line-height:42px;}
+.landing-page article.category-especiais .tag-look p .tag-esquerda, .landing-page article.category-editoriais .tag-look p .tag-esquerda{height:30px;background-position:right -272px;}
 
  
 .landing-page article.no-results{width:99%;height:100px;text-align:center;margin:40px 0;} 
@@ -1539,7 +1540,8 @@ article.error404{text-align:center;margin-top:15px;}
 
 /* comentários do facebook e like button */
 .FacebookLikeButton{margin:5px 0 20px;}
-.fb-comments{margin:25px 0;}
+.fb-comments{margin:25px auto;width:670px;display:block !important;}
+h3.comment-title{font-size:15px;font-family:'Johnston';text-transform:uppercase;text-align:center;}
 
 .post h1{text-align:center;font-family:johnston,tahoma, sans-serif;font-size:24px;text-transform:uppercase;letter-spacing:3px;}
 

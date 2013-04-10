@@ -42,24 +42,10 @@
    						<?php /* Start the Loop */ ?>
    						<?php while ( have_posts() ) : the_post(); ?>
 
-                        
-   							<?php 
-                        /*$categories = get_the_category($post->ID);
-                        $tendencies_post = false;
-                        foreach($categories as $cat){
-                           if($cat->slug == "tendencias-tips"){
-                              $tendencies_post = true;
-                              break;
-                           }
-                        }
-                        
-                        if($tendencies_post){
-   								get_template_part( 'content', 'excerpt-tendencias' );
-                        } else {*/
-   								get_template_part( 'content', 'excerpt' );
-                           //}                        
-                           
-   							?>
+   						<?php	
+                     
+                     
+                     get_template_part( 'content', 'excerpt' );?>
                         
 
    						<?php endwhile; ?>

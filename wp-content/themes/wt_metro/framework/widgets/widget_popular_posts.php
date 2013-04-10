@@ -83,7 +83,16 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 		if($most_viewed) {
 			foreach ($most_viewed as $post) {
 		$i++;
-		
+		   
+         
+      $categories = get_the_category($post->ID);
+      $tendencies_post = false;
+      foreach($categories as $cat){
+         if($cat->slug == "editoriais" || $cat->slug == "especiais"){
+            $tendencies_post = true;
+            break;
+         }
+      }
         ?>
 		
 		<div class="item-post <?php echo $class; ?>">		
@@ -103,12 +112,20 @@ class wellthemes_popular_posts_widget extends WP_Widget {
                   </strong><br />
                   <span>
 						<?php 
-							//display only first 42 characters in the title.	
-							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 42);
-							echo $subtitle; 
-							if (strlen($subtitle) > 41){ 
-								echo '...'; 
-							} 
+                     if($cat->slug == "editoriais" || $cat->slug == "especiais"){
+                       $resumo = mb_substr(get_the_excerpt(),0, 42);
+                       echo $resumo;
+     						  if (strlen($resumo) > 41){ 
+     								echo '...'; 
+     						  }
+                     }else{
+   							//display only first 42 characters in the title.	
+   							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 42);
+   							echo $subtitle; 
+   							if (strlen($subtitle) > 41){ 
+   								echo '...'; 
+   							}
+                     }    
 						?>
                   </span>						
 					</a>

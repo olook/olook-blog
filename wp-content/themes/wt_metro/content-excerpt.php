@@ -29,7 +29,12 @@ global $cfs;
                }
             }
             if($cat->slug == "editoriais" || $cat->slug == "especiais"){
-               the_excerpt();
+               $resumo = mb_substr(get_the_excerpt(),0, 85);
+               echo $resumo;
+				  if (strlen($resumo) > 84){ 
+						echo '...'; 
+				  }
+               
             }else{
    				//display only first 70 characters in the slide description.								
    				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));

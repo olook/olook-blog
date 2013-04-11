@@ -42,8 +42,8 @@ Galleria.addTheme({
 
         // some stuff for non-touch browsers
         if (! touch ) {
-            this.addIdleState( this.get('image-nav-left'), { left:-50 });
-            this.addIdleState( this.get('image-nav-right'), { right:-50 });
+            //this.addIdleState( this.get('image-nav-left'), { left:-50 });
+            //this.addIdleState( this.get('image-nav-right'), { right:-50 });
             this.addIdleState( this.get('counter'), { opacity:0 });
         }
 

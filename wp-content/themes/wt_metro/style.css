@@ -116,7 +116,7 @@ a:hover{
 	overflow: hidden;
 }
 #content.especiais{float:none;width:780px;margin:0 auto;}
-#content.especiais h2{font-family:'Kepler Std Italic';font-size:27px;margin-bottom:30px;}
+#content.especiais h2{font-family:'Kepler Std Italic';font-size:27px;margin-bottom:30px;text-transform:uppercase;}
 
 #left-sidebar{
 	float: right;

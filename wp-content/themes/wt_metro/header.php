@@ -140,7 +140,7 @@
                 <!--li class="gift">
                   <a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a>
                 </li-->
-                <li><a href="http://www.olook.com.br/presentes/olooklet/36">Olooklet</a>
+                <li><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
                 <li class="stylist" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
                   <a href="http://www.olook.com.br/stylist-news" class="stylists selected">Stylist News</a>
                 </li>

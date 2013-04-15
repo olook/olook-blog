@@ -2396,7 +2396,7 @@ class CataBlog {
 		
 		echo "<div class='catablog-catalog'>";
 		foreach ($results as $result) {
-			
+
 			// render all items if the category is not set
 			// if ($category === false) {
 				echo $this->frontend_render_catalog_row($result, $template);

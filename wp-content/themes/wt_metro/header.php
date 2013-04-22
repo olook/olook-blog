@@ -119,9 +119,9 @@
                 <li class="showroom">
                   <a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a>
                 </li>
-                <li class="lookbooks">
-                  <a href="http://www.olook.com.br/tendencias" class="lookbooks#index lookbooks#show">Tendências</a>
-                </li>
+                <li class="stylist">
+                  <a href="http://www.olook.com.br/stylist-news" class="stylists selected">Stylist News</a>
+                </li>            
                 <li class="moments">
                   <a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a>
                 </li>
@@ -137,12 +137,10 @@
                 <li class="categories">
                   <a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a>
                 </li>
-                <!--li class="gift">
-                  <a href="http://www.olook.com.br/presentes" class="gift/home#index gift/occasions#new gift/occasions#new_with_data gift/survey#new gift/recipients#edit gift/suggestions#index">Presentes</a>
-                </li-->
-                <li class="stylist" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
-                  <a href="http://www.olook.com.br/stylist-news" class="stylists selected">Stylist News</a>
+                <li class="gift" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+                  <a href="http://www.olook.com.br/presentes" class="gift">Presentes</a>
                 </li>
+                
                 <li><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
                 <li id="bar"></li>
             </ul>

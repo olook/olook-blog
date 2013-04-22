@@ -137,11 +137,11 @@
                 <li class="categories">
                   <a href="http://www.olook.com.br/acessorios" class="moments#show#3">Acessórios</a>
                 </li>
-                <li class="gift" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+                <li class="gift">
                   <a href="http://www.olook.com.br/presentes" class="gift">Presentes</a>
                 </li>
                 
-                <li><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
+                <li style="background-image: none; background-position: initial initial; background-repeat: initial initial;"><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
                 <li id="bar"></li>
             </ul>
           </div>

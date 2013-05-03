@@ -341,7 +341,7 @@ a:hover{
 #main-menu ul li.over a:hover{border-right-color:#000;border-left-color:#000;}
 #main-menu ul li.over a{z-index:12;border-bottom:solid 1px #FFF;}
 #main-menu ul li.over a:active{border-right-color:#FFF;border-left-color:#FFF;}
-#main-menu ul li.over ul{z-index:11;}
+#main-menu ul li.over ul{z-index:11000;}
 
 #main-menu ul li ul {
   display:none;

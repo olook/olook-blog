@@ -80,7 +80,7 @@
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-26610963-5']);
+  _gaq.push(['_setAccount', 'UA-26610963-1']);
   _gaq.push(['_setDomainName', 'olook.com.br']);
   _gaq.push(['_trackPageview']);
 

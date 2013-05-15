@@ -29,19 +29,18 @@ global $cfs;
                }
             }
             if($cat->slug == "editoriais" || $cat->slug == "especiais"){
-               $resumo = mb_substr(get_the_excerpt(),0, 85);
+               $resumo = mb_substr(get_the_excerpt(),0, 120);
                echo $resumo;
-				  if (strlen($resumo) > 84){ 
-						echo '...'; 
-				  }
-               
+      				 if (strlen($resumo) > 119){ 
+      					echo '...'; 
+      				 }           
             }else{
-   				//display only first 70 characters in the slide description.								
-   				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));
-   				echo mb_substr($excerpt,0, 85);									
-   				if (strlen($excerpt) > 84){ 
-   					echo '...'; 
-   				} 
+       				//display only first 70 characters in the slide description.								
+       				$excerpt = strip_tags(get_the_subtitle($post,'', '', FALSE));
+       				echo mb_substr($excerpt,0, 85);									
+       				if (strlen($excerpt) > 84){ 
+       					echo '...'; 
+       				} 
             }   
 			   ?>
          </a></p>

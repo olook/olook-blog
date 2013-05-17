@@ -1536,7 +1536,7 @@ a:hover{
 }
 #content .post p a{color:#EF3742;}
 .post-excerpt p a{color:#000 !important;}
-.post-excerpt p a:hover{color:#EF3742;}
+.post-excerpt p a:hover{color:#EF3742 !important;}
 
 /* pagina 404 */
 article.error404{text-align:center;margin-top:15px;}

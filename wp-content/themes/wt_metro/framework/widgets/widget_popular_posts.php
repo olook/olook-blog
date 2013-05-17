@@ -104,7 +104,7 @@ class wellthemes_popular_posts_widget extends WP_Widget {
               <?php 
   							//display only first 50 characters in the title.	
   							$short_title = mb_substr(get_the_title($inner_post,'', '', FALSE),0, 50);
-  							echo $short_title, $cat->slug; 
+  							echo $short_title
   							if (strlen($short_title) > 49){ 
   								echo '...'; 
   							} 

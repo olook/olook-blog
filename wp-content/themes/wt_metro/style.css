@@ -1534,7 +1534,7 @@ a:hover{
 	clear: both;
 	background: #FFFFFF;
 }
-#content .post p a{color:#EF3742 !important;}
+#content .post p a{color:#EF3742;}
 .post-excerpt p a{color:#000;}
 .post-excerpt p a:hover{color:#EF3742;}
 

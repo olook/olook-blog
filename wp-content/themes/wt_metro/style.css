@@ -1535,7 +1535,7 @@ a:hover{
 	background: #FFFFFF;
 }
 #content .post p a{color:#EF3742;}
-.post-excerpt p a{color:#000;}
+.post-excerpt p a{color:#000 !important;}
 .post-excerpt p a:hover{color:#EF3742;}
 
 /* pagina 404 */

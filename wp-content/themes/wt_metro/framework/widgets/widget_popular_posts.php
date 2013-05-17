@@ -79,13 +79,13 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 		// );
 		$i = 0;
 		$popular_posts = new WP_Query( $args );
-		// while($popular_posts->have_posts()): $popular_posts->the_post();
+	//	while($popular_posts->have_posts()): $popular_posts->the_post();
 		if($most_viewed) {
-			foreach ($most_viewed as $post) {
-		$i++;
+			foreach ($most_viewed as $inner_post) {
+		    $i++;
 		   
          
-      $categories = get_the_category($post->ID);
+      $categories = get_the_category($inner_post->ID);
       $tendencies_post = false;
       foreach($categories as $cat){
          if($cat->slug == "editoriais" || $cat->slug == "especiais"){
@@ -93,35 +93,41 @@ class wellthemes_popular_posts_widget extends WP_Widget {
             break;
          }
       }
-        ?>
+  ?>
 		
 		<div class="item-post <?php echo $class; ?>">		
 			<div class="post-number"><?php echo $i; ?></div>
 			<div class="post-right">
 				<h4>
-					<a href="<?php echo get_permalink($post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($post,'', '', FALSE)); ?>">
+					<a href="<?php echo get_permalink($inner_post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($inner_post,'', '', FALSE)); ?>">
 						<strong>
-                  <?php 
-							//display only first 50 characters in the title.	
-							$short_title = mb_substr(get_the_title($post,'', '', FALSE),0, 50);
-							echo $short_title; 
-							if (strlen($short_title) > 49){ 
-								echo '...'; 
-							} 
-						?> 
-                  </strong><br />
-                  <span>
-						<?php 
-
+              <?php 
+  							//display only first 50 characters in the title.	
+  							$short_title = mb_substr(get_the_title($inner_post,'', '', FALSE),0, 50);
+  							echo $short_title, $cat->slug; 
+  							if (strlen($short_title) > 49){ 
+  								echo '...'; 
+  							} 
+  						?> 
+            </strong><br />
+            <span>
+						  <?php 
+                if($tendencies_post){
+                   $resumo = mb_substr(get_the_excerpt_post($inner_post),0, 42);
+                   echo $resumo;
+       						  if (strlen($resumo) > 41){ 
+       								echo '...'; 
+       						  }
+                }else{
      							//display only first 42 characters in the title.	
-     							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 42);
+     							$subtitle = mb_substr(strip_tags(get_the_subtitle($inner_post,'', '', FALSE)),0, 42);
      							echo $subtitle; 
      							if (strlen($subtitle) > 41){ 
      								echo '...'; 
      							}
-
-						?>
-                  </span>						
+                }    
+						  ?>
+            </span>						
 					</a>
 				</h4>
 			</div>				
@@ -129,7 +135,8 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 		</div><!-- /item-post -->
        <?php
        } 
-     }//endwhile; ?>
+     }
+     //endwhile; ?>
 	   <?php
 		
 		/* After widget (defined by themes). */

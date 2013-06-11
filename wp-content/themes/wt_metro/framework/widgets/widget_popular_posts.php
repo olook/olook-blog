@@ -77,7 +77,7 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 		// 	'posts_per_page' => $entries_display,
 		// 	'orderby' => 'views'			
 		// );
-		$i = 0;
+		$i = 0;$j=1;
 		$popular_posts = new WP_Query( $args );
 	//	while($popular_posts->have_posts()): $popular_posts->the_post();
 		if($most_viewed) {
@@ -99,7 +99,7 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 			<div class="post-number"><?php echo $i; ?></div>
 			<div class="post-right">
 				<h4>
-					<a href="<?php echo get_permalink($inner_post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($inner_post,'', '', FALSE)); ?>">
+					<a href="<?php echo get_permalink($inner_post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($inner_post,'', '', FALSE)); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Mais-Vistos-<?php echo $j; ?>']);">
 						<strong>
               <?php 
   							//display only first 50 characters in the title.	
@@ -131,9 +131,9 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 					</a>
 				</h4>
 			</div>				
-  
+      
 		</div><!-- /item-post -->
-       <?php
+       <?php $j++;
        } 
      }
      //endwhile; ?>

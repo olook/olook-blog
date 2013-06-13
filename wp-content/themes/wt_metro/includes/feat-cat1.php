@@ -45,11 +45,11 @@ global $cfs;
 					?>
 					<div class="thumb-wrap">
 						<div class="thumb">
-							<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Olook-tips-1']);"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
+							<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
 						</div>
 						<div class="overlay">
 							<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>
-							<a class="post-link" href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Olook-tips-1']);">View Post</a>							
+							<a class="post-link" href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);">View Post</a>							
 						</div>
 					</div>
 					<?php } ?>

@@ -99,7 +99,7 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 			<div class="post-number"><?php echo $i; ?></div>
 			<div class="post-right">
 				<h4>
-					<a href="<?php echo get_permalink($inner_post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($inner_post,'', '', FALSE)); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Mais-Vistos-<?php echo $j; ?>']);">
+					<a href="<?php echo get_permalink($inner_post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($inner_post,'', '', FALSE)); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Mais-Vistos-<?php echo $j; ?>']);">
 						<strong>
               <?php 
   							//display only first 50 characters in the title.	

@@ -106,7 +106,7 @@ global $cfs;
 							?>
 							<div class="thumb-wrap">
 								<div class="thumb">
-									<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Olook-tips-<?php echo $j; ?>']);"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
+									<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
 								</div>
 								
 								<div class="overlay">
@@ -118,7 +118,7 @@ global $cfs;
 						
 						<div class="post-wrap">
 							<header class="entry-header">
-								<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Olook-tips-<?php echo $j; ?>']);">
+								<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);">
                            <h4>									
 										<?php 
 											//display only first 45 characters in the title.	

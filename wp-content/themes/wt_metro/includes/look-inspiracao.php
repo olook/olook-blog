@@ -40,7 +40,7 @@
           <aside class="look-inspiracao">
              <div class="thumb-wrap">
                <div class="thumb">
-                 <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Look-inspiracao']);"><img src="<?php echo $cfs->get('look_inspiracao'); ?>" /></a>
+                 <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog','Look-inspiracao']);"><img src="<?php echo $cfs->get('look_inspiracao'); ?>" /></a>
                </div>
              </div>
 
@@ -54,7 +54,7 @@
                  } 
                ?>
              </p>
-             <a href="<?php the_permalink() ?>" class="see-more" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Click' , 'Look-inspiracao']);">Inspire-se com este look!</a>
+             <a href="<?php the_permalink() ?>" class="see-more" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Look-inspiracao']);">Inspire-se com este look!</a>
           </aside>
     <?php endwhile; ?>           
   <?php endif; ?> 

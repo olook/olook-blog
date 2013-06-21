@@ -48,8 +48,8 @@
                <?php 
                  //display only first 150 characters in the excerpt.               
                  $excerpt = get_the_excerpt();                               
-                 echo mb_substr($excerpt,0, 55);   
-                 if (strlen($excerpt) > 54){ 
+                 echo mb_substr($excerpt,0, 65);   
+                 if (strlen($excerpt) > 64){ 
                    echo '...'; 
                  } 
                ?>

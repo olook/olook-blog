@@ -44,5 +44,5 @@
 <?php /*get_sidebar('left'); */?>
 <?php get_sidebar('right'); ?>
 <?php get_template_part( 'includes/video' ); ?>
-<?php	get_template_part( 'includes/featured-products' ); ?>
+<?php get_template_part( 'includes/featured-products' ); ?>
 <?php get_footer(); ?>

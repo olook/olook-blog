@@ -9,10 +9,6 @@
  */
  ?> 
 <div id="right-sidebar">
-   <?php if (have_posts()) { 
-   	get_template_part( 'includes/look-inspiracao' );
-	 }?>
-   
    
 		<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) : ?>			
 				
@@ -43,6 +39,9 @@
 			
 				
 		<?php endif; // end sidebar widget area ?>
+    <?php if (have_posts()) { 
+    	get_template_part( 'includes/look-inspiracao' );
+ 	 }?>
 		
 </div><!-- /sidebar -->
 		

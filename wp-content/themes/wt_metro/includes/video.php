@@ -4,5 +4,5 @@
 </div>
 
 <div class="banner-destaque">
-	<img src="/wp-content/themes/wt_metro/images/gifs/top_cropped.gif" alt="" />
+	<img src="stylist-news/wp-content/themes/wt_metro/images/gifs/top_cropped.gif" alt="" />
 </div>

@@ -2189,10 +2189,10 @@ ul.sp-list li{
 }
 
 .widget_popular_posts{
-  /*float:right;*/width:280px;margin-left:20px;
+  /*float:right;*/width:280px;margin:20px 0 0 20px;
 }
 
-.look-inspiracao{margin-top:85px;width:320px;}
+.look-inspiracao{margin-top:70px;width:320px;}
 .look-inspiracao p{margin:5px 0 0px;}
   
 .widget_popular_posts .item-post:last-child{

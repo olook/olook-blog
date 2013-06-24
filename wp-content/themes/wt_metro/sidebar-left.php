@@ -36,7 +36,7 @@
 		<?php endif; // end sidebar widget area ?>
 
 		<div class="banner-post">
-			<a href="http://www.olook.com.br/colecoes/animal-print"><img src="wp-content/themes/wt_metro/images/gifs/banner_animal_print.gif" alt="" /></a>
+			<a href="http://www.olook.com.br/colecoes/animal-print"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_animal_print.gif" alt="" /></a>
 		</div>
 		
 </div><!-- /sidebar -->

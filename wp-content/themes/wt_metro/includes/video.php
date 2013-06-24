@@ -4,5 +4,5 @@
 </div>
 
 <div class="banner-destaque">
-	<img src="wp-content/themes/wt_metro/images/gifs/top_cropped.gif" alt="" />
+	<a href="http://www.olook.com.br/roupas?utf8=%E2%9C%93&id=1&category_id=4&sort_filter=&cloth_subcategories[]=top-cropped"><img src="wp-content/themes/wt_metro/images/gifs/top_cropped.gif" alt="" /></a>
 </div>

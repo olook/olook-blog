@@ -22,11 +22,14 @@ foreach($categories as $cat){
 
 <section id="primary">
 	<div id="content" role="main" class="<?php if($tendencies_post){echo 'especiais';} ?>">
-	
+
 		<?php while ( have_posts() ) : the_post(); ?>
-			   
+
          <?php get_template_part( 'content', 'single' ); ?>
+
 		<?php endwhile; // end of the loop. ?>
+
+
 		
 	</div><!-- /content -->
 </section><!-- /primary -->

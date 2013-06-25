@@ -78,9 +78,6 @@ h6 {
 
 a:link {
 	color: #231F20;
-	-moz-transition:  color 0.3s linear 0s;
-	-webkit-transition:  color 0.3s linear 0s;
-	transition:  color 0.3s linear 0s;	
 	text-decoration:none;
 }
 a:visited {

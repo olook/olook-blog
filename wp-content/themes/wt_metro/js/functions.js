@@ -63,11 +63,17 @@ function removeSpaces(){
   });
 }
 
+function addBanner(){
+  if($("h3.comment-title").length > 0){
+    $('<div class="banner"><img src="" />').insertBefore('.comment-title');
+  }
+}
 
 $(function() {  
   setTimeout(function(){slideMenuBar()},1000);
   menuLine();
   removeSpaces();
   slideExcerpt();
+  addBanner();
 });
 

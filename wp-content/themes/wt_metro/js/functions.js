@@ -1,3 +1,17 @@
+function menuLine(){
+  var list = $("#menu-principal li ul.sub-menu");
+  if(list.length > 0){
+    list.each(function(){
+     $(this).mouseover(function(){
+       $(this).prev().css({'border-left': 'solid 1px #000','border-right': 'solid 1px #000'});  
+     }).mouseout(function(){
+       $(this).prev().css({'border-left': 'solid 1px #FFF','border-right': 'solid 1px #FFF'});
+     })
+    })
+ }
+  
+}
+
 function slideMenuBar(){
   var $el, leftPos, newWidth; 
   var $magicLine = $("ul.default_new li#bar"), w = $("ul.default_new li a.selected").outerWidth(), l = $("ul.default_new li a.selected").position().left ;
@@ -50,9 +64,10 @@ function removeSpaces(){
   });
 }
 
+
 $(function() {  
-  setTimeout(function(){slideMenuBar();},1000);
-  
+  setTimeout(function(){slideMenuBar()},1000);
+  menuLine();
   removeSpaces();
   slideExcerpt();
 });

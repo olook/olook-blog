@@ -352,7 +352,7 @@ a:hover{
   float:left;
   width:100%;
 }
-#main-menu ul li#menu-item-moda ul{width:140px !important;}
+#main-menu ul li#menu-item-moda ul{width:240px !important;}
 
 #main-menu ul li ul li {
 	float:none;
@@ -367,7 +367,7 @@ a:hover{
 #main-menu ul li.over ul li a {	
 	padding: 0 0 0 5px;	
 	display: block;	
-	width: 123px;
+	width: 100%;
 	text-align: left;	
 	height: auto;	
 	background: #FFF;		
@@ -3687,15 +3687,7 @@ h6 {
 
 
 a:link {
-
 	color: #231F20;
-
-	-moz-transition:  color 0.3s linear 0s;
-
-	-webkit-transition:  color 0.3s linear 0s;
-
-	transition:  color 0.3s linear 0s;	
-
 	text-decoration:none;
 
 }

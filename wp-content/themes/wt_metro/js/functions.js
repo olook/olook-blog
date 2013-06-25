@@ -65,7 +65,7 @@ function removeSpaces(){
 
 function addBanner(){
   if($("h3.comment-title").length > 0){
-    $('<div class="banner"><a href="http://www.olook.com.br/roupas?utf8=✓&id=1&category_id=4&sort_filter=2&cloth_colors%5B%5D=listras"><img src="wp-content/themes/wt_metro/images/gifs/listras_650X269.gif" /></a>').insertBefore('.comment-title');
+    $('<div class="banner"><a href="http://www.olook.com.br/roupas?utf8=✓&id=1&category_id=4&sort_filter=2&cloth_colors%5B%5D=listras"><img src="http://stylist-news.olook.com.br/wp-content/themes/wt_metro/images/gifs/listras_650X269.gif" /></a>').insertBefore('.comment-title');
   }
 }
 

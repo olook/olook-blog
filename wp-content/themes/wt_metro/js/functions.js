@@ -5,7 +5,7 @@ function menuLine(){
        $(this).mouseover(function(){
          $(this).prev().css({'border-left': 'solid 1px #000','border-right': 'solid 1px #000'});  
        }).mouseout(function(){
-         $(this).prev().css({'border-left': 'solid 1px #FFF','border-right': 'solid 1px #FFF'});
+         $(this).prev().removeAttr("style");
        })
     })
   }

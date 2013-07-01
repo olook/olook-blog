@@ -66,8 +66,6 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 
 			$most_viewed = $wpdb->get_results("SELECT DISTINCT $wpdb->posts.*, (meta_value+0) AS views FROM $wpdb->posts LEFT JOIN $wpdb->postmeta ON $wpdb->postmeta.post_id = $wpdb->posts.ID WHERE post_date < '".current_time('mysql')."' AND $where AND post_status = 'publish' AND meta_key = 'views' AND post_password = '' ORDER BY views DESC LIMIT 5");
 
-
-
  		// 	$display_category = $instance['display_category'];
 
   //       $args = array(

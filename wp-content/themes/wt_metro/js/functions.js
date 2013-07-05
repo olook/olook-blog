@@ -70,7 +70,7 @@ function addBanner(){
 }
 
 $(function() {  
-  setTimeout(function(){slideMenuBar()},1000);
+  //setTimeout(function(){slideMenuBar()},1000);
   menuLine();
   removeSpaces();
   slideExcerpt();

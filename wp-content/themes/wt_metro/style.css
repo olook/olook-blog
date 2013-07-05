@@ -2917,15 +2917,6 @@ body div#wrapper_new_menu nav.menu_new .default_new li {
 body div#wrapper_new_menu nav.menu_new .default_new li.liquidation {
     border-right: medium none;
 }
-body div#wrapper_new_menu nav.menu_new .default_new li#bar {
-    background: none repeat scroll 0 0 #000000;
-    bottom: 0;
-    display: none;
-    height: 4px;
-    left: 0;
-    padding: 0;
-    position: absolute;
-}
 body div#wrapper_new_menu nav.menu_new .default_new li a {
     color: black;
     display: block;

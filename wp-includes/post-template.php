@@ -270,6 +270,17 @@ function get_the_excerpt( $deprecated = '' ) {
 	return apply_filters( 'get_the_excerpt', $post->post_excerpt );
 }
 
+function get_the_excerpt_post( $post ) {
+	if ( !empty( $deprecated ) )
+		_deprecated_argument( __FUNCTION__, '2.3' );
+
+	if ( post_password_required() ) {
+		return __( 'There is no excerpt because this is a protected post.' );
+	}
+
+	return apply_filters( 'get_the_excerpt', $post->post_excerpt );
+}
+
 /**
  * Whether post has excerpt.
  *

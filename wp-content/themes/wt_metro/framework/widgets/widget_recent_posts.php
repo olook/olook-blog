@@ -83,7 +83,8 @@ class wellthemes_recent_posts_widget extends WP_Widget {
                                 
       									<?php 
                							//display only first 50 characters in the title.	
-               							$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 50);
+               							//$subtitle = mb_substr(strip_tags(get_the_subtitle($post,'', '', FALSE)),0, 50);
+                            $subtitle = mb_substr(get_the_excerpt(),0, 50);
                							echo $subtitle; 
                							if (strlen($subtitle) > 49){ 
                								echo '...'; 

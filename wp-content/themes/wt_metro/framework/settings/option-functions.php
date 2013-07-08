@@ -36,12 +36,12 @@ add_filter( 'feed_link', 'wt_custom_feed', 1, 2 );
  *
  */
 function wt_custom_favicon() {
-	$options = get_option('wt_options');
-	$favicon_url = $options['wt_favicon'];	
+	//$options = get_option('wt_options');
+	$favicon_url = "http://d22zjnmu4464ds.cloudfront.net/assets/olook_favicon-4e0331c30ff26e5c9ca295ec5a26cc35.ico";	
 	
-    if (!empty($favicon_url)) {
+    //if (!empty($favicon_url)) {
 		echo '<link rel="shortcut icon" href="'. $favicon_url. '" />	'. "\n";
-	}
+   //}
 }
 add_action('wp_head', 'wt_custom_favicon');
 

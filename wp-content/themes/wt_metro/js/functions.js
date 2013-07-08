@@ -1,3 +1,16 @@
+function menuLine(){
+  var list = $("#menu-principal li ul.sub-menu");
+  if(list.length > 0){
+    list.each(function(){
+       $(this).mouseover(function(){
+         $(this).prev().css({'border-left': 'solid 1px #000','border-right': 'solid 1px #000'});  
+       }).mouseout(function(){
+         $(this).prev().removeAttr("style");
+       })
+    })
+  }
+}
+
 function slideMenuBar(){
   var $el, leftPos, newWidth; 
   var $magicLine = $("ul.default_new li#bar"), w = $("ul.default_new li a.selected").outerWidth(), l = $("ul.default_new li a.selected").position().left ;
@@ -43,9 +56,24 @@ function slideExcerpt(){
   })
 }
 
+function removeSpaces(){
+  $(".widget_popular_posts h4 a span, div.slider-text div.wrap p a").each(function() {
+      var $this = $(this);
+      $this.html($this.html().replace(/&nbsp;/g, '')).delay(100).show();
+  });
+}
+
+function addBanner(){
+  if($("h3.comment-title").length > 0){
+    $('<div class="banner"><a href="http://www.olook.com.br/roupas?utf8=✓&id=1&category_id=4&sort_filter=2&cloth_colors%5B%5D=listras"><img src="http://stylist-news.olook.com.br/wp-content/themes/wt_metro/images/gifs/listras_650X269.gif" /></a>').insertBefore('.comment-title');
+  }
+}
+
 $(function() {  
-  setTimeout(function(){slideMenuBar();},1000);
-  
+  //setTimeout(function(){slideMenuBar()},1000);
+  menuLine();
+  removeSpaces();
   slideExcerpt();
+  addBanner();
 });
 

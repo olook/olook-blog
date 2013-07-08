@@ -66,8 +66,6 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 
 			$most_viewed = $wpdb->get_results("SELECT DISTINCT $wpdb->posts.*, (meta_value+0) AS views FROM $wpdb->posts LEFT JOIN $wpdb->postmeta ON $wpdb->postmeta.post_id = $wpdb->posts.ID WHERE post_date < '".current_time('mysql')."' AND $where AND post_status = 'publish' AND meta_key = 'views' AND post_password = '' ORDER BY views DESC LIMIT 5");
 
-
-
  		// 	$display_category = $instance['display_category'];
 
   //       $args = array(
@@ -77,46 +75,66 @@ class wellthemes_popular_posts_widget extends WP_Widget {
 		// 	'posts_per_page' => $entries_display,
 		// 	'orderby' => 'views'			
 		// );
-		$i = 0;
+		$i = 0;$j=1;
 		$popular_posts = new WP_Query( $args );
-		// while($popular_posts->have_posts()): $popular_posts->the_post();
+	//	while($popular_posts->have_posts()): $popular_posts->the_post();
 		if($most_viewed) {
-			foreach ($most_viewed as $post) {
-		$i++;
-		
-        ?>
+			foreach ($most_viewed as $inner_post) {
+		    $i++;
+		   
+         
+      $categories = get_the_category($inner_post->ID);
+      $tendencies_post = false;
+      foreach($categories as $cat){
+         if($cat->slug == "editoriais" || $cat->slug == "especiais"){
+            $tendencies_post = true;
+            break;
+         }
+      }
+  ?>
 		
 		<div class="item-post <?php echo $class; ?>">		
 			<div class="post-number"><?php echo $i; ?></div>
 			<div class="post-right">
 				<h4>
-					<a href="<?php echo get_permalink($post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($post,'', '', FALSE)); ?>">
+					<a href="<?php echo get_permalink($inner_post); ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'wellthemes'), get_the_title($inner_post,'', '', FALSE)); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Mais-Vistos-<?php echo $j; ?>']);">
 						<strong>
-                  <?php 
-							//display only first 50 characters in the title.	
-							$short_title = mb_substr(get_the_title($post,'', '', FALSE),0, 50);
-							echo $short_title; 
-							if (strlen($short_title) > 49){ 
-								echo '...'; 
-							} 
-						?> 
-                  </strong><br />
-						<?php 
-							//display only first 42 characters in the title.	
-							$subtitle = mb_substr(trim(strip_tags(get_the_subtitle($post,'', '', FALSE))),0, 42);
-							echo $subtitle; 
-							if (strlen($subtitle) > 41){ 
-								echo '...'; 
-							} 
-						?>						
+              <?php 
+  							//display only first 50 characters in the title.	
+  							$short_title = mb_substr(get_the_title($inner_post,'', '', FALSE),0, 50);
+  							echo $short_title;
+  							if (strlen($short_title) > 49){ 
+  								echo '...'; 
+  							} 
+  						?> 
+            </strong><br />
+            <span>
+						  <?php 
+                if($tendencies_post){
+                   $resumo = mb_substr(get_the_excerpt_post($inner_post),0, 42);
+                   echo $resumo;
+       						  if (strlen($resumo) > 41){ 
+       								echo '...'; 
+       						  }
+                }else{
+     							//display only first 42 characters in the title.	
+     							$subtitle = mb_substr(strip_tags(get_the_subtitle($inner_post,'', '', FALSE)),0, 42);
+     							echo $subtitle; 
+     							if (strlen($subtitle) > 41){ 
+     								echo '...'; 
+     							}
+                }    
+						  ?>
+            </span>						
 					</a>
 				</h4>
 			</div>				
-  
+      
 		</div><!-- /item-post -->
-       <?php
+       <?php $j++;
        } 
-     }//endwhile; ?>
+     }
+     //endwhile; ?>
 	   <?php
 		
 		/* After widget (defined by themes). */

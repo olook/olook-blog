@@ -32,7 +32,7 @@ global $cfs;
 		<h3><a href="<?php echo esc_url( $cat_url ); ?>" ><?php echo $cat_name; ?></a></h3>	
 	</header>	
 	
-		<?php $query = new WP_Query( $args ); ?>
+		<?php $query = new WP_Query( $args );?>
 			<?php if ( $query -> have_posts() ) : ?>
 				<div class="one-half">
 				<?php $i = 0 ; ?>
@@ -45,11 +45,11 @@ global $cfs;
 					?>
 					<div class="thumb-wrap">
 						<div class="thumb">
-							<a href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
+							<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
 						</div>
 						<div class="overlay">
 							<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>
-							<a class="post-link" href="<?php the_permalink() ?>">View Post</a>							
+							<a class="post-link" href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);">View Post</a>							
 						</div>
 					</div>
 					<?php } ?>
@@ -89,7 +89,7 @@ global $cfs;
 		 'offset' => 1
 		);	?>
 	
-	<?php $query = new WP_Query( $args ); ?>
+	<?php $query = new WP_Query( $args ); $j=2;?>
 			<?php if ( $query -> have_posts() ) : ?>
 				<div class="slide-cat1 last-col">
 					<ul class="slides">
@@ -101,12 +101,12 @@ global $cfs;
 						?>
 						<article class="item-post">
 						<?php if ( has_post_thumbnail() ) {	
-							$img = wp_get_attachment_image_src( get_post_thumbnail_id(  $post->ID ), "full" );
+							$img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full" );
 							$img_link = $img[0];
 							?>
 							<div class="thumb-wrap">
 								<div class="thumb">
-									<a href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
+									<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
 								</div>
 								
 								<div class="overlay">
@@ -118,7 +118,7 @@ global $cfs;
 						
 						<div class="post-wrap">
 							<header class="entry-header">
-								<a href="<?php the_permalink() ?>">
+								<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);">
                            <h4>									
 										<?php 
 											//display only first 45 characters in the title.	
@@ -143,9 +143,11 @@ global $cfs;
                      </header>   
 						</div>
 					</article>
+        <?php $j++; ?>
 				<?php echo ($i % 4 === 0) ? "</li>" : null;	 ?>
 			<?php endwhile; ?>
-			<?php echo ($i % 4 !== 0) ? "</li>" : null;	 ?>
+			<?php echo ($i % 4 !== 0) ? "</li>" : null; ?>
+
 			</ul>
 			</div><!-- /one-half -->
 		<?php endif; ?>	

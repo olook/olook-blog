@@ -25,19 +25,20 @@
 ?>
 <div id="wt-slider">	
 	<ul class="slides">
-		<?php $query = new WP_Query( $args ); ?>
+		<?php $query = new WP_Query( $args ); $i=1; ?>
+    
 			<?php if ( $query -> have_posts() ) : ?>
 				<?php while ( $query -> have_posts() ) : $query -> the_post(); ?>
 					<?php if ( has_post_thumbnail()) { ?>
 							<li>
-								<a href="<?php the_permalink(); ?>" >
+								<a href="<?php the_permalink(); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);">
 									<?php the_post_thumbnail( 'wt-home-tv' ); ?>
 								</a>
 			
 								<div class="slider-text">
 									<div class="wrap">
 										<h2>
-											<a href="<?php the_permalink() ?>">
+											<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);">
 												<?php 
 													//display only first 45 characters in the title.	
 													$short_title = mb_substr(the_title('','',FALSE),0, 45);
@@ -49,7 +50,7 @@
 											</a>
 										</h2>
 										<p>
-                                 <a href="<?php the_permalink() ?>">
+                      <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);">
 											<?php 
 												$excerpt = get_the_excerpt();
 												echo mb_substr($excerpt,0, 150);
@@ -57,12 +58,14 @@
 													echo '...'; 
 												}
 											?>
-                                 </a>
+                      </a>
 										</p>
 									</div>								
 								</div>									
 							</li>
+              <?php $i++; ?>
 						<?php } ?>
+            
 				<?php endwhile; ?>
 			<?php endif;?>
 		<?php wp_reset_query();?>				

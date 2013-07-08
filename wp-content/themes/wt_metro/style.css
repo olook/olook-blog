@@ -2926,6 +2926,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a {
     padding: 0 17px;
     text-decoration: none;
 }
+body div#wrapper_new_menu nav.menu_new .default_new li a:hover, body div#wrapper_new_menu nav.menu_new .default_new li a.selected {color:#EF3742;}
 
 body header#new_header .new_content {
     

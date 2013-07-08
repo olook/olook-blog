@@ -65,6 +65,7 @@ class OlussierFSP_LikeButton extends WP_Widget {
   function form($instance) {
     if (array_key_exists('title',$instance)) {
       $title = esc_attr($instance['title']);
+
     } else {
       $title = "Share this Article";
     }

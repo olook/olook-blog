@@ -131,6 +131,7 @@ class OlussierFacebookSocialPlugins {
       echo "<meta property=\"og:url\" content=\"".get_permalink()."\" />\r\n";
       
       $imgs = $this->getImages();
+      $imgs = array_reverse($imgs);
       if (count($imgs) > 0) {
       	echo "<meta property=\"og:image\" content=\"".wp_get_attachment_thumb_url($imgs[0]->ID)."\" />\r\n";
       }

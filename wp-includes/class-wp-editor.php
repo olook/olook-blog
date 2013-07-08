@@ -611,6 +611,7 @@ final class _WP_Editors {
 					if ( mce )
 						try { tinymce.init(init); } catch(e){}
 				}
+				
 			} else {
 				if ( tinyMCEPreInit.qtInit ) {
 					for ( i in tinyMCEPreInit.qtInit ) {
@@ -626,6 +627,8 @@ final class _WP_Editors {
 					try { quicktags( tinyMCEPreInit.qtInit[qt] ); } catch(e){}
 				}
 			}
+			
+			
 		})();
 		<?php
 

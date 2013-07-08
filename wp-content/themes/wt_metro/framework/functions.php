@@ -327,3 +327,4 @@ if ( ! function_exists( 'wellthemes_first_post_tag_name' ) ) :
 endif; // ends check for wellthemes_first_post_tag_name()
 
 ?>
+

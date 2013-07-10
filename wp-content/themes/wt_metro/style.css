@@ -2923,7 +2923,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a {
     font-family: johnston,arial,sans-serif;
     height: 28px;
     letter-spacing: 2px;
-    padding: 0 14px;
+    padding: 0 13px;
     text-decoration: none;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li a:hover, body div#wrapper_new_menu nav.menu_new .default_new li a.selected {color:#EF3742;}

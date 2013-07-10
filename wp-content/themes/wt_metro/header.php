@@ -140,7 +140,9 @@
                 <li class="gift">
                   <a href="http://www.olook.com.br/presentes" class="gift">Presentes</a>
                 </li>
-                
+                <li class="gift">
+                  <a href="http://www.olook.com.br/marcas" class="gift">Marcas</a>
+                </li>
                 <li style="background-image: none; background-position: initial initial; background-repeat: initial initial;"><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
                 <li id="bar"></li>
             </ul>

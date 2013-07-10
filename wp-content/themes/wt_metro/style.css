@@ -349,9 +349,9 @@ a:hover{
   top:28px;
   z-index:8;
   float:left;
-  width:100%;
+  /*width:100%;*/
 }
-#main-menu ul li#menu-item-moda ul{width:240px !important}
+#main-menu ul li#menu-item-moda ul{width:230px !important}
 
 #main-menu ul li ul li {
 	float:none;
@@ -2923,7 +2923,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a {
     font-family: johnston,arial,sans-serif;
     height: 28px;
     letter-spacing: 2px;
-    padding: 0 17px;
+    padding: 0 14px;
     text-decoration: none;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li a:hover, body div#wrapper_new_menu nav.menu_new .default_new li a.selected {color:#EF3742;}

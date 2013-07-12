@@ -80,7 +80,8 @@ function Add_Site_Name() {
 
 	$Admeta .= '<!--Facebook Like Button OpenGraph Settings End-->
 	';
-	echo $Meta . $Title .  $Content .  $URL . $Admeta;
+
+	echo $Meta . $Title . $Content . $URL . $Admeta;
 
 	}
 

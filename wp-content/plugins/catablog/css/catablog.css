@@ -5,7 +5,13 @@
 
 /* Default and Subimages Template CSS Classes */
 
-.catablog-catalog{width:755px;margin:0 auto;}
+.catablog-catalog{width:515px;margin:0 auto;}
+
+/**********************
+ ajuste para editoriais 
+ **********************/
+ 
+ article.category-editoriais .catablog-catalog{width:755px;}
 
 .catablog-catalog:after {
 	content: ".";

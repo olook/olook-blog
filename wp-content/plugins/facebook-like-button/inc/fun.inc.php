@@ -51,7 +51,7 @@ function Add_Site_Name() {
 		$URL = '
 	<meta property="og:url" content="' . $prem . '"/>
 	';
-		$Title .= '
+		$Content = '
 		<meta property="og:description" content="' . @trim(substr(strip_tags($post_by_id['post_content']), 0, 140)) . '"/>
 	';
 	}
@@ -80,9 +80,9 @@ function Add_Site_Name() {
 
 	$Admeta .= '<!--Facebook Like Button OpenGraph Settings End-->
 	';
-	echo $Meta . $Title . $URL . $Admeta;
+	echo $Meta . $Title .  $Content .  $URL . $Admeta;
 
-}
+	}
 
 function fb_like_admin_init(){
 	wp_enqueue_script('jquery');

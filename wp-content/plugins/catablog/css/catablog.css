@@ -12,6 +12,7 @@
  **********************/
  
  article.category-editoriais .catablog-catalog{width:755px;}
+ article.category-editoriais .catablog-row:nth-child(3n){margin-right:0;}
 
 .catablog-catalog:after {
 	content: ".";
@@ -31,7 +32,7 @@
   margin:0 15px 20px 0;
 }
 
-.catablog-row:nth-child(3n){margin-right:0;}
+
 .catablog-row .catablog-images-column {
 	float: left;
 	position: relative;

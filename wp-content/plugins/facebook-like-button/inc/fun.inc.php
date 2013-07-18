@@ -28,13 +28,13 @@ function Add_Site_Name() {
 
 	$Meta = '
 	<!--Facebook Like Button OpenGraph Settings Start-->';
-
+/*
 	if (get_option('fb_like_social') == 'true') {
 		$Meta .= '
 			<script type="text/javascript" src="https://app.tabpress.com/js/ga_social_tracking.js"></script>
 			<script type="text/javascript">_ga.trackFacebook();</script>
 			';
-	}
+	}*/
 
 	$Meta .= '
 	<meta property="og:site_name" content="' . $Name . '"/>';

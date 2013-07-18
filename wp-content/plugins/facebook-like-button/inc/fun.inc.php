@@ -24,7 +24,7 @@ function Add_Site_Name() {
 		$image_url = '';
 	}
 
-	$Defualt_Image = ($image_url == '' ? get_option('fb_like_dimage') : $image_url);
+	$Image = ($image_url == '' ? get_option('fb_like_dimage') : $image_url);
 
 	$Meta = '
 	<!--Facebook Like Button OpenGraph Settings Start-->';
@@ -57,15 +57,12 @@ function Add_Site_Name() {
 	}
 
 	$Admeta = '<meta property="fb:admins" content="' . get_option("fb_like_admeta") . '" />';
-	$Admeta .= '
-	<meta property="fb:app_id" content="' . get_option("fb_like_appid") . '" />
-	';
+	$Admeta .= '<meta property="fb:app_id" content="' . get_option("fb_like_appid") . '" />';
+$Admeta .= '<meta property="og:test" content="teste" />';
+	//if (get_option("fb_like_enimg") != false) {
 
-	if (get_option("fb_like_enimg") != false) {
-
-		$Admeta .= '<meta property="og:image" content="' . $Defualt_Image . '" />
-	';
-	}
+		$Admeta .= '<meta property="og:image" content="' . $Image . '" />';
+	//}
 
 	if ((is_single) || (is_page())) {
 		$PageType = (get_option("disable_like_pagetype_" . $Page_ID) == null ? "article" : get_option("disable_like_pagetype_" . $Page_ID));

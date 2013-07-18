@@ -56,12 +56,15 @@ function Add_Site_Name() {
 	';
 	}
 
-	$Admeta = '<meta property="fb:admins" content="' . get_option("fb_like_admeta") . '" />';
-	$Admeta .= '<meta property="fb:app_id" content="' . get_option("fb_like_appid") . '" />';
-$Admeta .= '<meta property="og:test" content="teste" />';
+	$Admeta = '<meta property="fb:admins" content="' . get_option("fb_like_admeta") . '" />
+  ';
+	$Admeta .= '<meta property="fb:app_id" content="' . get_option("fb_like_appid") . '" />
+  ';
+  
 	//if (get_option("fb_like_enimg") != false) {
 
-		$Admeta .= '<meta property="og:image" content="' . $Image . '" />';
+		$Admeta .= '<meta property="og:image" content="' . $Image . '" />
+    ';
 	//}
 
 	if ((is_single) || (is_page())) {

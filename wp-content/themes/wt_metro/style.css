@@ -2814,7 +2814,7 @@ footer section dl dd ul.social {
     width: 100%;
 }
 footer section dl dd ul.social li a {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/home/social-07a13bb193c00455f0149afa8fac3be0.png") no-repeat scroll 0 0 transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/home/social.png") no-repeat scroll 0 0 transparent;
     display: block;
     float: left;
     height: 24px;
@@ -2907,7 +2907,7 @@ body div#wrapper_new_menu nav.menu_new .default_new {
     width: 990px;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/menu_bar-854334c0593176d54cf16a5423d66ca2.png") no-repeat scroll right 0 transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/menu_bar.png") no-repeat scroll right 0 transparent;
     display: inline;
     float: left;
     font-size: 10px;
@@ -2976,10 +2976,10 @@ body header#new_header .new_content .social_icons a.social_twitter {
     width: 22px;
 }
 body header#new_header .new_content .social_icons a.social_twitter:hover {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-3db04ef14e3886534e43801d3664fb4b.png") no-repeat scroll -22px -31px transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat scroll -22px -31px transparent;
 }
 body header#new_header .new_content .social_icons a.social_rss {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-3db04ef14e3886534e43801d3664fb4b.png") no-repeat scroll -46px 0 transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat scroll -46px 0 transparent;
     display: block;
     float: left;
     height: 22px;
@@ -2987,10 +2987,10 @@ body header#new_header .new_content .social_icons a.social_rss {
     width: 22px;
 }
 body header#new_header .new_content .social_icons a.social_rss:hover {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-3db04ef14e3886534e43801d3664fb4b.png") no-repeat scroll -46px -31px transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat scroll -46px -31px transparent;
 }
 body header#new_header .new_content .social_icons a.social_instagram {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-3db04ef14e3886534e43801d3664fb4b.png") no-repeat scroll -71px -1px transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat scroll -71px -1px transparent;
     display: block;
     float: left;
     height: 22px;
@@ -2998,7 +2998,7 @@ body header#new_header .new_content .social_icons a.social_instagram {
     width: 22px;
 }
 body header#new_header .new_content .social_icons a.social_instagram:hover {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-3db04ef14e3886534e43801d3664fb4b.png") no-repeat scroll -71px -31px transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat scroll -71px -31px transparent;
 }
 
 body header#new_header .new_content .box_left a.invite{color:#EF3742;text-decoration: none;float: left;margin-top: 3px;font-size: 11px;}
@@ -3010,13 +3010,13 @@ body header#new_header .new_content .new_login{width: 162px;height: 18px;font-fa
 body header#new_header .new_content .new_login a{text-decoration: none;color: #EF3742;}
 body header#new_header .new_content .new_login a:hover{text-decoration:underline;}
 
-body header#new_header .new_content .new_sacola a{position: relative; text-decoration: none;display:block;height: 20px;line-height:20px;font-family:'johnston',arial,sans-serif;font-size: 10px;background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-ec7ddeae68e284b1a777a63427151e6b.png") -119px -1px no-repeat;margin-top: 43px;color: black;letter-spacing: 1px;padding:5px 0 5px 20px;clear:both;float:right;}
+body header#new_header .new_content .new_sacola a{position: relative; text-decoration: none;display:block;height: 20px;line-height:20px;font-family:'johnston',arial,sans-serif;font-size: 10px;background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") -119px -1px no-repeat;margin-top: 43px;color: black;letter-spacing: 1px;padding:5px 0 5px 20px;clear:both;float:right;}
 body header#new_header .new_content .new_sacola a:hover{color:#EF3742;}
   
 body header#new_header .new_content .olook_logo {height: 70px;margin: 0 auto;padding-top: 20px;width: 240px;}
 
 body header#new_header .new_content .olook_logo h1 a {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-3db04ef14e3886534e43801d3664fb4b.png") no-repeat scroll 0 -72px transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat scroll 0 -72px transparent;
     display: block;
     height: 70px;
     text-indent: -9999px;
@@ -3102,7 +3102,7 @@ body div#wrapper_menu nav.menu ul.default li a {
     text-transform: uppercase;
 }
 body div#wrapper_menu nav.menu ul.default li a:hover, body div#wrapper_menu nav.menu ul.default li a.selected {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/arrow-hover-18c45ebc541026ef8ddf045332964458.jpg") no-repeat scroll center bottom transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/arrow-hover.jpg") no-repeat scroll center bottom transparent;
     color: #EF3742;
 }
 body div#wrapper_menu nav.menu ul.default li.liquidation a {
@@ -3120,7 +3120,7 @@ body div#wrapper_menu nav.menu ul.default li.cart {
     position: relative;
 }
 body div#wrapper_menu nav.menu ul.default li.cart div.warn {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/bg-menu-warn-38cc924b86008295d53bac5606fc35f8.png") no-repeat scroll left top transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/bg-menu-warn.png") no-repeat scroll left top transparent;
     display: block;
     height: 100px;
     left: -198px;
@@ -3131,7 +3131,7 @@ body div#wrapper_menu nav.menu ul.default li.cart div.warn {
     z-index: 1000;
 }
 body div#wrapper_menu nav.menu ul.default li.cart div.warn a.close {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/gift/bt-close-help-a2571b2edfc123313ab0bd57ec0ffa0c.png") no-repeat scroll 0 0 transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/gift/bt-close-help.png") no-repeat scroll 0 0 transparent;
     display: block;
     height: 18px;
     position: absolute;
@@ -3282,7 +3282,7 @@ body div#wrapper_menu nav.menu ul.default li.cart ul.submenu li.last a.close:hov
     text-decoration: underline;
 }
 body div#wrapper_menu nav.menu ul.default li.cart ul.submenu li.last a.finish {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/common/nav/product-anchors-f8006fffc8fed85384de27f05c346847.jpg") no-repeat scroll -110px 0 transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/product-anchors.jpg") no-repeat scroll -110px 0 transparent;
     display: block;
     float: right;
     height: 33px;

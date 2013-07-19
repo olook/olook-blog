@@ -3010,7 +3010,7 @@ body header#new_header .new_content .new_login{width: 162px;height: 18px;font-fa
 body header#new_header .new_content .new_login a{text-decoration: none;color: #EF3742;}
 body header#new_header .new_content .new_login a:hover{text-decoration:underline;}
 
-body header#new_header .new_content .new_sacola a{position: relative; text-decoration: none;display:block;height: 20px;line-height:20px;font-family:'johnston',arial,sans-serif;font-size: 10px;background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") -119px -1px no-repeat;margin-top: 43px;color: black;letter-spacing: 1px;padding:5px 0 5px 20px;clear:both;float:right;}
+body header#new_header .new_content .new_sacola a{position: relative; text-decoration: none;display:block;height: 20px;line-height:20px;font-family:'johnston',arial,sans-serif;font-size: 10px;background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-ec7ddeae68e284b1a777a63427151e6b.png") -119px -1px no-repeat;margin-top: 43px;color: black;letter-spacing: 1px;padding:5px 0 5px 20px;clear:both;float:right;}
 body header#new_header .new_content .new_sacola a:hover{color:#EF3742;}
   
 body header#new_header .new_content .olook_logo {height: 70px;margin: 0 auto;padding-top: 20px;width: 240px;}

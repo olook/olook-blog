@@ -62,6 +62,7 @@ global $cfs;
 					</header>
 					
 					<p>
+            <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);">
 						<?php 
 							//display only first 150 characters in the excerpt.								
 							$excerpt = get_the_excerpt();																
@@ -70,6 +71,7 @@ global $cfs;
 								echo '...'; 
 							} 
 						?>
+            </a>
 					</p>
           <a href="<?php the_permalink() ?>" class="see-more">Leia tudo</a>	
 				</div>	

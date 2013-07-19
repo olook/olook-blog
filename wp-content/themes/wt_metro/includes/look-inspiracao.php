@@ -45,6 +45,7 @@
              </div>
 
              <p>
+               <a href="<?php the_permalink() ?>" class="see-more" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Look-inspiracao']);">
                <?php 
                  //display only first 150 characters in the excerpt.               
                  $excerpt = get_the_excerpt();                               
@@ -53,6 +54,7 @@
                    echo '...'; 
                  } 
                ?>
+               </a>
              </p>
              <a href="<?php the_permalink() ?>" class="see-more" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Look-inspiracao']);">Inspire-se com este look!</a>
           </aside>

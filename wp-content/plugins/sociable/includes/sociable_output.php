@@ -151,7 +151,7 @@ if ($attachments) {
 
 	if ($tagline != '') {
 
-		$html .= '<p class="sociable_tagline">';
+		$html .= '<div class="sociable_tagline">';
 
 
 
@@ -175,7 +175,7 @@ if ($attachments) {
 
 				}
 
-		$html .= "</p>";
+		$html .= "</div>";
 
 	}
 
@@ -500,7 +500,7 @@ if ($attachments) {
 
 		  </a>
 
-		</div>
+	</div>
 
 	</div> 
 
@@ -518,7 +518,8 @@ if ($attachments) {
 
 	/*if ($location == "bottom" && (is_single() || is_admin())){ */
 
-	$counters = "</div><ul class='clearfix'>";
+	$counters = "</div><div class='sociable' style='float:none'><ul class='clearfix'>";
+
 
 	foreach ($display as $sitename => $val){
 
@@ -726,7 +727,8 @@ function auto_sociable( $content ){
 
 		}else{
 
-		$content = sociable_html(array()). "" .$content; 
+		$content = sociable_html(array()). "".$content ; 
+
 
 		}
 

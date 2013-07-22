@@ -1,8 +1,7 @@
-/***** AJUSTES ******/
-div.sociable { /*margin: 8px 0;*/float:left;width:155px;display:none;}
-div.sociable p.sociable_tagline{margin:0;float:left;color:#000;font-size:13px;}
+div.sociable { /*margin: 8px 0;*/float:right;width:155px;}
+div.sociable .sociable_tagline{float:left;font-size:12px;line-height:19px;}
+#fb-root{float:left;}
 
-/***** FIM AJUSTES ******/
 
 li div#___plusone_0 {
 float:right !important;

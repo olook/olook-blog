@@ -518,7 +518,7 @@ if ($attachments) {
 
 	/*if ($location == "bottom" && (is_single() || is_admin())){ */
 
-	$counters = "</div><div class='sociable' style='float:none'><ul class='clearfix'>";
+	$counters = "</div><div class='sociable'><ul class='clearfix'>";
 
 
 	foreach ($display as $sitename => $val){

@@ -1,5 +1,5 @@
 /***** AJUSTES ******/
-div.sociable { /*margin: 8px 0;*/width:155px;display:none;}
+div.sociable { /*margin: 8px 0;*/float:left;width:155px;display:none;}
 div.sociable p.sociable_tagline{margin:0;float:left;color:#000;font-size:13px;}
 
 /***** FIM AJUSTES ******/

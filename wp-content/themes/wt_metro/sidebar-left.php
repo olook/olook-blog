@@ -36,7 +36,7 @@
 		<?php endif; // end sidebar widget area ?>
 
 		<div class="banner-post">
-			<a href="http://www.olook.com.br/catalogo/sapato?utf8=✓&por=maior-desconto&cmp=liquida_sapato"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/calhau_sapatos.jpg" alt="" /></a>
+			<a href="http://www.olook.com.br/catalogo/sapato?utf8=✓&por=maior-desconto&cmp=liquida_sapato"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/liquida_inverno_sapato_SN.jpg" alt="" /></a>
 		</div>
 		
 </div><!-- /sidebar -->

@@ -1539,7 +1539,7 @@ a:hover{
 article.error404{text-align:center;margin-top:15px;}
 
 /* comentários do facebook e like button */
-#fb-root{float:left;}
+/*#fb-root{float:left;}*/
 .FacebookLikeButton{margin:5px 0 20px;}
 .fb-comments{margin:25px auto;width:670px;display:block !important;}
 h3.comment-title{font-size:15px;font-family:'Johnston';text-transform:uppercase;text-align:center;}

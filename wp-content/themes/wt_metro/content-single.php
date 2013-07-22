@@ -17,9 +17,9 @@
    </header><!-- /entry-header -->
 
 	<div class="entry-content">	
-      
+    <div class="text">
 		<?php the_content(); ?>
-		
+		</div>
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'wellthemes' ) . '</span>', 'after' => '</div>' ) ); ?>
       
 	</div><!-- /entry-content -->

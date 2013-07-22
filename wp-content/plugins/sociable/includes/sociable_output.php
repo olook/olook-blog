@@ -726,8 +726,8 @@ function auto_sociable( $content ){
         $content =  sociable_html(array(),"top").$content . sociable_html(array(),"bottom"); 
 
 		}else{
-    $clearfix="<p style='clear:both;width:100%'>&nbsp;</p>";  
-		$content = sociable_html(array()) . $clearfix . "" .$content ; 
+      
+		$content = sociable_html(array()) . "" .$content ; 
 
 
 		}

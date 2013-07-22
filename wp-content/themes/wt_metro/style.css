@@ -647,7 +647,7 @@ a:hover{
 	width: 575px;margin-top:6px;overflow:hidden;
 }
 
-#wt-slider .slider-text .wrap p a{color:#FFF;display:none;}
+#wt-slider .slider-text .wrap p a{color:#FFF;}
 #wt-slider .slider-text .wrap p a:hover{color:#EF3742;}
 
 #wt-slider .slider-text h3 {
@@ -1539,6 +1539,7 @@ a:hover{
 article.error404{text-align:center;margin-top:15px;}
 
 /* comentários do facebook e like button */
+#fb-root{float:left;}
 .FacebookLikeButton{margin:5px 0 20px;}
 .fb-comments{margin:25px auto;width:670px;display:block !important;}
 h3.comment-title{font-size:15px;font-family:'Johnston';text-transform:uppercase;text-align:center;}

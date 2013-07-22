@@ -114,6 +114,6 @@ Descrption: Get the live preview in the admin section
 		  });
 	  
 	  });
-  </script><p class='clearfix'>&nbsp;</p>"; 
+  </script>"; 
 
 ?>

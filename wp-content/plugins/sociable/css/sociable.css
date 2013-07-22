@@ -1,5 +1,8 @@
+/***** AJUSTES ******/
 div.sociable { /*margin: 8px 0;*/float:right;width:155px;}
 div.sociable p.sociable_tagline{marign:0;float:left;color:#000;font-size:13px;}
+div.entry-content{float:right;}
+/***** FIM AJUSTES ******/
 
 li div#___plusone_0 {
 float:right !important;

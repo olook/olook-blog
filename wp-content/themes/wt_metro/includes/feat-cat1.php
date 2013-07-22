@@ -47,10 +47,10 @@ global $cfs;
 						<div class="thumb">
 							<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
 						</div>
-						<div class="overlay">
+						<!--div class="overlay">
 							<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>
 							<a class="post-link" href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);">View Post</a>							
-						</div>
+						</div-->
 					</div>
 					<?php } ?>
 				
@@ -58,10 +58,11 @@ global $cfs;
 					<header class="entry-header">
                   <img src="/stylist-news/wp-content/themes/wt_metro/images/ponta.png" class="ponta" />
 						<?php// wellthemes_first_post_tag_link(); ?>	
-						<p class="tag-title"><span><?php echo $cfs->get('tag_destaque'); ?></span></p>				
+						<p class="tag-title"><a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);"><span><?php echo $cfs->get('tag_destaque');  ?></span></a></p>				
 					</header>
 					
 					<p>
+            <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);">
 						<?php 
 							//display only first 150 characters in the excerpt.								
 							$excerpt = get_the_excerpt();																
@@ -70,8 +71,9 @@ global $cfs;
 								echo '...'; 
 							} 
 						?>
+            </a>
 					</p>
-               <a href="<?php the_permalink() ?>" class="see-more">Leia tudo</a>	
+          <a href="<?php the_permalink() ?>" class="see-more">Leia tudo</a>	
 				</div>	
 		</article> <!-- main-post -->
 		
@@ -109,9 +111,9 @@ global $cfs;
 									<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
 								</div>
 								
-								<div class="overlay">
+								<!--div class="overlay">
 									<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>
-								</div>
+								</div-->
 							</div>
 					
 						<?php } ?>

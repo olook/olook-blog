@@ -76,24 +76,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-26610963-1']);
-  _gaq.push(['_setDomainName', 'olook.com.br']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-
-   <div id="container" class="hfeed">	
+ <div id="container" class="hfeed">	
 	<div id="content-blog">	
       <header id="new_header">
         <div class="new_content">
@@ -105,6 +88,14 @@
               <li><a href="http://blog.olook.com.br/feed/" class="social_rss" target="_blank" title="Acompanhe por RSS">Acompanhe por RSS</a></li>
               <li><a href="http://instagram.com/olook" class="social_instagram" target="_blank" title="Acompanhe pelo Instagram">Acompanhe pelo Instagram</a></li>
             </ul>
+            <p><a href="http://www.olook.com.br/membro/ganhe-creditos" class="invite">Ganhe créditos!</a></p>
+          </div>
+          <div class="box_right">
+            <p class="new_login">
+              <a href="http://www.olook.com.br/entrar">Entre</a> ou 
+              <a href="http://www.olook.com.br/quiz/new">Descubra seu estilo</a>
+            </p>   
+            <p class="new_sacola"><a href="http://www.olook.com.br/sacola" class="cart">MINHA SACOLA</a></p>
           </div>
           <div class="olook_logo">
               <h1><a href="http://www.olook.com.br">Olook</a></h1>

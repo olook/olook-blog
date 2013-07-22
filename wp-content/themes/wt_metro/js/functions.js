@@ -69,8 +69,26 @@ function addBanner(){
   }
 }
 
+function menu(){
+  var top = ( $('div#wrapper_new_menu').offset() && $('div#wrapper_new_menu').offset().top ) - parseFloat(( $('div#wrapper_new_menu').css('margin-top') && $('div#wrapper_new_menu').css('margin-top') || '0' ).replace(/auto/, 0));
+  
+    $(window).scroll(function (event) {
+    var y = $(this).scrollTop();
+    if (y >= top) {
+      $('div#wrapper_new_menu').addClass('fixed');
+      $("#main-menu").addClass("fixed2");
+    } else {
+      $('div#wrapper_new_menu').removeClass('fixed');
+      $('#main-menu').removeClass('fixed2');
+    }
+    event.preventDefault();
+    event.stopPropagation();
+  });
+}
+
 $(function() {  
   //setTimeout(function(){slideMenuBar()},1000);
+  menu(); 
   menuLine();
   removeSpaces();
   slideExcerpt();

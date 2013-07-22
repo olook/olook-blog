@@ -1,4 +1,7 @@
-div.sociable { /*margin: 8px 0;*/}
+div.sociable { /*margin: 8px 0;*/float:right;width:155px;}
+div.sociable .sociable_tagline{float:left;font-size:12px;line-height:19px;}
+#fb-root{float:left;}
+
 
 li div#___plusone_0 {
 float:right !important;

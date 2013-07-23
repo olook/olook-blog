@@ -110,6 +110,8 @@ a:hover{
 	margin-right: 18px;	
 	overflow: hidden;
 }
+
+#content .text-content{clear:both;margin-top:5px;}
 #content.especiais{float:none;width:780px;margin:0 auto;}
 #content article h2{font-family:'Kepler Std Italic';font-size:27px;margin-bottom:30px;text-transform:uppercase;}
 

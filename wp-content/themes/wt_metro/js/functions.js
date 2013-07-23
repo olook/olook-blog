@@ -86,7 +86,7 @@ function menu(){
   });
 }
 
-$(function() {  
+$(document).ready(function(){
   //setTimeout(function(){slideMenuBar()},1000);
   menu(); 
   menuLine();

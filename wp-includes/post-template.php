@@ -223,7 +223,7 @@ function get_the_content( $more_link_text = null, $stripteaser = false ) {
 	}
 	if ( $preview ) // preview fix for javascript bug with foreign languages
 		$output =	preg_replace_callback('/\%u([0-9A-F]{4})/', '_convert_urlencoded_to_entities', $output);
-
+  $output = "<div class='text-content'>" . $output . "</div>";
 	return $output;
 }
 

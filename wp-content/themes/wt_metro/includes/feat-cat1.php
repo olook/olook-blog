@@ -117,13 +117,7 @@ global $cfs;
 							</div>
 					
 						<?php } ?>
-            <?php
-            $categories =  get_categories('child_of=884');  
-            foreach  ($categories as $category) {
-                    echo '<!--p> aqui '.$category->name.'</p-->';
-                }
             
-            ?>
 						<div class="post-wrap">
 							<header class="entry-header">
 								<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);">

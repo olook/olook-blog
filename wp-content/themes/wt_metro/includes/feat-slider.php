@@ -31,14 +31,14 @@
 				<?php while ( $query -> have_posts() ) : $query -> the_post(); ?>
 					<?php if ( has_post_thumbnail()) { ?>
 							<li>
-								<a href="<?php the_permalink(); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);">
+								<a href="<?php the_permalink(); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);return false;">
 									<?php the_post_thumbnail( 'wt-home-tv' ); ?>
 								</a>
 			
 								<div class="slider-text">
 									<div class="wrap">
 										<h2>
-											<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);">
+											<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_link, '<?php the_permalink() ?>']);return false;">
 												<?php 
 													//display only first 45 characters in the title.	
 													$short_title = mb_substr(the_title('','',FALSE),0, 45);
@@ -50,7 +50,7 @@
 											</a>
 										</h2>
 										<p>
-                      <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);">
+                      <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_link, '<?php the_permalink() ?>']);return false;">
 											<?php 
 												$excerpt = get_the_excerpt();
 												echo mb_substr($excerpt,0, 150);

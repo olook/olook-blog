@@ -112,7 +112,7 @@ global $cfs;
 								</div>
                 <?php
                 foreach((get_the_category()) as $childcat) {
-                if (cat_is_ancestor_of(3, $childcat)) {
+                if (cat_is_ancestor_of(884, $childcat)) {
         
                  echo '<!--p>here '.$childcat->cat_name.'</p-->';
                 }}

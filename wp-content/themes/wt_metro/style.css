@@ -3332,7 +3332,7 @@ body div#wrapper_menu.fixed {
 =============================== */
 
 /* 7.1. Desktops
-============================= */
+============================= 
 @media only screen and (min-width: 320px) and (max-width: 1259px) {
 	#container{
 		width: 940px;
@@ -3399,7 +3399,7 @@ body div#wrapper_menu.fixed {
 	}	
 	
 }
-
+*/
 
 /*======
 CLASSE GENERICAS

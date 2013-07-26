@@ -18,7 +18,6 @@
       <dd><a href="http://www.olook.com.br/nossa-essencia">Nossa essência</a></dd>
       <dd><a href="http://www.olook.com.br/responsabilidade-social">Responsabilidade social</a></dd>
       <dd><a href="http://www.olook.com.br/olookmovel">Olookmóvel</a></dd>
-		  <dd><a href="http://www.olook.com.br/1anomuito">1 ano muito</a></dd>
       <dd><a href="http://www.olook.com.br/olook-na-imprensa">Olook na imprensa</a></dd>
       <dd><a href="http://blog.olook.com.br" target="_blank">Blog</a></dd>
     </dl>

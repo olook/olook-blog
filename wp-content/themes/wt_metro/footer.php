@@ -18,7 +18,6 @@
       <dd><a href="http://www.olook.com.br/nossa-essencia">Nossa essência</a></dd>
       <dd><a href="http://www.olook.com.br/responsabilidade-social">Responsabilidade social</a></dd>
       <dd><a href="http://www.olook.com.br/olookmovel">Olookmóvel</a></dd>
-		  <dd><a href="http://www.olook.com.br/1anomuito">1 ano muito</a></dd>
       <dd><a href="http://www.olook.com.br/olook-na-imprensa">Olook na imprensa</a></dd>
       <dd><a href="http://blog.olook.com.br" target="_blank">Blog</a></dd>
     </dl>
@@ -59,8 +58,23 @@
     <dl class="double security">
       <dt>Segurança</dt>
       <dd><a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src="//d22zjnmu4464ds.cloudfront.net/assets/common/ico_security-da39ed9f5fba4e15f91cd98458d3f808.png" /></a></dd>
-      <dd><a id="seloEbit" href="http://www.ebit.com.br/#olook" target="_blank" onclick="redir(this.href);">Avaliação de Lojas e-bit</a>
-				  <script type="text/javascript" id="getSelo" src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?21709" ></script>
+      <dd><a id="seloEbit" href="http://www.ebit.com.br/#" target="_blank" onclick="redir(this.href);">Avaliação de Lojas e-bit</a>
+        <script type="text/javascript">
+          // Add a script element as a child of the body
+          function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?19329";
+            element.id = "getSelo";
+            document.body.appendChild(element);
+          }
+
+          // Check for browser support of event handling capability
+          if (window.addEventListener)
+          window.addEventListener("load", downloadJSAtOnload, false);
+          else if (window.attachEvent)
+          window.attachEvent("onload", downloadJSAtOnload);
+          else window.onload = downloadJSAtOnload;
+        </script>
 			</dd>
 		</dl>
 		<p>© <?php echo Date("Y"); ?> - olook<br />Todos os direitos reservados</p>
@@ -71,23 +85,6 @@
 	</div><!-- /content-blog -->
   
   
-  <!-- Google Analytics -->
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-26610963-1']);
-    _gaq.push(['_setDomainName', 'olook.com.br']);
-    _gaq.push(['_trackPageview']);
-    _gaq.push(['_setAllowLinker', true]);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-
 <?php wp_footer(); ?>
 
 </body>

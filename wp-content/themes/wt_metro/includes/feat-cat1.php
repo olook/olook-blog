@@ -110,18 +110,24 @@ global $cfs;
 								<div class="thumb">
 									<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
 								</div>
-								
+                <?php
+                foreach((get_the_category()) as $childcat) {
+                if (cat_is_ancestor_of(884, $childcat)) {
+        
+                 echo '<!--p>here '.$childcat->cat_name.'</p-->';
+                }}
+                ?>
 								<!--div class="overlay">
 									<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>
 								</div-->
 							</div>
 					
 						<?php } ?>
-						
+            
 						<div class="post-wrap">
 							<header class="entry-header">
 								<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);">
-                           <h4>									
+                  <h4>									
 										<?php 
 											//display only first 45 characters in the title.	
 											$short_title = mb_substr(the_title('','',FALSE),0, 45);
@@ -132,17 +138,17 @@ global $cfs;
 										?>	
 									</h4>											
 							
-         					   <p>
-            						<?php 
-            							$excerpt = get_the_excerpt();																
-            							echo mb_substr($excerpt,0, 40);									
-            							if (strlen($excerpt) > 39){ 
-            								echo '...'; 
-            							} 
-            						?>
-         					   </p>
-                        </a>
-                     </header>   
+                  <p>
+            				<?php 
+            					$excerpt = get_the_excerpt();																
+            					echo mb_substr($excerpt,0, 40);									
+            					if (strlen($excerpt) > 39){ 
+            							echo '...'; 
+            					} 
+            					?>
+         					</p>
+                </a>
+              </header>   
 						</div>
 					</article>
         <?php $j++; ?>

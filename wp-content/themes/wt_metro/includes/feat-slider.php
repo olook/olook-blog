@@ -31,7 +31,7 @@
 				<?php while ( $query -> have_posts() ) : $query -> the_post(); ?>
 					<?php if ( has_post_thumbnail()) { ?>
 							<li>
-								<a href="<?php the_permalink(); ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Destaque-Home-<?php echo $i; ?>']);return false;">
+								<a href="<?php the_permalink(); ?>" class="destaque-home-teste">
 									<?php the_post_thumbnail( 'wt-home-tv' ); ?>
 								</a>
 			

@@ -5,13 +5,13 @@
 
 /* Default and Subimages Template CSS Classes */
 
-.catablog-catalog{width:515px;margin:0 auto;}
+.catablog-catalog{width:500px;margin:0 auto;}
 
 /**********************
  ajuste para editoriais 
  **********************/
  
- article.category-editoriais .catablog-catalog{width:755px;}
+ article.category-editoriais .catablog-catalog{width:700px;}
  article.category-editoriais .catablog-row:nth-child(3n){margin-right:0;}
 
 .catablog-catalog:after {
@@ -28,8 +28,8 @@
 	display: inline-block;
 	/*float: left;
 	padding: 5px 5px 15px 5px;*/
-  width:240px;
-  margin:0 15px 20px 0;
+  width:200px;
+  margin:0 50px 20px 0;
 }
 
 

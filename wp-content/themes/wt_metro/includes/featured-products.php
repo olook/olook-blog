@@ -62,7 +62,7 @@
              </p>            
              <?php } ?>
           </article> 
-          $i++;
+          <?php $i++;?>
        <?php endwhile; ?>           
      <?php endif; ?> 
    <?php wp_reset_query();   //reset the query ?>    

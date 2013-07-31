@@ -39,11 +39,11 @@
           
              <div class="thumb-wrap">
                <div class="thumb">
-                 <a class="amo-<?php $i; ?>" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-stylist-choices' ); ?></a>
+                 <a class="amo-<?php echo $i; ?>" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-stylist-choices' ); ?></a>
                </div>
              </div>
              <p>
-                <a class="amo-<?php $i; ?>" href="<?php the_permalink() ?>">
+                <a class="amo-<?php echo $i; ?>" href="<?php the_permalink() ?>">
 					<?php 
 						$short_title = mb_substr(the_title('','',FALSE),0, 45);
 						echo $short_title; 

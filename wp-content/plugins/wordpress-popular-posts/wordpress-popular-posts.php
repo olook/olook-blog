@@ -1234,7 +1234,7 @@ if ( !class_exists('WordpressPopularPosts') ) {
 						$content .= htmlspecialchars_decode( $this->format_content($instance['markup']['post-html'], $data, $instance['rating']), ENT_QUOTES ) . "\n";						
 						
 					} else { // build regular layout						
-						$content .= "<div class='item-post'><div class='post-number'>$count</div><div class='post-right'>{$thumb}<h4><a href=\"{$permalink}\" title=\"{$title}\" class=\"wpp-post-title mais-vistos-$i\"><strong>{$title_sub}</strong><br/>{$excerpt}</a><span class=\"post-stats\">{$stats}</span>{$rating}</h4></div></div>" . "\n";
+						$content .= "<div class='item-post'><div class='post-number'>$count</div><div class='post-right'>{$thumb}<h4><a href=\"{$permalink}\" title=\"{$title}\" class=\"wpp-post-title mais-vistos-$count\"><strong>{$title_sub}</strong><br/>{$excerpt}</a><span class=\"post-stats\">{$stats}</span>{$rating}</h4></div></div>" . "\n";
 					}
           $count++;
 				}

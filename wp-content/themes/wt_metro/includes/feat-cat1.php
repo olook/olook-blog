@@ -45,7 +45,7 @@ global $cfs;
 					?>
 					<div class="thumb-wrap">
 						<div class="thumb">
-							<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
+							<a id="olook-tips-1" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
 						</div>
 						<!--div class="overlay">
 							<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>
@@ -58,11 +58,11 @@ global $cfs;
 					<header class="entry-header">
                   <img src="/stylist-news/wp-content/themes/wt_metro/images/ponta.png" class="ponta" />
 						<?php// wellthemes_first_post_tag_link(); ?>	
-						<p class="tag-title"><a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);"><span><?php echo $cfs->get('tag_destaque');  ?></span></a></p>				
+						<p class="tag-title"><a class="olook-tips-1" href="<?php the_permalink() ?>"><span><?php echo $cfs->get('tag_destaque');  ?></span></a></p>				
 					</header>
 					
 					<p>
-            <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-1']);">
+            <a class="olook-tips-1" href="<?php the_permalink() ?>">
 						<?php 
 							//display only first 150 characters in the excerpt.								
 							$excerpt = get_the_excerpt();																
@@ -108,9 +108,11 @@ global $cfs;
 							?>
 							<div class="thumb-wrap">
 								<div class="thumb">
-									<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
+									<a class="olook-tips-<?php echo $j; ?>" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-medium-thumb' ); ?></a>
 								</div>
+                
                 <?php
+                //SHOW SUB-CATEGORY
                 foreach((get_the_category()) as $childcat) {
                 if (cat_is_ancestor_of(884, $childcat)) {
         
@@ -126,7 +128,7 @@ global $cfs;
             
 						<div class="post-wrap">
 							<header class="entry-header">
-								<a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Olook-tips-<?php echo $j; ?>']);">
+								<a class="olook-tips-<?php echo $j; ?>" href="<?php the_permalink() ?>">
                   <h4>									
 										<?php 
 											//display only first 45 characters in the title.	

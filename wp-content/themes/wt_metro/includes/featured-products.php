@@ -28,22 +28,22 @@
    <h3>CONFIRA A SELEÇÃO DAS NOSSAS STYLISTS</h3>   
    <?php $query = new WP_Query( $args ); ?>
      <?php if ( $query -> have_posts() ) : ?>
-           <?php $i = 0 ; ?>
+           <?php $i = 1; ?>
            <?php while ( $query -> have_posts() ) : $query -> the_post(); ?>           
              <article class="main-post">     
     
              <?php if ( has_post_thumbnail() ) { 
-               $img = wp_get_attachment_image_src( get_post_thumbnail_id(  $post->ID ), "full" );
+               $img = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full" );
                $img_link = $img[0];
              ?>
           
              <div class="thumb-wrap">
                <div class="thumb">
-                 <a href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-stylist-choices' ); ?></a>
+                 <a class="amo-<?php echo $i; ?>" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-stylist-choices' ); ?></a>
                </div>
              </div>
              <p>
-                <a href="<?php the_permalink() ?>">
+                <a class="amo-<?php echo $i; ?>" href="<?php the_permalink() ?>">
 					<?php 
 						$short_title = mb_substr(the_title('','',FALSE),0, 45);
 						echo $short_title; 
@@ -62,6 +62,7 @@
              </p>            
              <?php } ?>
           </article> 
+          $i++;
        <?php endwhile; ?>           
      <?php endif; ?> 
    <?php wp_reset_query();   //reset the query ?>    

@@ -40,12 +40,12 @@
           <aside class="look-inspiracao">
              <div class="thumb-wrap">
                <div class="thumb">
-                 <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog','Look-inspiracao']);"><img src="<?php echo $cfs->get('look_inspiracao'); ?>" /></a>
+                 <a class="look-inspiracao" href="<?php the_permalink() ?>"><img src="<?php echo $cfs->get('look_inspiracao'); ?>" /></a>
                </div>
              </div>
 
              <p>
-               <a href="<?php the_permalink() ?>" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Look-inspiracao']);">
+               <a class="look-inspiracao" href="<?php the_permalink() ?>">
                <?php 
                  //display only first 150 characters in the excerpt.               
                  $excerpt = get_the_excerpt();                               
@@ -56,7 +56,7 @@
                ?>
                </a>
              </p>
-             <a href="<?php the_permalink() ?>" class="see-more" onclick="_gaq.push(['_trackEvent, 'Home-Blog', 'Look-inspiracao']);">Inspire-se com este look!</a>
+             <a href="<?php the_permalink() ?>" class="see-more look-inspiracao">Inspire-se com este look!</a>
           </aside>
     <?php endwhile; ?>           
   <?php endif; ?>

@@ -36,7 +36,7 @@
 		<?php endif; // end sidebar widget area ?>
 
 		<div class="banner-post">
-			<a class="side-banner-post" href="http://www.olook.com.br/colecoes/animal-print/?utf8=%E2%9C%93&por=menor-preco"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/banner_animal_print2.gif" alt="" /></a>
+			<a class="side-banner-post" href="http://www.olook.com.br/colecoes/animal-print/?utf8=%E2%9C%93&por=menor-preco"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_animal_print2.gif" alt="" /></a>
 		</div>
 		
 </div><!-- /sidebar -->

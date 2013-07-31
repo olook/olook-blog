@@ -5,5 +5,5 @@
 
 <div class="banner-destaque">
 	<a class="banner-home" href=" http://www.olook.com.br/roupa/top%20cropped?por=menor-preco">
-		<img src="wp-content/themes/wt_metro/images/top_cropped2.gif" alt="" /></a>
+		<img src="wp-content/themes/wt_metro/images/gifs/top_cropped2.gif" alt="" /></a>
 </div>

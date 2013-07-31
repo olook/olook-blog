@@ -65,7 +65,7 @@ function removeSpaces(){
 
 function addBanner(){
   if($("h3.comment-title").length > 0){
-    $('<div class="banner"><a class="footer-banner-post" href="http://www.olook.com.br/catalogo/roupa/coca%20cola%20clothing-colcci-m%20officer-shop%20126?por=menor-preco"><img src="http://stylist-news.olook.com.br/wp-content/themes/wt_metro/images/gifs/listras_650X269.gif" /></a>').insertBefore('.comment-title');
+    $('<div class="banner"><a class="footer-banner-post" targe="_blank" href="http://www.olook.com.br/cadastro"><img src="http://stylist-news.olook.com.br/wp-content/themes/wt_metro/images/gifs/quiz.jpg" /></a>').insertBefore('.comment-title');
   }
 }
 

@@ -4,6 +4,6 @@
 </div>
 
 <div class="banner-destaque">
-	<a href="http://www.olook.com.br/catalogo/roupa?utf8=✓&por=maior-desconto&cmp=liquida_roupa">
+	<a class="banner-home" href="http://www.olook.com.br/catalogo/roupa?utf8=✓&por=maior-desconto&cmp=liquida_roupa">
 		<img src="wp-content/themes/wt_metro/images/Banner_stylis_news_roupas.jpg" alt="" /></a>
 </div>

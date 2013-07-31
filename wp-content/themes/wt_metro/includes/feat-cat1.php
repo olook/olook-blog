@@ -45,7 +45,7 @@ global $cfs;
 					?>
 					<div class="thumb-wrap">
 						<div class="thumb">
-							<a id="olook-tips-1" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
+							<a class="olook-tips-1" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-feat-fashiontips' ); ?></a>
 						</div>
 						<!--div class="overlay">
 							<a class="img-link" rel="lightbox" href="<?php echo $img_link; ?>">View Image</a>

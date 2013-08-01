@@ -90,7 +90,7 @@ function max_magazine_setup() {
 	add_image_size( 'wt-feat-fashiontips', 375, 280, true );	//for featured posts
 	add_image_size( 'wt-medium-thumb', 100, 74, true );	   //for featured categories and top posts
    add_image_size( 'wt-look-inspiracao', 320, 485, true );	//for look inspiracao 
-   add_image_size( 'wt-stylist-choices', 270, 200, true );	//for stylists choices 
+   add_image_size( 'wt-stylist-choices', 200, 300, true );	//for stylists choices 
 }
 endif; // max_magazine_setup
 

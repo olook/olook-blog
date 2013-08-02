@@ -40,6 +40,7 @@
              <div class="thumb-wrap">
                <div class="thumb">
                  <a class="amo-<?php echo $i; ?>" href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'wt-stylist-choices' ); ?></a>
+                 <!--p><?php echo $img_link = $img[0]; ?> </p-->
                </div>
              </div>
              <p>

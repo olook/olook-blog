@@ -1936,9 +1936,9 @@ ul.sp-list li{
 
 .widget_tile_posts h3{background:none;font-family:johnston, Tahoma, sans-serif;font-size:27px;color:#000;text-align:center;letter-spacing:5px;text-transform:uppercase;line-height:30px;}
 
-.featured-posts{margin:60px 0 30px;color:#000;float:left;}
+.featured-posts{margin:60px auto 30px;color:#000;display:inline-block;text-align:center;}
 .featured-posts h3{width:500px;height:90px;background: url("images/sprite.png") -340px -167px no-repeat;font-family:'Kepler Std Italic', Tahoma, sans-serif;font-size:27px;line-height:90px;padding-left:105px;margin:0 auto 10px;}
-.featured-posts article{float:left;margin:0 30px;}
+.featured-posts article{display:inline-block;margin:0 30px;}
 
 .featured-posts article:last-child{margin-right:0;}
 .featured-posts .main-post p{text-align:center;margin-top:5px;}
@@ -3406,7 +3406,7 @@ CLASSE GENERICAS
 ======*/
 .mb30{margin-bottom:30px;}
 .mb30{margin-bottom:30px;}
-.banner-destaque{margin-top: 20px;float: left;}
+.banner-destaque{margin-top: 20px;display:inline-block;}
 .banner-post{margin:0 0 20px 10px;}
 .banner{text-align: center;}
 

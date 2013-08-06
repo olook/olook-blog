@@ -56,7 +56,7 @@
                ?>
                </a>
              </p>
-             <a href="<?php the_permalink() ?>" class="see-more inspiracao-look">Inspire-se com este look!</a>
+             <a href="<?php the_permalink() ?>" class="see-more" onclick="_gaq.push(['_trackEvent', 'Home-Blog', 'look-teste', '<?php the_permalink() ?>']);">Inspire-se com este look!</a>
           </aside>
     <?php endwhile; ?>           
   <?php endif; ?>

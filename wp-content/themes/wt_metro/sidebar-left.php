@@ -36,7 +36,7 @@
 		<?php endif; // end sidebar widget area ?>
 
 		<div class="banner-post">
-			<a class="side-banner-post" href="http://www.olook.com.br/roupa/redley-carina%20duek-tan%20tan?utf8=?&por=menor-preco"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/redley_CD_tantan_stylistnews.gif" alt="" /></a>
+			<a class="side-banner-post" href="http://www.olook.com.br/roupa/forum?por=menor-preco"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/forum_stylistnews_interna.gif" alt="" /></a>
 		</div>
 		
 </div><!-- /sidebar -->

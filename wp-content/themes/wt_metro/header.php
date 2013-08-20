@@ -28,6 +28,20 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 
+<script type="text/javascript">
+//<![CDATA[[
+$SA = {s:18120, asynch: 1};
+(function() {
+   var sa = document.createElement("script");
+   sa.type = "text/javascript";
+   sa.async = true;
+   sa.src = ("https:" == document.location.protocol ? "https://" + $SA.s + ".sa" : "http://" + $SA.s + ".a") + ".siteapps.com/" + $SA.s + ".js";
+   var t = document.getElementsByTagName("script")[0];
+   t.parentNode.insertBefore(sa, t);
+})();
+//]]>
+</script>
+
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.

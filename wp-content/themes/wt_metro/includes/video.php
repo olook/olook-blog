@@ -4,6 +4,6 @@
 </div>
 
 <div class="banner-destaque">
-	<a class="banner-home" href="http://www.olook.com.br/roupa/vestido?por=menor-preco">
-		<img src="wp-content/themes/wt_metro/images/gifs/vestidos_landing_stylistnews.gif" alt="" /></a>
+	<a class="banner-home" href="http://www.olook.com.br/bolsa?cmp=bolsashot_destaquedasemana">
+		<img src="wp-content/themes/wt_metro/images/gifs/bolsas.gif" alt="" /></a>
 </div>

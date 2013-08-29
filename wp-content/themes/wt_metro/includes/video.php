@@ -4,6 +4,6 @@
 </div>
 
 <div class="banner-destaque">
-	<a class="banner-home" href="http://www.olook.com.br/bolsa?cmp=bolsashot_destaquedasemana">
-		<img src="wp-content/themes/wt_metro/images/gifs/bolsas.gif" alt="" /></a>
+	<a class="banner-home" href="http://www.olook.com.br/colecoes/liquida_final/?utf8=✓&por=maior-desconto">
+		<img src="wp-content/themes/wt_metro/images/gifs/destaque_SN_989X390.jpg" alt="" /></a>
 </div>

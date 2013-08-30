@@ -36,7 +36,7 @@
 		<?php endif; // end sidebar widget area ?>
 
 		<div class="banner-post">
-			<a class="side-banner-post" href="http://www.olook.com.br/colecoes/liquida_final/?utf8=✓&por=maior-desconto"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_lateral_stylist_news.jpg" alt="" /></a>
+			<a class="side-banner-post" href="http://www.olook.com.br/roupa/lez%20a%20lez?utf8=✓&por=menor-preco"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/lezalezNews.gif" alt="" /></a>
 		</div>
 		
 </div><!-- /sidebar -->

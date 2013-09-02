@@ -126,7 +126,7 @@ $SA = {s:18120, asynch: 1};
                   <a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a>
                 </li>
                 <li class="stylist">
-                  <a href="http://www.olook.com.br/stylist-news" class="stylists selected">Stylist News</a>
+                  <a href="http://www.olook.com.br/stylist-news" class="stylists selected">Blog</a>
                 </li>            
                 <li class="moments">
                   <a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a>

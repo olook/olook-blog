@@ -96,7 +96,7 @@ $SA = {s:18120, asynch: 1};
       <header id="new_header">
         <div class="new_content">
           <div class="box_left">
-            <p>SAC (11) 2626-3489 | <a class="contact" href="mailto:falecom@olook.com.br">falecom@olook.com.br</a></p>
+            <p>SAC (11) 2626-3489 | <a class="contact" href="http://www.olook.com.br/centraldeatendimento">Central de Atendimento</a></p>
             <ul class="social_icons">
               <li><a href="http://facebook.com/olook" class="social_facebook" target="_blank" title="Acompanhe pelo Facebook">Acompanhe pelo Facebook</a></li>
               <li><a href="http://twitter.com/olook" class="social_twitter" target="_blank" title="Acompanhe pelo Twitter">Acompanhe pelo Twitter</a></li>

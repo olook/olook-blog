@@ -4,6 +4,6 @@
 </div>
 
 <div class="banner-destaque">
-	<a class="banner-home" href="http://www.olook.com.br/colecoes/mariana_weickert">
-		<img src="wp-content/themes/wt_metro/images/gifs/banner_mari_weickert_stylist_news.jpg" alt="" /></a>
+	<a class="banner-home" href="http://www.olook.com.br/roupa/vestido?utf8=✓&por=0">
+		<img src="wp-content/themes/wt_metro/images/gifs/banner_vestidos_home.jpg" alt="" /></a>
 </div>

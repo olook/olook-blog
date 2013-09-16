@@ -1069,7 +1069,7 @@ function sc_follow_links($banner = 0){
 
 			}
 
-			$follow_buttons .=  "<li><a target=\'_blank\' rel=\'nofollow\' href=\'".$follow_us["account"]."\'><img  src=\'".SOCIABLE_HTTP_PATH."images/toolbar/".$follow_us["logo"]."\' /></a></li>";
+			$follow_buttons .=  "<li><a target=\'_blank\' rel=\'follow\' href=\'".$follow_us["account"]."\'><img  src=\'".SOCIABLE_HTTP_PATH."images/toolbar/".$follow_us["logo"]."\' /></a></li>";
 
 
 
@@ -1308,7 +1308,7 @@ function share_links(){
 
 
 
-		$share_buttons .=  "<a target=\'".$link["blank"]."\'  rel=\'nofollow\' href=\'".addslashes($link["url"])."\' title=\'".addslashes($link["title"])."\'><img  src=\'".SOCIABLE_HTTP_PATH."images/toolbar/".addslashes($link["favicon"])."\' /></a>";
+		$share_buttons .=  "<a target=\'".$link["blank"]."\'  rel=\'follow\' href=\'".addslashes($link["url"])."\' title=\'".addslashes($link["title"])."\'><img  src=\'".SOCIABLE_HTTP_PATH."images/toolbar/".addslashes($link["favicon"])."\' /></a>";
 
 	}
 

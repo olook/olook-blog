@@ -333,13 +333,13 @@ if ($attachments) {
 			
 			if ($sitename == "More" || $sitename=="vuible"){
 				if ($sitename == "More"){
-					$link .= '<a style="cursor:pointer" rel="nofollow" onMouseOut="fixOnMouseOut(document.getElementById(\'sociable-post'.$location.'-'.$post->ID.'\'), event, \'post'.$location.'-'.$post->ID.'\')" onMouseOver="more(this,\'post'.$location.'-' . $post->ID . '\')">' . $linkitem . '</a></li>' ;
+					$link .= '<a style="cursor:pointer" rel="follow" onMouseOut="fixOnMouseOut(document.getElementById(\'sociable-post'.$location.'-'.$post->ID.'\'), event, \'post'.$location.'-'.$post->ID.'\')" onMouseOver="more(this,\'post'.$location.'-' . $post->ID . '\')">' . $linkitem . '</a></li>' ;
 				}else{				
-					$link .= "<a onClick=\"javascript:var ipinsite='Good%20Vibes.%20Vuible.com',ipinsiteurl='http://vuible.com/';(function(){if(window.ipinit!==undefined){ipinit();}else{document.body.appendChild(document.createElement('script')).src='http://vuible.com/wp-content/themes/ipinpro/js/ipinit.js';}})();\" style=\"cursor:pointer\" rel=\"nofollow\" title=\"Vuible.com | Share positive messages (images and videos only)\">" . $linkitem . "</a></li>";					
+					$link .= "<a onClick=\"javascript:var ipinsite='Good%20Vibes.%20Vuible.com',ipinsiteurl='http://vuible.com/';(function(){if(window.ipinit!==undefined){ipinit();}else{document.body.appendChild(document.createElement('script')).src='http://vuible.com/wp-content/themes/ipinpro/js/ipinit.js';}})();\" style=\"cursor:pointer\" rel=\"follow\" title=\"Vuible.com | Share positive messages (images and videos only)\">" . $linkitem . "</a></li>";					
 				}
 			}else{
 
-				$link .= '<a class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="cursor:pointer;'.$style.'" rel="nofollow" title="'.$sitename.' - doesn\'t work in Chrome"  onClick="' . $href . '">' ."" . '</a></li>' ;
+				$link .= '<a class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="cursor:pointer;'.$style.'" rel="follow" title="'.$sitename.' - doesn\'t work in Chrome"  onClick="' . $href . '">' ."" . '</a></li>' ;
 
 			}
 
@@ -347,7 +347,7 @@ if ($attachments) {
 
 			if($sociable_options["icon_option"] == "option6" || !empty($sociable_options["custom_icons"])){
 
-				$link .= '<a title="'.$sitename.'" style="'.$description.$sociable_options['icon_size'].'_'.str_replace("option","",$sociable_options['icon_option']).'" rel="nofollow" ' . $target . ' href="' . $href . '">' . $linkitem . '</a></li>' ;
+				$link .= '<a title="'.$sitename.'" style="'.$description.$sociable_options['icon_size'].'_'.str_replace("option","",$sociable_options['icon_option']).'" rel="follow" ' . $target . ' href="' . $href . '">' . $linkitem . '</a></li>' ;
 
 			}else{
 
@@ -357,7 +357,7 @@ if ($attachments) {
 
 				}else{
 
-				$link .= '<a title="'.$sitename.'" class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="'.$style.'" rel="nofollow" ' . $target . ' href="' . $href . '">' . "" . '</a></li>' ;
+				$link .= '<a title="'.$sitename.'" class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="'.$style.'" rel="follow" ' . $target . ' href="' . $href . '">' . "" . '</a></li>' ;
 
 				}
 
@@ -448,13 +448,13 @@ if ($attachments) {
 
 			if ($sitename == "More" || $sitename=="vuible"){
 				if ($sitename=="More"){
-				$link .= '<a style="cursor:poainter" rel="nofollow"   onMouseOver="more(this,\'post'.$location.'-' . $post->ID . '\')">' . $linkitem . '</a></li>' ;
+				$link .= '<a style="cursor:poainter" rel="follow"   onMouseOver="more(this,\'post'.$location.'-' . $post->ID . '\')">' . $linkitem . '</a></li>' ;
 				}else{				
-				$link .= "<a onClick=\"javascript:var%20ipinsite='Good%20Vibes.%20Vuible.com',ipinsiteurl='http://vuible.com/';(function(){if(window.ipinit!==undefined){ipinit();}else{document.body.appendChild(document.createElement('script')).src='http://vuible.com/wp-content/themes/ipinpro/js/ipinit.js';}})();\" style=\"cursor:pointer\" rel=\"nofollow\" title=\"Vuible.com | Share positive messages (images and videos only)\">" . $linkitem . "</a></li>";					
+				$link .= "<a onClick=\"javascript:var%20ipinsite='Good%20Vibes.%20Vuible.com',ipinsiteurl='http://vuible.com/';(function(){if(window.ipinit!==undefined){ipinit();}else{document.body.appendChild(document.createElement('script')).src='http://vuible.com/wp-content/themes/ipinpro/js/ipinit.js';}})();\" style=\"cursor:pointer\" rel=\"follow\" title=\"Vuible.com | Share positive messages (images and videos only)\">" . $linkitem . "</a></li>";					
 				}
 			}else{
 
-				$link .= '<a class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="cursor:pointer;'.$style.'" rel="nofollow" title="'.$sitename.' - doesn\'t work in Chrome"  onClick="' . $href . '">' ."" . '</a></li>' ;
+				$link .= '<a class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="cursor:pointer;'.$style.'" rel="follow" title="'.$sitename.' - doesn\'t work in Chrome"  onClick="' . $href . '">' ."" . '</a></li>' ;
 
 			}
 
@@ -462,11 +462,11 @@ if ($attachments) {
 
 			if($sociable_options["icon_option"] == "option6" || !empty($sociable_options["custom_icons"])){
 
-				$link .= '<a  title="'.$sitename.'" style="'.$description.$sociable_options['icon_size'].'_'.str_replace("option","",$sociable_options['icon_option']).'" rel="nofollow" ' . $target . ' href="' . $href . '">' . $linkitem . '</a></li>' ;
+				$link .= '<a  title="'.$sitename.'" style="'.$description.$sociable_options['icon_size'].'_'.str_replace("option","",$sociable_options['icon_option']).'" rel="follow" ' . $target . ' href="' . $href . '">' . $linkitem . '</a></li>' ;
 		
 			}else{
 
-				$link .= '<a title="'.$sitename.'" class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="'.$style.'" rel="nofollow" ' . $target . ' href="' . $href . '">' . "" . '</a></li>' ;
+				$link .= '<a title="'.$sitename.'" class="'.$sociable_options['icon_option'].'_'.$sociable_options['icon_size'].'" style="'.$style.'" rel="follow" ' . $target . ' href="' . $href . '">' . "" . '</a></li>' ;
 
 		 	}
 

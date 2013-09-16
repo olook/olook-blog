@@ -48,7 +48,7 @@ if ( !defined('ABSPATH') )
 	<td class="first">
 	<?php
 		if ( ! empty( $comment->comment_author_url ) && 'http://' != $comment->comment_author_url ) {
-			$link = '<a href="' . $comment->comment_author_url . '" rel="external nofollow" target="_blank">' . __('visit site') . '</a>';
+			$link = '<a href="' . $comment->comment_author_url . '" rel="external" target="_blank">' . __('visit site') . '</a>';
 			printf( __( 'URL (%s):' ), apply_filters('get_comment_author_link', $link ) );
 		} else {
 			_e( 'URL:' );

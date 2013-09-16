@@ -69,5 +69,3 @@ function wt_time_ago() {
  
 	return $output;
 }
-
-?>

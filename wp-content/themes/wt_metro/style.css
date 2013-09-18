@@ -1941,7 +1941,7 @@ ul.sp-list li{
 .featured-posts article{display:inline-block;margin:0 30px;}
 
 .featured-posts article:last-child{margin-right:0;}
-.featured-posts .main-post p{text-align:center;margin-top:5px;}
+.featured-posts .main-post p{text-align:center;margin-top:5px; width:200px;}
 
 
 #footer h3{

@@ -260,7 +260,7 @@ function wt_pagination() {
 	$paginate_links = paginate_links( array(
 		'base' => str_replace( $big, '%#%', get_pagenum_link($big) ),
 		'current' => max( 1, get_query_var('paged') ),
-		'total' => $wp_query->max_num_pages,
+		'total' => ($wp_query->max_num_pages - 1),// added a minus one in order to fix a category pagination bug
 		'prev_text'    => __('Anterior'),
 		'next_text'    => __('Pr&oacute;xima'),
 		'mid_size' => 5

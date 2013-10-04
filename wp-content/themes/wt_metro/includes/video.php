@@ -4,6 +4,6 @@
 </div>
 
 <div class="banner-destaque">
-	<a class="banner-home" href="http://www.olook.com.br/roupa/vestido?utf8=✓&por=0">
-		<img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_vestidos_home.jpg" alt="" /></a>
+	<a class="banner-home" href="http://www.olook.com.br/roupa/vestido">
+		<img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/Destaque_home_site_989X390_vestidos.jpg" alt="" /></a>
 </div>

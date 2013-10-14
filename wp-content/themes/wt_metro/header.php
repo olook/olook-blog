@@ -127,7 +127,6 @@ _sNode.parentNode.insertBefore(_we, _sNode);
               <a href="http://www.olook.com.br/entrar">Entre</a> ou 
               <a href="http://www.olook.com.br/quiz/new">Descubra seu estilo</a>
             </p>   
-            <p class="new_sacola"><a href="http://www.olook.com.br/sacola" class="cart">MINHA SACOLA</a></p>
           </div>
           <div class="olook_logo">
               <h1><a href="http://www.olook.com.br">Olook</a></h1>
@@ -166,7 +165,9 @@ _sNode.parentNode.insertBefore(_we, _sNode);
                 <li class="gift">
                   <a href="http://www.olook.com.br/marcas" class="gift">Marcas</a>
                 </li>
-                <li style="background-image: none; background-position: initial initial; background-repeat: initial initial;"><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
+                <li style="background-position: initial initial; background-repeat: initial initial;"><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
+                <li id="bar"></li>
+                <li style="background-image: none;"><a class="sacola" href="http://www.olook.com.br/sacola">Sacola</a>
                 <li id="bar"></li>
             </ul>
           </div>

@@ -165,7 +165,7 @@ _sNode.parentNode.insertBefore(_we, _sNode);
                 <li class="gift">
                   <a href="http://www.olook.com.br/marcas" class="gift">Marcas</a>
                 </li>
-                <li style="background-position: initial initial; background-repeat: initial initial;"><a href="http://www.olook.com.br/olooklet/36">Olooklet</a>
+                <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/colecoes/sale">Olooklet</a>
                 <li id="bar"></li>
                 <li style="background-image: none;"><a class="sacola" href="http://www.olook.com.br/sacola">Sacola</a>
                 <li id="bar"></li>

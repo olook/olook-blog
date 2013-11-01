@@ -2950,7 +2950,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.selecionado {
 }
 body div#wrapper_new_menu nav.menu_new .default_new li.stylist a:hover,
 body div#wrapper_new_menu nav.menu_new .default_new li.stylist a.selecionado {
-	padding:0 12px;
+	
 }
 
 #mm_showroom, #mm_presentes, #mm_olooklet {
@@ -2982,8 +2982,8 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.sacola {
 	width: 58px;
 	padding-left: 40px;
 }
-body div#wrapper_new_menu nav.menu_new .default_new li a.sacola:hover {border:1px solid #000 !important;margin-left:-1px;padding-left:39px !important;background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-ec7ddeae68e284b1a777a63427151e6b.png") -104px -1px no-repeat;}
-body div#wrapper_new_menu nav.menu_new .default_new li a.selected {border:1px solid #000;border-bottom:0px;border-top:1px solid #fff;}
+body div#wrapper_new_menu nav.menu_new .default_new li a.sacola:hover {border-left:0px !important;border-right:0px !important;border-top:1px solid #FFF !important;padding-left:40px !important;background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-ec7ddeae68e284b1a777a63427151e6b.png") -103px -1px no-repeat;}
+
 
 /*** MEGA MENU ***/
 
@@ -3029,18 +3029,18 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.selected {border:1px so
 	#mm_sapatos .image a.img:hover {padding:0px !important;margin:0px !important;width:269 !important;}
 
 #mm_bolsas,
-#mm_acessorios {width: 90px;left: 429px !important;padding-left: 11px;padding-bottom:0px !important;}
+#mm_acessorios {width: 90px;left: 427px !important;padding-left: 11px;padding-bottom:0px !important;}
 
-#mm_acessorios {width:100px;left:500px !important;}
+#mm_acessorios {width:100px;left:498px !important;}
 
-#mm_presentes {width:160px;left:603px !important;}
+#mm_presentes {width:160px;left:601px !important;}
 
 #mm_marcas {width:340px; left:530px !important;}
 	#mm_marcas .first {width:140px !important;}
 	#mm_marcas .second {width:120px !important;}
 	#mm_marcas .last {width:80px !important;}
 
-#mm_olooklet {left:773px !important;width:180px;}
+#mm_olooklet {left:771px !important;width:180px;}
 
 #mm_olooklet,
 #mm_showroom,

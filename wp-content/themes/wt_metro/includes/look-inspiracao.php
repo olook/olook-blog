@@ -37,6 +37,7 @@
             $img_link = $img[0];
           ?>
           <?php } ?>
+          <br style ="clear:both">
           <aside class="look-inspiracao">
              <div class="thumb-wrap">
                <div class="thumb">

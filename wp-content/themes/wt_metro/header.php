@@ -515,7 +515,7 @@ $(document).ready(function() {
                       <a href="http://www.olook.com.br/marcas/Agua%20Doce" class="sub_menu">Agua Doce</a>
                       </li>
                       <li>
-                      <a href="http://www.olook.com.br/marcas/Blue%20Man" class="sub_menu">Blue Man Botswana</a>
+                      <a href="http://www.olook.com.br/marcas/Blue%20Man" class="sub_menu">Blue Man</a>
                       </li>
                       <li>
                       <a href="http://www.olook.com.br/marcas/Botswana" class="sub_menu">Botswana</a>
@@ -536,15 +536,13 @@ $(document).ready(function() {
                       <a href="http://www.olook.com.br/marcas/Colcci" class="sub_menu">Colcci</a>
                       </li>
                       <li>
-                      <a href="http://www.olook.com.br/marcas/Couro" class="sub_menu">Couro</a>
+                      <a href="http://www.olook.com.br/marcas/Eclectic" class="sub_menu">Eclectic</a>
                       </li>
                       </ul>
                       </span>
                       <span class='column second'>
                       <ul>
-                      <li>
-                      <a href="http://www.olook.com.br/marcas/Eclectic" class="sub_menu">Eclectic</a>
-                      </li>
+                      
                       <li>
                       <a href="http://www.olook.com.br/marcas/Ellus" class="sub_menu">Ellus</a>
                       </li>
@@ -584,13 +582,14 @@ $(document).ready(function() {
                       <li>
                       <a href="http://www.olook.com.br/marcas/Mandi" class="sub_menu">Mandi</a>
                       </li>
+                      <li>
+                      <a href="http://www.olook.com.br/marcas/Mercatto" class="sub_menu">Mercatto</a>
+                      </li>
                       </ul>
                       </span>
                       <span class='column last'>
                       <ul>
-                      <li>
-                      <a href="http://www.olook.com.br/marcas/Mercatto" class="sub_menu">Mercatto</a>
-                      </li>
+                      
                       <li>
                       <a href="http://www.olook.com.br/marcas/Olli" class="sub_menu">Olli</a>
                       </li>
@@ -607,7 +606,7 @@ $(document).ready(function() {
                       <a href="http://www.olook.com.br/marcas/Sommer" class="sub_menu">Sommer</a>
                       </li>
                       <li>
-                      <a href="http://www.olook.com.br/marcas/Tan%20Tan" class="sub_menu">Tan Tan</a>
+                      <a href="http://www.olook.com.br/marcas/Tan%20Tan" class="sub_menu">Tan Tan</a>   
                       </li>
                       <li>
                       <a href="http://www.olook.com.br/marcas/Thelure" class="sub_menu">Thelure</a>

@@ -98,6 +98,8 @@ a:hover{
 	background:#FFF;
 }
 
+
+
 #main{
 	overflow:hidden;	
   clear:both;
@@ -3058,6 +3060,7 @@ body header#new_header .new_content {
     margin: 0 auto;
     padding-top: 18px;
     width: 990px;
+    background:url('http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-fa7b8b7408da5feb8dbfe1fd63515de5.png') no-repeat 233px -410px;
 }
 body header#new_header .new_content .box_left {
     color: #B4B5B7;

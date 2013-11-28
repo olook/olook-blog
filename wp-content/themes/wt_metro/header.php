@@ -633,21 +633,21 @@ $(document).ready(function() {
                 <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/colecoes/sale">Olooklet</a>
                   <div class='submenu' id='mm_olooklet'>
                     <p>Preços incríveis. Até 75% OFF!</p>
-                    <ul>
+                    <ul style="margin-bottom: 0px !important">
                       <li>
-                        <a href="http://www.olook.com.br/olooklet/roupa" class="sub_menu">ROUPAS</a>
+                        <a href="http://www.olook.com.br/olooklet/roupa" class="sub_menu">Roupas</a>
                       </li>
                       <li>
-                        <a href="http://www.olook.com.br/olooklet/sapato" class="sub_menu">SAPATOS</a>
+                        <a href="http://www.olook.com.br/olooklet/sapato" class="sub_menu">Sapatos</a>
                       </li>
                       <li>
-                        <a href="http://www.olook.com.br/olooklet/bolsa" class="sub_menu">BOLSAS</a>
+                        <a href="http://www.olook.com.br/olooklet/bolsa" class="sub_menu">Bolsas</a>
                       </li>
                       <li>
-                        <a href="http://www.olook.com.br/olooklet/acessorio" class="sub_menu">ACESSÓRIOS</a>
+                        <a href="http://www.olook.com.br/olooklet/acessorio" class="sub_menu">Acessórios</a>
                       </li>
                       <li>
-                        <a href="http://www.olook.com.br/olooklet/roupa" class="sub_menu">MODA PRAIA</a>
+                        <a href="http://www.olook.com.br/olooklet/moda praia" class="sub_menu">Moda Praia</a>
                       </li>
                       <li>
                     </ul>

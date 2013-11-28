@@ -2,7 +2,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.sacola,
 body header#new_header .new_content .olook_logo h1 a,
 body div#wrapper_new_menu nav.menu_new .default_new li,
 body header#new_header .new_content .social_icons a {
-background-image: url('http://d3j8xxu8fm1yad.cloudfront.net/assets/common/nav/sprite_header_bf-914a48ff64e55e9126e8e2100444ea2a.png');
+background-image: url('http://d3j8xxu8fm1yad.cloudfront.net/assets/common/nav/sprite_header_bf-914a48ff64e55e9126e8e2100444ea2a.png') !important;
 }
 
 body header#new_header .new_content,
@@ -50,6 +50,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.selecionado {
 body div#wrapper_new_menu nav.menu_new .default_new li a.sacola:hover {
 	border-top-color: #000 !important;
 	background-color:#FFF;
+	background-image:url('http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-ec7ddeae68e284b1a777a63427151e6b.png') !important;
 }
 
 #main-menu {margin-top:14px;box-shadow: none;width:952px;}

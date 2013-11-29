@@ -52,6 +52,7 @@
 </title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="http://localhost/wp-content/themes/wt_metro/teste.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -631,8 +632,25 @@ $(document).ready(function() {
                 </li>
                 <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/colecoes/sale">Olooklet</a>
                   <div class='submenu' id='mm_olooklet'>
-                    <p>Preços incríveis. Até 80% OFF</p>
-                    <a href="http://www.olook.com.br/colecoes/sale" class="link">APROVEITE</a>
+                    <p>Preços incríveis. Até 75% OFF!</p>
+                    <ul style="margin-bottom: 0px !important">
+                      <li>
+                        <a href="http://www.olook.com.br/olooklet/roupa" class="sub_menu">Roupas</a>
+                      </li>
+                      <li>
+                        <a href="http://www.olook.com.br/olooklet/sapato" class="sub_menu">Sapatos</a>
+                      </li>
+                      <li>
+                        <a href="http://www.olook.com.br/olooklet/bolsa" class="sub_menu">Bolsas</a>
+                      </li>
+                      <li>
+                        <a href="http://www.olook.com.br/olooklet/acessorio" class="sub_menu">Acessórios</a>
+                      </li>
+                      <li>
+                        <a href="http://www.olook.com.br/olooklet/moda praia" class="sub_menu">Moda Praia</a>
+                      </li>
+                      <li>
+                    </ul>
                   </div>
                 </li>
                 <li id="bar"></li>

@@ -1,0 +1,74 @@
+body div#wrapper_new_menu nav.menu_new .default_new li a.sacola,
+body header#new_header .new_content .olook_logo h1 a,
+body div#wrapper_new_menu nav.menu_new .default_new li,
+body header#new_header .new_content .social_icons a {
+background-image: url('http://d3j8xxu8fm1yad.cloudfront.net/assets/common/nav/sprite_header_bf-914a48ff64e55e9126e8e2100444ea2a.png') !important;
+}
+
+body header#new_header .new_content,
+header#new_header {
+	background: #000;
+}
+
+#wrapper_new_menu {
+	height:40px;
+}
+
+body div#wrapper_new_menu nav.menu_new .default_new li {
+	background-color: transparent;
+	background-position: right -354px;
+}
+
+body div#wrapper_new_menu nav.menu_new {
+	width:100%;
+	height:40px;
+}
+
+body div#wrapper_new_menu nav.menu_new .default_new {
+	margin-top:0px;
+	position: relative;
+	top:-3px;
+	padding-left:1%;
+	width:99%;
+	display: block;
+	height:40px;
+	background: #000;
+}
+
+body div#wrapper_new_menu nav.menu_new .default_new li a,
+body header#new_header .new_content .box_left p,
+body header#new_header .new_content .box_left p a.contact {
+	border-top-color: #000;
+	color:#FFF;
+}
+
+body div#wrapper_new_menu nav.menu_new .default_new li a:hover,
+body div#wrapper_new_menu nav.menu_new .default_new li a.selecionado {
+	color: #000;
+}
+
+body div#wrapper_new_menu nav.menu_new .default_new li a.sacola:hover {
+	border-top-color: #000 !important;
+	background-color:#FFF;
+	background-image:url('http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-ec7ddeae68e284b1a777a63427151e6b.png') !important;
+}
+
+#main-menu {margin-top:14px;box-shadow: none;width:952px;}
+#main-menu.fixed2 {top:55px;}
+body header#new_header .new_content .new_login {color:#FFF;}
+
+header#new_header .new_content .olook_logo h1,
+body header#new_header .new_content .olook_logo h1 a{
+	height: 77px;
+	position: relative;
+	top: -8px;
+}
+
+body header#new_header .new_content .olook_logo h1 a {top:0px;}
+
+body div#wrapper_new_menu.fixed {
+	width:996px;
+	padding-top:15px;
+	background: #000;
+}
+

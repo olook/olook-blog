@@ -206,7 +206,7 @@ $(document).ready(function() {
                         <li><a href="http://www.olook.com.br/colecoes/pecas_chave" class="sub_menu">Achados de inverno</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/pecas_chave" class="sub_menu">Peças-chave</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/preview_primavera" class="sub_menu">Primavera/Verão 2013</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/sale" class="sub_menu">Olooklet</a></li>
+                        <li><a href="http://www.olook.com.br/olooklet" class="sub_menu">Olooklet</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/outubro_rosa" class="sub_menu">Outubro Rosa</a></li>
                       </ul>
 
@@ -630,7 +630,7 @@ $(document).ready(function() {
                   </div>
 
                 </li>
-                <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/colecoes/sale">Olooklet</a>
+                <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/olooklet">Olooklet</a>
                   <div class='submenu' id='mm_olooklet'>
                     <p>Preços incríveis. Até 75% OFF!</p>
                     <ul style="margin-bottom: 0px !important">

@@ -632,7 +632,7 @@ $(document).ready(function() {
                 </li>
                 <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/olooklet">Olooklet</a>
                   <div class='submenu' id='mm_olooklet'>
-                    <p>Preços incríveis. Até 75% OFF!</p>
+                    <p>Preços incríveis. Até 80% OFF!</p>
                     <ul style="margin-bottom: 0px !important">
                       <li>
                         <a href="http://www.olook.com.br/olooklet/roupa" class="sub_menu">Roupas</a>

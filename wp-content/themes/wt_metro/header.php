@@ -206,7 +206,6 @@ $(document).ready(function() {
                         <li><a href="http://www.olook.com.br/colecoes/pecas_chave" class="sub_menu">Peças-chave</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/preview_primavera" class="sub_menu">Primavera/Verão 2013</a></li>
                         <li><a href="http://www.olook.com.br/olooklet" class="sub_menu">Olooklet</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/outubro_rosa" class="sub_menu">Outubro Rosa</a></li>
                       </ul>
 
                       <br>

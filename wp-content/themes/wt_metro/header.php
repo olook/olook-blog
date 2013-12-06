@@ -300,13 +300,6 @@ $(document).ready(function() {
                       </ul>
                     </span>
                     <span class='column second'>
-                      <h5>LINGERIE</h5>
-                      <ul>
-                      <li>
-                      <a href="http://www.olook.com.br/roupa/sutia" class="sub_menu">Sutiã</a>
-                      </li>
-                      </ul>
-                      <br>
                       <h5>MODA PRAIA</h5>
                       <ul>
                       <li>
@@ -427,9 +420,6 @@ $(document).ready(function() {
                         <li>
                         <a href="http://www.olook.com.br/bolsa/clutch" class="sub_menu">Clutch</a>
                         </li>
-                        <li>
-                        <a href="http://www.olook.com.br/bolsa/mochila" class="sub_menu">Mochila</a>
-                        </li>
                       </ul>
                     </span>
                   </div>
@@ -453,9 +443,6 @@ $(document).ready(function() {
                         </li>
                         <li>
                           <a href="http://www.olook.com.br/acessorio/colar" class="sub_menu">Colar</a>
-                        </li>
-                        <li>
-                         <a href="http://www.olook.com.br/acessorio/echarpe" class="sub_menu">Echarpe</a>
                         </li>
                         <li>
                           <a href="http://www.olook.com.br/acessorio/gargantilha" class="sub_menu">Gargantilha</a>

@@ -472,8 +472,31 @@ $(document).ready(function() {
                 <li class="gift">
                   <a href="http://www.olook.com.br/presentes" class="gift">Presentes</a>
                   <div class='submenu' id='mm_presentes'>
-                    <p>Encontre o presente ideal para as mulheres da sua vida.</p>
-                    <a href="http://www.olook.com.br/presentes" class="link">CONHEÇA</a>
+                    <span class='column first'>
+                      <ul>
+                        <li>
+                          <a href="/selections?preco=0-70&amp;lbl=ate-70" class="sub_menu">Até 69,90</a>
+                        </li>
+                        <li>
+                          <a href="/selections?preco=70-130&amp;lbl=ate-130" class="sub_menu">Até 129,90</a>
+                        </li>
+                        <li>
+                          <a href="/selections?preco=130-200&amp;lbl=ate-200" class="sub_menu">Até 200</a>
+                        </li>
+                        <li>
+                          <a href="/selections?preco=200-1000&amp;lbl=acima-200" class="sub_menu">Acima de 200</a>
+                        </li>
+                        <li>
+                          <a href="/selections/tamanho-unico?lbl=tamanho-unico" class="sub_menu">Está em Dúvida?</a>
+                        </li>
+                        <li>
+                          <a href="/colecoes/best_sellers " class="sub_menu">Best Sellers</a>
+                        </li>
+                        <li>
+                          <a href="/presentes#anchor_profile" class="sub_menu">Compre por estilo?</a>
+                        </li>
+                      </ul>
+                    </span>
                   </div>
                 </li>
                 <li class="gift">

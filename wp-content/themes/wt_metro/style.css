@@ -3037,7 +3037,8 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.sacola:hover {border-le
 
 #mm_acessorios {width:100px;left:498px !important;}
 
-#mm_presentes {width:160px;left:601px !important;}
+#mm_presentes {width:110px;left:601px !important;}
+	#mm_presentes .first {height:115px;width:110px;}
 
 #mm_marcas {width:340px; left:530px !important;}
 	#mm_marcas .first {width:140px !important;}

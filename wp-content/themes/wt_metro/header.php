@@ -493,7 +493,7 @@ $(document).ready(function() {
                           <a href="/colecoes/best_sellers " class="sub_menu">Best Sellers</a>
                         </li>
                         <li>
-                          <a href="/presentes#anchor_profile" class="sub_menu">Compre por estilo?</a>
+                          <a href="/presentes#anchor_profile" class="sub_menu">Compre por estilo</a>
                         </li>
                       </ul>
                     </span>

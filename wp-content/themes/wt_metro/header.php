@@ -241,7 +241,7 @@ $(document).ready(function() {
                     </span>
 
                     <span class="column image">
-                        <a href="http://www.olook.com.br/colecoes/animal-print" class="img"><img src="http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/colecoes-6e341fa81645498da7e5100c40835d2b.jpg" class=""></a>
+                        <a href="http://www.olook.com.br/colecoes/neon_pastel" class="img"><img src="http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/megamenucolecoes-e0ba9e26ebdb5bafc1de2559854349c4.jpg" class=""></a>
                     </span>
                   </div>
 

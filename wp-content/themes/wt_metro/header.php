@@ -129,21 +129,18 @@ $(document).ready(function() {
 	<div id="content-blog">	
       <header id="new_header">
         <div class="new_content">
-          <div class="box_left">
-            <p>SAC (11) 2626-3489 | <a class="contact" href="http://www.olook.com.br/centraldeatendimento">Central de Atendimento</a></p>
-            <ul class="social_icons">
-              <li><a href="http://facebook.com/olook" class="social_facebook" target="_blank" title="Acompanhe pelo Facebook">Acompanhe pelo Facebook</a></li>
-              <li><a href="http://twitter.com/olook" class="social_twitter" target="_blank" title="Acompanhe pelo Twitter">Acompanhe pelo Twitter</a></li>
-              <li><a href="http://blog.olook.com.br/feed/" class="social_rss" target="_blank" title="Acompanhe por RSS">Acompanhe por RSS</a></li>
-              <li><a href="http://instagram.com/olook" class="social_instagram" target="_blank" title="Acompanhe pelo Instagram">Acompanhe pelo Instagram</a></li>
-            </ul>
-            <p><a href="http://www.olook.com.br/membro/ganhe-creditos" class="invite">Ganhe créditos!</a></p>
-          </div>
           <div class="box_right">
             <p class="new_login">
               <a href="http://www.olook.com.br/entrar">Entre</a> ou 
               <a href="http://www.olook.com.br/quiz/new">Descubra seu estilo</a>
-            </p>   
+            </p> 
+            <p class="new_login sac">
+              SAC (11) 2626-3489
+            </p>
+            <ul>
+              <li style="background-image: none;" class=""><a class="sacola" href="http://www.olook.com.br/sacola">Sacola</a>
+              <li style="background-image: none;" class=""><a class="wishlist" href="http://www.olook.com.br/wishlist">Favoritos</a></li>
+            </ul>  
           </div>
           <div class="olook_logo">
               <h1><a href="http://www.olook.com.br">Olook</a></h1>
@@ -156,10 +153,10 @@ $(document).ready(function() {
           <div class="content_new">
             <ul class="default_new">
                 <li class="showroom">
-                  <a href="http://www.olook.com.br/" class="home#index">Minha Vitrine</a>
+                  <a href="http://www.olook.com.br/" class="home#index">Novidades</a>
                   <div id="mm_showroom" class="submenu">
-                    <p>Receba recomendações de nossas Stylists.</p>
-                    <a href="http://www.olook.com.br/criar/vitrine" class="link">CONFIRA!</a>
+                    <p>Confira o que há de mais novo na Olook.</p>
+                    <a href="http://www.olook.com.br/novidades" class="link">CONFIRA!</a>
                   </div>
                 </li>
                 <li class="stylist">
@@ -638,7 +635,7 @@ $(document).ready(function() {
                   </div>
 
                 </li>
-                <li style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/olooklet">Olooklet</a>
+                <li class="olooklet" style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/olooklet">Olooklet</a>
                   <div class='submenu' id='mm_olooklet'>
                     <p>Preços incríveis. Até 80% OFF!</p>
                     <ul style="margin-bottom: 0px !important">
@@ -661,9 +658,7 @@ $(document).ready(function() {
                     </ul>
                   </div>
                 </li>
-                <li id="bar"></li>
-                <li style="background-image: none;"><a class="sacola" href="http://www.olook.com.br/sacola">Sacola</a>
-                <li id="bar"></li>
+
             </ul>
           </div>
         </nav>

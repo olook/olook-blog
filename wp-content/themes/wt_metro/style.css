@@ -2947,7 +2947,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li.showroom {
 	margin-left:1px;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li.olooklet a {
-	padding-right: 0 !important;
+	padding-right: 17px !important;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li a:hover,
 body div#wrapper_new_menu nav.menu_new .default_new li a.selecionado {
@@ -3018,7 +3018,7 @@ body header#new_header .box_right ul li a.wishlist {
 
 .column {width:90px;float:left;display: block;}
 
-#mm_colecoes, #mm_roupas, #mm_sapatos {width:500px; left:184px !important;}
+#mm_colecoes {width:260px; left:184px !important;}
 	#mm_roupas .first, 
 	#mm_colecoes .first,
 	#mm_sapatos .first {width:150px !important;}
@@ -3051,26 +3051,24 @@ body header#new_header .box_right ul li a.wishlist {
 	#mm_blog .second {width:150px;}
 	#mm_blog .last {width:70px !important;}
 
-#mm_sapatos {width: 200px;height:250px;left: 378px !important;}
+#mm_sapatos {width: 200px;height:180px;left: 378px !important;}
 	#mm_sapatos .first {width:90px !important;}
 	#mm_sapatos .second {width:110px !important;}
 	#mm_sapatos .image a.img {display: block;float: right;width: 269px !important;height: 236px;padding:0px !important;}
 	#mm_sapatos .image a.img:hover {padding:0px !important;margin:0px !important;width:269 !important;}
 
-#mm_bolsas,
-#mm_acessorios {width: 90px;left: 427px !important;padding-left: 11px;padding-bottom:0px !important;}
+#mm_bolsas{width: 90px;left: 473px !important;padding-left: 11px;padding-bottom:0px !important;}
+#mm_acessorios {width:100px;left:498px !important;padding-left: 11px;padding-bottom:0px !important;}
 
-#mm_acessorios {width:100px;left:498px !important;}
-
-#mm_presentes {width:110px;left:601px !important;}
+#mm_presentes {width:110px;left:675px !important;}
 	#mm_presentes .first {height:115px;width:110px;}
 
-#mm_marcas {width:340px; left:530px !important;}
+#mm_marcas {width:340px; left:500px !important;}
 	#mm_marcas .first {width:140px !important;}
 	#mm_marcas .second {width:120px !important;}
 	#mm_marcas .last {width:80px !important;}
 
-#mm_olooklet {left:771px !important;width:180px;}
+#mm_olooklet {left:765px !important;width:180px;}
 
 #mm_olooklet,
 #mm_showroom,

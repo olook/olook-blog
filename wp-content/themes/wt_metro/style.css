@@ -3038,7 +3038,7 @@ body header#new_header .box_right ul li a.wishlist {
 	#mm_colecoes .image a.img:hover,
 	#mm_sapatos .image a.img:hover {padding:0px !important;margin:0px;width:207 !important;}
 
-#mm_roupas {width: 470px; left:200px !important;}
+#mm_roupas {width: 250px; left: 289px !important;}
 	#mm_roupas .image, 
 	#mm_roupas li.image:hover {width:220px !important;}
 	#mm_roupas .image a.img {display: block;float: right;width: 213px !important;height: 269px;padding:0px;}
@@ -3051,7 +3051,7 @@ body header#new_header .box_right ul li a.wishlist {
 	#mm_blog .second {width:150px;}
 	#mm_blog .last {width:70px !important;}
 
-#mm_sapatos {width: 455px;height:250px;}
+#mm_sapatos {width: 200px;height:250px;left: 378px !important;}
 	#mm_sapatos .first {width:90px !important;}
 	#mm_sapatos .second {width:110px !important;}
 	#mm_sapatos .image a.img {display: block;float: right;width: 269px !important;height: 236px;padding:0px !important;}

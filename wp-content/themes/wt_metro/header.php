@@ -319,9 +319,6 @@ $(document).ready(function() {
                       </li>
                       </ul>
                     </span>
-                    <span class='column image'>
-                      <a href="http://www.olook.com.br/roupa?cmp=email_1310_tie_dye" class="img"><img src="http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/roupas-03bd5e14a688ca4be5ac76c50861054f.jpg" class=""></a>
-                    </span>
                   </div>
 
                 </li>

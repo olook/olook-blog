@@ -2933,7 +2933,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a {
     color: #fff;
     display: block;
     font-family: johnston,arial,sans-serif;
-    height: 31px;
+    height: 33px;
     letter-spacing: 2px;
     padding: 0 19px;
     border-top:1px solid #000;
@@ -2955,6 +2955,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li a.selecionado {
 	border-bottom:0px !important;
 	padding:0 18px;
 	background-color:#fFF;
+	color: #000;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li.stylist a:hover,
 body div#wrapper_new_menu nav.menu_new .default_new li.stylist a.selecionado {
@@ -2966,7 +2967,7 @@ body div#wrapper_new_menu nav.menu_new .default_new li.stylist a.selecionado {
 }
 
 body div#wrapper_new_menu nav.menu_new .default_new li .submenu {
-	font-family:avenir,arial;position:absolute;top:28px;left:0px;background: #fff;border:1px solid #000;display: none;padding:20px 16px 0px 16px;z-index:1000;
+	font-family:avenir,arial;position:absolute;top:33px;left:0px;background: #fff;border:1px solid #000;display: none;padding:20px 16px 0px 16px;z-index:1000;
 }
 body div#wrapper_new_menu nav.menu_new .default_new li .submenu br {clear:both;}
 body div#wrapper_new_menu nav.menu_new .default_new li .submenu p, 
@@ -3017,7 +3018,7 @@ body header#new_header .box_right ul li a.wishlist {
 
 .column {width:90px;float:left;display: block;}
 
-#mm_colecoes, #mm_roupas, #mm_sapatos {width:500px; left:150px !important;}
+#mm_colecoes, #mm_roupas, #mm_sapatos {width:500px; left:184px !important;}
 	#mm_roupas .first, 
 	#mm_colecoes .first,
 	#mm_sapatos .first {width:150px !important;}
@@ -3045,7 +3046,7 @@ body header#new_header .box_right ul li a.wishlist {
     #mm_roupas .second {width:100px !important;}
  
 
-#mm_blog {width:340px;left: 100px !important;}
+#mm_blog {width:340px;left: 113px !important;}
 	#mm_blog .column {width:110px;}
 	#mm_blog .second {width:150px;}
 	#mm_blog .last {width:70px !important;}

@@ -386,9 +386,6 @@ $(document).ready(function() {
                         </li>
                       </ul>
                     </span>
-                    <span class='column image'>
-                      <a href="http://www.olook.com.br/sapato/alpargata" class="img"><img src="http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sapatos-1fd43a2a46f9a1531b0257c6f6b4a5bc.jpg"></a>
-                    </span>
                   </div>
                 </li>
                 <li class="categories">

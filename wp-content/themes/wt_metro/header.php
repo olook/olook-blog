@@ -236,10 +236,6 @@ $(document).ready(function() {
                       </ul>
 
                     </span>
-
-                    <span class="column image">
-                        <a href="http://www.olook.com.br/colecoes/neon_pastel" class="img"><img src="http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/megamenucolecoes-e0ba9e26ebdb5bafc1de2559854349c4.jpg" class=""></a>
-                    </span>
                   </div>
 
                 </li>

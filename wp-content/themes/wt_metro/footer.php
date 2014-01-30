@@ -12,60 +12,135 @@
 ?>
 <footer>
   <section>
-    <dl>
-      <dt>Sobre a olook</dt>
-      <dd><a href="http://www.olook.com.br/como-funciona">Como funciona</a></dd>
-      <dd><a href="http://www.olook.com.br/nossa-essencia">Nossa essência</a></dd>
-      <dd><a href="http://www.olook.com.br/responsabilidade-social">Responsabilidade social</a></dd>
-      <dd><a href="http://www.olook.com.br/olookmovel">Olookmóvel</a></dd>
-      <dd><a href="http://www.olook.com.br/olook-na-imprensa">Olook na imprensa</a></dd>
-      <dd><a href="http://blog.olook.com.br" target="_blank">Blog</a></dd>
-    </dl>
-    <dl>
-      <dt>Como trabalhamos</dt>
-      <dd><a href="http://www.olook.com.br/prazo-de-entrega">Prazo de entrega</a></dd>
-		  <dd><a href="http://www.olook.com.br/termos">Termos e condições</a></dd>
-      <dd><a href="http://www.olook.com.br/privacidade">Política de privacidade</a></dd>
-		  <dd><a href="http://www.olook.com.br/devolucoes">Política de devolução</a></dd>
-		  <dd><a href="http://www.olook.com.br/fidelidade">Fidelidade olook</a></dd>
-    </dl>
-    <dl>
-      <dt>Atendimento</dt>
-      <dd><a href="http://www.olook.com.br/centraldeatendimento">Central de atendimento</a></dd>
-      <dd><a href="http://www.olook.com.br/centraldeatendimento">Perguntas frequentes (FAQ)</a></dd>
-    </dl>
-    <dl>
-      <dt>Siga-nos</dt>
-      <dd><a href="http://twitter.com/olook" target="_blank" title="Acompanhe pelo Facebook">Acompanhe pelo Facebook</a></dd>
-      <dd><a href="http://facebook.com/olook" target="_blank" title="Acompanhe pelo Twitter">Acompanhe pelo Twitter</a></dd>
-      <dd><a href="http://blog.olook.com.br/feed/" target="_blank" title="Acompanhe por RSS">Acompanhe por RSS</a></dd>
-      <dd><a href="http://instagram.com/olook" target="_blank" title="Acompanhe pelo Instagram">Acompanhe pelo Instagram</a></dd>
-      <dd>
-        <ul class="social">
-          <li class="facebook"><a href="http://facebook.com/olook" target="_blank" title="Facebook">Acompanhe pelo Facebook</a></li>
-          <li class="twitter"><a href="http://twitter.com/olook" target="_blank" title="Twitter">Acompanhe pelo Twitter</a></li>
-          <li class="rss"><a href="http://blog.olook.com.br/feed/" target="_blank" title="RSS">Acompanhe por RSS</a></li>
-          <li class="instagram"><a href="http://instagram.com/olook" target="_blank" title="Instagram">Acompanhe pelo Instagram</a></li>
-        </ul>
-      </dd>
-    </dl>
-
-    <dl class="double payment">
-      <dt>Formas de pagamento</dt>
-      <dd><img alt="Trabalhamos com Visa, Mastercard, American Express e Dinners" src="//d22zjnmu4464ds.cloudfront.net/assets/common/ico_bandeiras-2bae667d8226c171e803e8a02e4b8010.png" /></dd>
-      <dd>Em até 6 vezes (parcela mínima de R$ 30,00)</dd>
-    </dl>
-    <dl class="double security">
-      <dt>Segurança</dt>
-      <dd><a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src="//d22zjnmu4464ds.cloudfront.net/assets/common/ico_security-da39ed9f5fba4e15f91cd98458d3f808.png" /></a></dd>
-      <dd><a id="seloEbit" href="http://www.ebit.com.br/#olook" target="_blank" onclick="redir(this.href);"></a>
-        <script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?19329" ></script>
-			</dd>
-		</dl>
-		<p>© <?php echo Date("Y"); ?> - olook<br />Todos os direitos reservados</p>
+    <ul class='atendimento'>
+      <li class='title'>
+        Atendimento
+      </li>
+      <li class='phone'>
+        (11) 2626-3489
+      </li>
+      <li class='mail'>
+        <a href="http://www.olook.com.br/centraldeatendimento" class="email">E-mail</a>
+      </li>
+      <li class='trade'>
+        <a href="http://www.olook.com.br/centraldeatendimento" class="trade">Troca Fácil</a>
+      </li>
+      <li class='sac_online'>
+        <a href="http://www.olook.com.br/centraldeatendimento" class="sac">SAC Online</a>
+      </li>
+      <li class='moda_online'>
+        <a href="http://www.olook.com.br/centraldeatendimento" class="moda">Moda Online</a>
+      </li>
+    </ul>
+    <ul class='about'>
+      <li class='title'>
+        Sobre a Olook
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/como-funciona">Como funciona</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/nossa-essencia">Nossa essência</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/responsabilidade-social">Responsabilidade social</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/olookmovel">Olookmóvel</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/olook-na-imprensa">Olook na imprensa</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/stylist-news" target="_blank">Stylist news</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/membro/ganhe-creditos">Ganhe créditos</a>
+      </li>
+    </ul>
+    <ul class='work'>
+      <li class='title'>
+        Como Trabalhamos
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/termos">Termos e condições</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/privacidade">Política de privacidade</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/devolucoes">Troca e devolução</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/fidelidade">Fidelidade Olook</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/revenda">Revenda Olook</a>
+      </li>
+      <li>
+        <a href="http://www.olook.com.br/afiliados">Programa de Afiliados</a>
+      </li>
+    </ul>
+    <ul class='social'>
+      <li class='logo'>
+        <img alt="Olook_logo" src="images/olook_logo.png" />
+      </li>
+      <li class='icon fb'>
+        <a href="http://facebook.com/olook" alt="Facebook">Facebook</a>
+      </li>
+      <li class='icon twitter'>
+        <a href="http://twitter.com/olook" alt="Twitter">Twitter</a>
+      </li>
+      <li class='icon instagram'>
+        <a href="http://instagram.com/olook" alt="Instagram">Instagram</a>
+      </li>
+    </ul>
+    <ul class='payment'>
+      <li class='title'>
+        Formas de Pagamento
+      </li>
+      <li class='credit'>
+        <p>
+          Cartão de Crédito
+        </p>
+      </li>
+      <li class='billet'>
+        <p>
+          Boleto
+        </p>
+      </li>
+      <li class='online'>
+        <p>
+          Débito Online
+        </p>
+      </li>
+      <li class='mpago'>
+        <p>
+          Mercado Pago
+        </p>
+      </li>
+    </ul>
+    <ul class='security'>
+      <li class='title'>
+        Site Seguro
+      </li>
+      <li>
+        <a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src='images/ico_security.png' /></a>
+      </li>
+      <li class='ebit'>
+        <a id="seloEbit" href="http://www.ebit.com.br/olook" target="_blank" onclick="redir(this.href);"><img alt="Seloebit" src='images/seloeBit.png' /></a>
+        <!--script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?19329"> </script-->
+      </li>
+    </ul>
+    <div class='about_olook'>
+      <p class='infos'>
+        © <?php echo Date("Y"); ?> - Olook. Todos os direitos reservados. A Olook respeita sua privacidade e de todos os seus clientes. Leia mais sobre a nossa <a href="/termos">Política de Privacidade</a>.
+      </p>
+      <address>Escritório: Rua Natividade, 72 - Vl. Nova Conceição, São Paulo - SP. Centro de distribuição: Avenida Ribeirão dos Cristais, 800, Jordanésia, Cajamar - SP. Galpão 10, módulo C e D</address>
+      <p>Olook Comércio Online de Moda Ltda  /  CNPJ 011.216.478/0001-70</p>
+    </div>
   </section>
 </footer>
-
 	</div><!-- /main -->
 	</div><!-- /content-blog -->
   

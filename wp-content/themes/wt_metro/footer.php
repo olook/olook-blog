@@ -83,7 +83,7 @@
     </ul>
     <ul class='social'>
       <li class='logo'>
-        <img alt="Olook_logo" src="images/olook_logo.png" />
+        <img alt="Olook_logo" src="http://d22zjnmu4464ds.cloudfront.net/assets/footer/olook_logo-512d9c082e4e512339b5c6038fd93ccf.png" />
       </li>
       <li class='icon fb'>
         <a href="http://facebook.com/olook" alt="Facebook">Facebook</a>
@@ -125,7 +125,7 @@
         Site Seguro
       </li>
       <li>
-        <a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src="" /></a>
+        <a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src="http://d22zjnmu4464ds.cloudfront.net/assets/common/ico_security-7fac2ab3aa492684d71a8d628a89ac08.png" /></a>
       </li>
       <li class='ebit'>
         <a id="seloEbit" href="http://www.ebit.com.br/olook" target="_blank" onclick="redir(this.href);"><img alt="Seloebit" src="http://d22zjnmu4464ds.cloudfront.net/assets/common/seloeBit-f6820318df98a1376221336e10e87968.png" /></a>

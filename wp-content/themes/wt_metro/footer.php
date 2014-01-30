@@ -125,10 +125,10 @@
         Site Seguro
       </li>
       <li>
-        <a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src='images/ico_security.png' /></a>
+        <a href="http://www.trustlogo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC4&amp;v_search=http://www.olook.com.br/&amp;x=6&amp;y=5" target="_blank"><img alt="Ico_security" src="" /></a>
       </li>
       <li class='ebit'>
-        <a id="seloEbit" href="http://www.ebit.com.br/olook" target="_blank" onclick="redir(this.href);"><img alt="Seloebit" src='images/seloeBit.png' /></a>
+        <a id="seloEbit" href="http://www.ebit.com.br/olook" target="_blank" onclick="redir(this.href);"><img alt="Seloebit" src="http://d22zjnmu4464ds.cloudfront.net/assets/common/seloeBit-f6820318df98a1376221336e10e87968.png" /></a>
         <!--script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?19329"> </script-->
       </li>
     </ul>

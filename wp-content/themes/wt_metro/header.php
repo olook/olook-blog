@@ -270,6 +270,9 @@ $(document).ready(function() {
                       <a href="http://www.olook.com.br/roupa/echarpe" class="sub_menu">Echarpe</a>
                       </li>
                       <li>
+                      <a href="http://www.olook.com.br/roupa/calcinha-sutia" class="sub_menu">Lingerie</a>
+                      </li>
+                      <li>
                       <a href="http://www.olook.com.br/roupa/macacao" class="sub_menu">Macacão</a>
                       </li>
                       <li>

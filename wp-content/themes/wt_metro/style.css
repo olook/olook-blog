@@ -2717,160 +2717,143 @@ ul.sp-list li{
 
 /* 6. FOOTER
 * ==================== */
-footer {
-    border-top: 1px solid #CBCBCB;
-    clear: both;
-    height: 300px;
-    margin-top: 60px;
+footer, .footer_checkout {
+  height: 465px;
+  clear: both;
+  margin-top: 60px;
+  position: relative;
+  background-color: #000;
+  color: #fff !important;
 }
-footer section {
-    margin: 0 auto;
-    padding-top: 40px;
-    width: 970px;
+footer section, .footer_checkout section {
+  margin: 0px auto;
+  width: 970px;
+  padding-top: 40px;
 }
-footer section div.box_newsletter {
-    display: none;
-    margin: 0 0 20px;
-    overflow: auto;
-    width: 100%;
-}
-footer section div.box_newsletter form {
-    float: left;
-    margin: 0 50px 0 0;
-    overflow: auto;
-    width: 650px;
-}
-footer section div.box_newsletter form > * {
-    float: left;
-}
-footer section div.box_newsletter form label {
-    font-size: 17px;
-    line-height: 38px;
-    margin: 0 20px 0 0;
-    text-transform: uppercase;
-}
-footer section div.box_newsletter form input[type="text"] {
-    border: 1px solid #959595;
-    color: #939598;
-    font-family: 'avenir',arial,sans-serif;
-    font-size: 13px;
-    margin: 0 15px 0 0;
-    padding: 9px 15px;
-    width: 150px;
-}
-footer section div.box_newsletter form input[type="text"]:focus {
-    outline: medium none;
-}
-footer section div.box_newsletter form input[type="submit"] {
-    background: url("//d22zjnmu4464ds.cloudfront.net/assets/home/bt-register-08c44de866de870daa50363d3acc5d8c.png") no-repeat scroll 0 0 transparent;
-    border: medium none;
-    cursor: pointer;
-    display: block;
-    height: 33px;
-    margin: 3px 0 0;
-    text-indent: -99999px;
-    width: 122px;
-}
-footer section div.box_newsletter form p {
-    clear: both;
-    color: #6D6E71;
-    float: right;
-}
-footer section div.box_newsletter form p a {
-    color: #6D6E71;
-    text-decoration: none;
-}
-footer section div.box_newsletter form p a:hover {
-    text-decoration: underline;
-}
-footer section div.box_newsletter h2 {
-    color: #6D6E71;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 2px 0 0;
-    text-transform: uppercase;
-}
-footer section dl {
-    float: left;
-    margin: 0 95px 35px 0;
-}
-footer section dl dt {
-    color: #6D6E71;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 0 0 20px;
-    text-transform: uppercase;
-}
-footer section dl dd, footer section dl dd a {
-    color: #939598;
-    font-size: 12px;
-    margin: 0 0 1px;
-    text-decoration: none;
-}
-footer section dl dd a:link {
-    color: #939598;
-}
-footer section dl dd a:visited {
-    color: #939598;
-}
-footer section dl dd a:hover {
-    color: #BCBEC0;
-}
-footer section dl dd ul.social {
-    margin: 15px 0 0;
-    overflow: auto;
-    width: 100%;
-}
-footer section dl dd ul.social li a {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/home/social.png") no-repeat scroll 0 0 transparent;
-    display: block;
-    float: left;
-    height: 24px;
-    margin: 0 6px 0 0;
-    text-indent: -99999px;
-    width: 24px;
-}
-footer section dl dd ul.social li.facebook a {
-    background-position: 0 -34px;
-}
-footer section dl dd ul.social li.facebook a:hover {
-    background-position: 0 0;
-}
-footer section dl dd ul.social li.twitter a {
-    background-position: -28px -34px;
-}
-footer section dl dd ul.social li.twitter a:hover {
-    background-position: -28px 0;
-}
-footer section dl dd ul.social li.rss a {
-    background-position: -58px -34px;
-}
-footer section dl dd ul.social li.rss a:hover {
-    background-position: -58px 0;
-}
-footer section dl dd ul.social li.instagram a {
-    background-position: -89px -35px;
-}
-footer section dl dd ul.social li.instagram a:hover {
-    background-position: -89px 0;
-}
-footer section dl.double {
-    margin: 0 95px 0 0;
-}
-footer section dl.double.payment {
-    clear: both;
-}
-footer section dl.double.security dd {
-    float: left;
-}
-footer section p {
-  clear: left;
+footer section ul, .footer_checkout section ul {
+  width: 170px;
   float: left;
-  color: #767676;
+  font-family: verdana, arial, tahoma;
+  margin-right: 68px;
+  height: 205px;
+}
+footer section ul.atendimento, .footer_checkout section ul.atendimento {
+  margin-left: 40px;
+}
+footer section ul.social, .footer_checkout section ul.social {
+  width: 180px;
+  margin-right: 0 !important;
+}
+footer section ul.social a, .footer_checkout section ul.social a {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+footer section ul.social li.logo, .footer_checkout section ul.social li.logo {
+  margin-bottom: 15px;
+}
+footer section ul.social li.icon, .footer_checkout section ul.social li.icon {
+  width: 35px;
+  height: 35px;
+  float: left;
+  text-indent: -9999px;
+  background: url("images/social_icons.png") no-repeat;
+  margin-right: 5px;
+}
+footer section ul.social li.fb, .footer_checkout section ul.social li.fb {
+  margin-left: 58px;
+}
+footer section ul.social li.twitter, .footer_checkout section ul.social li.twitter {
+  background-position: -41px 0;
+}
+footer section ul.social li.instagram, .footer_checkout section ul.social li.instagram {
+  background-position: -82px 0;
+}
+footer section ul li, .footer_checkout section ul li {
   font-size: 11px;
-  line-height: 13px;
-  padding: 0 0 20px;
-  margin-top:30px;
+  padding-top: 5px;
+}
+footer section ul li a, .footer_checkout section ul li a {
+  color: #fff !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer section ul li a:hover, .footer_checkout section ul li a:hover {
+  text-decoration: underline !important;
+}
+footer section ul li.title, .footer_checkout section ul li.title {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+footer section ul.payment, .footer_checkout section ul.payment {
+  margin-left: 40px;
+  height: 100px;
+  width: 430px;
+  margin-top: 25px;
+}
+footer section ul.payment li.title, .footer_checkout section ul.payment li.title {
+  width: 440px;
+}
+footer section ul.payment li.credit, footer section ul.payment .billet, footer section ul.payment .online, footer section ul.payment .mpago, .footer_checkout section ul.payment li.credit, .footer_checkout section ul.payment .billet, .footer_checkout section ul.payment .online, .footer_checkout section ul.payment .mpago {
+  height: 50px;
+  float: left;
+  background: url("images/payment_icons.png") no-repeat 0 28px;
+  margin-right: 20px;
+}
+footer section ul.payment li.credit, .footer_checkout section ul.payment li.credit {
+  width: 125px;
+}
+footer section ul.payment li.billet, .footer_checkout section ul.payment li.billet {
+  width: 45px;
+  background-position: -149px 28px;
+}
+footer section ul.payment li.online, .footer_checkout section ul.payment li.online {
+  width: 82px;
+  background-position: -234px 28px;
+}
+footer section ul.payment li.mpago, .footer_checkout section ul.payment li.mpago {
+  width: 90px;
+  margin-right: 0;
+  background-position: -329px 28px;
+}
+footer section ul.payment li.mpago p, .footer_checkout section ul.payment li.mpago p {
+  text-indent: -9999px;
+}
+footer section ul.security, .footer_checkout section ul.security {
+  height: 107px;
+  width: 170px;
+  margin-top: 25px;
+  float: right;
+  margin-right: 20px;
+}
+footer section ul.security li, .footer_checkout section ul.security li {
+  float: left;
+}
+footer section ul.security li.title, .footer_checkout section ul.security li.title {
+  width: 250px;
+  padding-left: 10px;
+}
+footer section ul.security li.ebit a, .footer_checkout section ul.security li.ebit a {
+  display: block;
+  padding-top: 3px;
+}
+footer section .about_olook, .footer_checkout section .about_olook {
+  width: 997px;
+  background-color: #fff;
+  color: #5c5c5c;
+  float: left;
+  font-family: verdana, arial, tahoma;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: -13px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+footer section .about_olook, .footer_checkout section .about_olook p.infos{
+	margin-bottom: 0 !important;
 }
 ol, ul {
     list-style: none outside none;

@@ -357,7 +357,7 @@ $(document).ready(function() {
                       </ul>
                     </span>
                     <span class='column second'>
-                      <h5>SALTINHOS</h5>
+                      <h5>SALTOS</h5>
                       <ul>
                         <li>
                         <a href="http://www.olook.com.br/sapato/anabela" class="sub_menu">Anabela</a>

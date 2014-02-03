@@ -3159,12 +3159,12 @@ body header#new_header .new_content .new_login a:hover{text-decoration:underline
 body header#new_header .new_content .olook_logo {height: 70px;margin: 0 auto;width: 240px; float: left;}
 
 body header#new_header .new_content .olook_logo h1 a {
-    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header.png") no-repeat 0 -74px transparent;
+    background: url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/sprite_header-0825f35dcf50a18ec26760d06379d584.png") no-repeat 0 -74px transparent;
     display: block;
     height: 70px;
     text-indent: -9999px;
     width: 240px;
-    margin-top:5px;
+    margin-top:11px;
 }
 
 body div#wrapper_menu {

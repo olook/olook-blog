@@ -349,9 +349,6 @@ $(document).ready(function() {
                         <a href="http://www.olook.com.br/sapato/slipper" class="sub_menu">Slipper</a>
                         </li>
                         <li>
-                        <a href="http://www.olook.com.br/sapato/sneaker" class="sub_menu">Sneaker</a>
-                        </li>
-                        <li>
                         <a href="http://www.olook.com.br/sapato/tenis" class="sub_menu">Tênis</a>
                         </li>
                       </ul>
@@ -405,9 +402,6 @@ $(document).ready(function() {
                         <a href="http://www.olook.com.br/bolsa/bolsa%20pequena" class="sub_menu">Bolsa Pequena</a>
                         </li>
                         <li>
-                        <a href="http://www.olook.com.br/bolsa/carteira" class="sub_menu">Carteira</a>
-                        </li>
-                        <li>
                         <a href="http://www.olook.com.br/bolsa/clutch" class="sub_menu">Clutch</a>
                         </li>
                       </ul>
@@ -427,6 +421,9 @@ $(document).ready(function() {
                         </li>
                         <li>
                          <a href="http://www.olook.com.br/acessorio/brinco" class="sub_menu">Brinco</a>
+                        </li>
+                        <li>
+                        <a href="http://www.olook.com.br/acessorio/carteira" class="sub_menu">Carteira</a>
                         </li>
                         <li>
                           <a href="http://www.olook.com.br/acessorio/cinto" class="sub_menu">Cinto</a>
@@ -598,6 +595,9 @@ $(document).ready(function() {
                     </li>
                     <li>
                       <a href="http://www.olook.com.br/marcas/salinas" class="sub_menu">Salinas</a>
+                    </li>
+                    <li>
+                    <a href="http://www.olook.com.br/marcas/scala" class="sub_menu">Scala</a>
                     </li>
                     <li>
                       <a href="http://www.olook.com.br/marcas/Shoulder" class="sub_menu">Shoulder</a>

@@ -199,6 +199,7 @@ $(document).ready(function() {
                     <span class="column first">
                       <h5>ESPECIAIS</h5>
                       <ul>
+                        <li><a href="https://www.olook.com.br/colecoes/preview-outono-2014" class="sub_menu">Preview Outono 2014</a></li>
                         <li><a href="https://www.olook.com.br/colecoes/alto_verao" class="sub_menu">Alto verão 2014</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/pecas_chave" class="sub_menu">Peças-chave</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/preview_primavera" class="sub_menu">Primavera/Verão 2013</a></li>

@@ -207,21 +207,49 @@ $(document).ready(function() {
                       <br>
 
                       <h5>TENDÊNCIAS</h5>
-                      <ul>
-                        <li><a href="http://www.olook.com.br/colecoes/animal-print" class="sub_menu">Animal print</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/azulejo_portugues" class="sub_menu">Azulejo Português</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/branco_total" class="sub_menu">Branco Total</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/floral" class="sub_menu">Floral</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/navajo" class="sub_menu">Navajo</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/neon_pastel" class="sub_menu">Neon Pastel</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/p&b" class="sub_menu">Preto & Branco</a></li>
-                      </ul>
+                        <ul>
+                          <li>
+                            <a href="/colecoes/animal-print" class="sub_menu">Animal print</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/azul-cobalto" class="sub_menu">Azul Cobalto </a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/azulejo_portugues" class="sub_menu">Azulejo Português </a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/bizantino" class="sub_menu">Bizantino </a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/branco_total" class="sub_menu">Branco Total </a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/floral" class="sub_menu">Floral</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/grunge" class="sub_menu">Grunge</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/navajo" class="sub_menu">Navajo</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/neon_pastel" class="sub_menu">Neon Pastel</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/p&b" class="sub_menu">Preto & Branco</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/tartans" class="sub_menu">Tartans</a>
+                          </li>
+                          <li>
+                            <a href="/colecoes/total-couro" class="sub_menu">Total Couro</a>
+                          </li>
+                        </ul>
                     </span>
                     <span class="column second">
                       <h5>PARCERIAS</h5>
                       <ul>
                         <li><a href="http://www.olook.com.br/colecoes/estilista-juliana-jabour" class="sub_menu">Juliana Jabour</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/carol-ribeiro" class="sub_menu">Carol Ribeiro</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/mariana_weickert" class="sub_menu">Mariana Weickert</a></li>
                       </ul>
 

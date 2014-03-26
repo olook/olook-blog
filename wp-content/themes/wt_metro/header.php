@@ -215,28 +215,10 @@ $(document).ready(function() {
                             <a href="/colecoes/azul-cobalto" class="sub_menu">Azul Cobalto </a>
                           </li>
                           <li>
-                            <a href="/colecoes/azulejo_portugues" class="sub_menu">Azulejo Português </a>
-                          </li>
-                          <li>
                             <a href="/colecoes/bizantino" class="sub_menu">Bizantino </a>
                           </li>
                           <li>
-                            <a href="/colecoes/branco_total" class="sub_menu">Branco Total </a>
-                          </li>
-                          <li>
-                            <a href="/colecoes/floral" class="sub_menu">Floral</a>
-                          </li>
-                          <li>
                             <a href="/colecoes/grunge" class="sub_menu">Grunge</a>
-                          </li>
-                          <li>
-                            <a href="/colecoes/navajo" class="sub_menu">Navajo</a>
-                          </li>
-                          <li>
-                            <a href="/colecoes/neon_pastel" class="sub_menu">Neon Pastel</a>
-                          </li>
-                          <li>
-                            <a href="/colecoes/p&b" class="sub_menu">Preto & Branco</a>
                           </li>
                           <li>
                             <a href="/colecoes/tartans" class="sub_menu">Tartans</a>

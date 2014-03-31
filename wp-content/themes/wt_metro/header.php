@@ -505,6 +505,9 @@ $(document).ready(function() {
                       <a href="http://www.olook.com.br/marcas/Olook%20Concept" class="sub_menu">Olook Concept</a>
                     </li>
                     <li>
+                      <a href="http://www.olook.com.br/marcas/olook-curves" class="sub_menu">Olook Curves</a>
+                    </li>
+                    <li>
                       <a href="http://www.olook.com.br/marcas/Olook%20Essential" class="sub_menu">Olook Essential </a>
                     </li>
                     <li>
@@ -524,6 +527,9 @@ $(document).ready(function() {
                     </li>
                     <li>
                       <a href="http://www.olook.com.br/marcas/Botswana" class="sub_menu">Botswana</a>
+                    </li>
+                    <li>
+                      <a href="http://www.olook.com.br/marcas/Butterfly" class="sub_menu">Butterfly</a>
                     </li>
                     <li>
                       <a href="http://www.olook.com.br/marcas/Canal" class="sub_menu">Canal</a>
@@ -566,6 +572,9 @@ $(document).ready(function() {
                       <a href="http://www.olook.com.br/marcas/Forum" class="sub_menu">Forum</a>
                     </li>
                     <li>
+                      <a href="http://www.olook.com.br/marcas/handbook" class="sub_menu">Handbook</a>
+                    </li>
+                    <li>
                       <a href="http://www.olook.com.br/marcas/Iodice%20Denim" class="sub_menu">Iodice Denim</a>
                     </li>
                     <li>
@@ -596,6 +605,9 @@ $(document).ready(function() {
                 </span>
                 <span class='column last'>
                   <ul>
+                    <li>
+                      <a href="http://www.olook.com.br/marcas/mob" class="sub_menu">MOB</a>
+                    </li>
                     <li>
                       <a href="http://www.olook.com.br/marcas/Olli" class="sub_menu">Olli</a>
                     </li>

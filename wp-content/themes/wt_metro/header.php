@@ -250,7 +250,7 @@ $(document).ready(function() {
                 </li>
                 <li class="categories">
                   <a href="http://www.olook.com.br/roupas" class="moments#clothes">Roupas</a>
-                  <div class='submenu' id='mm_roupas'>
+                  <div class='submenu' id='mm_plus'>
                     <span class='column first'>
                       <h5>ROUPAS</h5>
                       <ul>

@@ -327,6 +327,37 @@ $(document).ready(function() {
                       </li>
                       </ul>
                     </span>
+                    <span class='column second'>
+                      <h5>
+                        <a href="/curves">OLOOK CURVES</a>
+                      </h5>
+                      <ul>
+                        <li>
+                          <a href="/curves/blazer" class="sub_menu">Blazer</a>
+                        </li>
+                        <li>
+                          <a href="/curves/blusa" class="sub_menu">Blusa</a>
+                        </li>
+                        <li>
+                          <a href="/curves/calca" class="sub_menu">Calça</a>
+                        </li>
+                        <li>
+                          <a href="/curves/camisa" class="sub_menu">Camisa</a>
+                        </li>
+                        <li>
+                          <a href="/curves/macacao" class="sub_menu">Macacão</a>
+                        </li>
+                        <li>
+                          <a href="/curves/saia" class="sub_menu">Saia</a>
+                        </li>
+                        <li>
+                          <a href="/curves/shorts" class="sub_menu">Shorts</a>
+                        </li>
+                        <li>
+                          <a href="/curves/vestido" class="sub_menu">Vestido</a>
+                        </li>
+                      </ul>
+                    </span>
                   </div>
 
                 </li>

@@ -200,7 +200,7 @@ $(document).ready(function() {
                       <h5>ESPECIAIS</h5>
                       <ul>
                         <li><a href="http://www.olook.com.br/colecoes/pecas_chave" class="sub_menu">Peças-chave</a></li>
-                        <li><a href="https://www.olook.com.br/colecoes/preview-outono-2014" class="sub_menu">Preview Outono 2014</a></li>
+                        <li><a href="https://www.olook.com.br/colecoes/preview-outono-2014" class="sub_menu">Outono / Inverno 2014</a></li>
                         <li><a href="http://www.olook.com.br/olooklet" class="sub_menu">Olooklet</a></li>
                       </ul>
 

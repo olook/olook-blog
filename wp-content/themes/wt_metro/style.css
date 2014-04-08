@@ -3053,8 +3053,7 @@ body header#new_header .box_right ul li a.wishlist {
 #mm_olooklet .first {width:200px !important;}
 
 #mm_olooklet,
-#mm_showroom,
-#mm_presentes {padding-bottom:16px !important;} 
+#mm_showroom{padding-bottom:16px !important;} 
 
 #mm_olooklet a.link, #mm_presentes a.link, #mm_showroom a.link {background:url("http://d22zjnmu4464ds.cloudfront.net/assets/common/nav/arrow_megamenu-65e8c31c102a8c0ee8caca46027154b7.jpg") #000 no-repeat 14px center !important;}
 

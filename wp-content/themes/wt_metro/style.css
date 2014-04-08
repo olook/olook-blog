@@ -3046,12 +3046,11 @@ body header#new_header .box_right ul li a.wishlist {
 #mm_presentes {width:110px;left:675px !important;}
 	#mm_presentes .first {height:115px;width:110px;}
 
-#mm_marcas {width:340px; left:500px !important;}
-	#mm_marcas .first {width:140px !important;}
-	#mm_marcas .second {width:120px !important;}
-	#mm_marcas .last {width:80px !important;}
+#mm_marcas {width:165px; left:500px !important;}
+	#mm_marcas .first {width:200px !important;}
 
 #mm_olooklet {left:765px !important;width:180px;}
+#mm_olooklet .first {width:200px !important;}
 
 #mm_olooklet,
 #mm_showroom,

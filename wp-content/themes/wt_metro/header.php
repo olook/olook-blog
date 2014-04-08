@@ -197,15 +197,6 @@ $(document).ready(function() {
                   <a href="http://www.olook.com.br/colecoes" class="moments#index">Coleções</a>
                   <div id="mm_colecoes" class="submenu">
                     <span class="column first">
-                      <h5>ESPECIAIS</h5>
-                      <ul>
-                        <li><a href="http://www.olook.com.br/colecoes/pecas_chave" class="sub_menu">Peças-chave</a></li>
-                        <li><a href="https://www.olook.com.br/colecoes/preview-outono-2014" class="sub_menu">Outono / Inverno 2014</a></li>
-                        <li><a href="http://www.olook.com.br/olooklet" class="sub_menu">Olooklet</a></li>
-                      </ul>
-
-                      <br>
-
                       <h5>TENDÊNCIAS</h5>
                         <ul>
                           <li>
@@ -229,14 +220,6 @@ $(document).ready(function() {
                         </ul>
                     </span>
                     <span class="column second">
-                      <h5>PARCERIAS</h5>
-                      <ul>
-                        <li><a href="http://www.olook.com.br/colecoes/estilista-juliana-jabour" class="sub_menu">Juliana Jabour</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/mariana_weickert" class="sub_menu">Mariana Weickert</a></li>
-                      </ul>
-
-                      <br>
-
                       <h5>OCASIÕES</h5>
                       <ul>
                         <li><a href="http://www.olook.com.br/colecoes/casual" class="sub_menu">Casual</a></li>
@@ -502,25 +485,7 @@ $(document).ready(function() {
                     <span class='column first'>
                       <ul>
                         <li>
-                          <a href="/selections?preco=0-70&amp;lbl=ate-70" class="sub_menu">Até 69,90</a>
-                        </li>
-                        <li>
-                          <a href="/selections?preco=70-130&amp;lbl=ate-130" class="sub_menu">Até 129,90</a>
-                        </li>
-                        <li>
                           <a href="/selections?preco=130-200&amp;lbl=ate-200" class="sub_menu">Até 200</a>
-                        </li>
-                        <li>
-                          <a href="/selections?preco=200-1000&amp;lbl=acima-200" class="sub_menu">Acima de 200</a>
-                        </li>
-                        <li>
-                          <a href="/selections/tamanho-unico?lbl=tamanho-unico" class="sub_menu">Está em Dúvida?</a>
-                        </li>
-                        <li>
-                          <a href="/colecoes/best_sellers " class="sub_menu">Best Sellers</a>
-                        </li>
-                        <li>
-                          <a href="/presentes#anchor_profile" class="sub_menu">Compre por estilo</a>
                         </li>
                       </ul>
                     </span>
@@ -530,150 +495,7 @@ $(document).ready(function() {
                   <span class='column first'>
                   <ul>
                     <li>
-                      <a href="http://www.olook.com.br/marcas/Olook" class="sub_menu">Olook</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Olook%20Concept" class="sub_menu">Olook Concept</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/olook-curves" class="sub_menu">Olook Curves</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Olook%20Essential" class="sub_menu">Olook Essential </a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/284" class="sub_menu">284</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Afghan" class="sub_menu">Afghan</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Agua%20Doce" class="sub_menu">Agua Doce</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/basico%20com" class="sub_menu">Basico.com</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Blue%20Man" class="sub_menu">Blue Man</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Botswana" class="sub_menu">Botswana</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Butterfly" class="sub_menu">Butterfly</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Canal" class="sub_menu">Canal</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Cantao" class="sub_menu">Cantao</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Carina%20Duek" class="sub_menu">Carina Duek</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Colcci" class="sub_menu">Colcci</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Collins" class="sub_menu">Collins</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/douglas%20harris" class="sub_menu">Douglas Harris</a>
-                    </li>
-                  </ul>
-                </span>
-                <span class='column second'>
-                  <ul>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Ellus" class="sub_menu">Ellus</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Ellus%202%20Nd%20Floor" class="sub_menu">Ellus 2nd Floor</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Espaco%20Fashion" class="sub_menu">Espaco Fashion</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Fellipe%20Krein" class="sub_menu">Fellipe Krein</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Folic" class="sub_menu">Folic</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Forum" class="sub_menu">Forum</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/handbook" class="sub_menu">Handbook</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Iodice%20Denim" class="sub_menu">Iodice Denim</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/isabella%20piu" class="sub_menu">Isabella Piu</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Juliana%20Manzini" class="sub_menu">Juliana Manzini</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Lanca%20Perfume" class="sub_menu">Lanca Perfume</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Leeloo" class="sub_menu">Leeloo</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Lez%20A%20Lez" class="sub_menu">Lez a Lez</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/M%20Officer" class="sub_menu">M Officer</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Mandi" class="sub_menu">Mandi</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Mercatto" class="sub_menu">Mercatto</a>
-                    </li>
-                  </ul>
-                </span>
-                <span class='column last'>
-                  <ul>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/mob" class="sub_menu">MOB</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Olli" class="sub_menu">Olli</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Redley" class="sub_menu">Redley</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/salinas" class="sub_menu">Salinas</a>
-                    </li>
-                    <li>
-                    <a href="http://www.olook.com.br/marcas/scala" class="sub_menu">Scala</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Shoulder" class="sub_menu">Shoulder</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Sommer" class="sub_menu">Sommer</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Tan%20Tan" class="sub_menu">Tan Tan</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Totem" class="sub_menu">Totem</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Triton" class="sub_menu">Triton</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/triya" class="sub_menu">Triya</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Tvz" class="sub_menu">Tvz</a>
-                    </li>
-                    <li>
-                      <a href="http://www.olook.com.br/marcas/Wollner" class="sub_menu">Wollner</a>
+                      <a href="http://www.olook.com.br/marcas" class="sub_menu">Confira todas as marcas!'</a>
                     </li>
                   </ul>
                 </span>
@@ -681,28 +503,13 @@ $(document).ready(function() {
                 </li>
                 <li class="olooklet" style="background-position: initial initial; background-repeat: initial initial;"><a href="https://www.olook.com.br/olooklet">Olooklet</a>
                   <div class='submenu' id='mm_olooklet'>
-                    <p>Preços incríveis. Até 80% OFF!</p>
                     <ul style="margin-bottom: 0px !important">
                       <li>
-                        <a href="http://www.olook.com.br/olooklet/roupa" class="sub_menu">Roupas</a>
+                        <a href="https://www.olook.com.br/olooklet" class="sub_menu">Preços incríveis. Até 90% OFF!</a>
                       </li>
-                      <li>
-                        <a href="http://www.olook.com.br/olooklet/sapato" class="sub_menu">Sapatos</a>
-                      </li>
-                      <li>
-                        <a href="http://www.olook.com.br/olooklet/bolsa" class="sub_menu">Bolsas</a>
-                      </li>
-                      <li>
-                        <a href="http://www.olook.com.br/olooklet/acessorio" class="sub_menu">Acessórios</a>
-                      </li>
-                      <li>
-                        <a href="http://www.olook.com.br/olooklet/moda praia" class="sub_menu">Moda Praia</a>
-                      </li>
-                      <li>
                     </ul>
                   </div>
                 </li>
-
             </ul>
           </div>
         </nav>

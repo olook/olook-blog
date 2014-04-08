@@ -3044,9 +3044,9 @@ body header#new_header .box_right ul li a.wishlist {
 #mm_acessorios {width:100px;left:558px !important;padding-left: 11px;padding-bottom:0px !important;}
 
 #mm_presentes {width:110px;left:675px !important;}
-	#mm_presentes .first {height:115px;width:110px;}
+	#mm_presentes .first {width:110px;}
 
-#mm_marcas {width:165px; left:500px !important;}
+#mm_marcas {width:135px; left:704px !important;}
 	#mm_marcas .first {width:200px !important;}
 
 #mm_olooklet {left:765px !important;width:180px;}

@@ -215,7 +215,7 @@ $(document).ready(function() {
                             <a href="/colecoes/tartans" class="sub_menu">Tartans</a>
                           </li>
                           <li>
-                            <a href="/colecoes/total-couro" class="sub_menu">Total Couro</a>
+                            <a href="/colecoes/total-couro" class="sub_menu">Couro</a>
                           </li>
                         </ul>
                     </span>
@@ -224,7 +224,14 @@ $(document).ready(function() {
                       <ul>
                         <li><a href="http://www.olook.com.br/colecoes/casual" class="sub_menu">Casual</a></li>
                         <li><a href="http://www.olook.com.br/colecoes/executivo" class="sub_menu">Trabalho</a></li>
-                        <li><a href="http://www.olook.com.br/colecoes/festa" class="sub_menu">Festa</a></li>
+                        <li><a href="http://www.olook.com.br/colecoes/festa" class="sub_menu">Noite</a></li>
+                      </ul>
+
+                    </span>
+                    <span class="column second">
+                      <h5>Parcerias</h5>
+                      <ul>
+                        <li><a href="http://www.olook.com.br/colecoes/isabella-fiorentino" class="sub_menu">Isabella Fiorentino</a></li>
                       </ul>
 
                     </span>
@@ -312,7 +319,7 @@ $(document).ready(function() {
                     </span>
                     <span class='column second'>
                       <h5>
-                        <a href="/curves">OLOOK CURVES</a>
+                        <a href="/curves">PLUS SIZE</a>
                       </h5>
                       <ul>
                         <li>

@@ -14,7 +14,7 @@
   <section>
     <ul class='atendimento'>
       <li class='title'>
-        Atendimento
+        Fale Conosco
       </li>
       <li class='phone'>
         (11) 2626-3489

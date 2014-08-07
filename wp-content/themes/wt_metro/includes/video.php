@@ -4,5 +4,5 @@
 </div>
 
 <div class="banner-destaque">
-	<a class="banner-home" href="http://www.olook.com.br/sapato/anabela-bota-sandalia-scarpin-peep%20toe-boneca-ankle%20boot?utf8=%E2%9C%93&por=novidade"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_saltos.jpg" alt=""/></a>
+	<a class="banner-home" href="http://www.olook.com.br/sapato/slipper?utf8=%E2%9C%93&por=novidade"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_slippers.jpg" alt=""/></a>
 </div>

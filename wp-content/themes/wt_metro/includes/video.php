@@ -4,5 +4,5 @@
 </div>
 
 <div class="banner-destaque">
-	<a class="banner-home" href="http://www.olook.com.br/sapato/slipper?utf8=%E2%9C%93&por=novidade"><img src="http://www.olook.com.br/stylist-news/wp-content/themes/wt_metro/images/gifs/banner_slippers.jpg" alt=""/></a>
+	<a class="banner-home" href="http://www.olook.com.br/colecoes/preto-e-branco"><img src="http://stylist-news.olook.com.br/wp-content/uploads/2015/05/Banner-Blog.jpg" alt=""/></a>
 </div>

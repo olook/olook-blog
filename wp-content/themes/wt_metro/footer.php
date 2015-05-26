@@ -136,8 +136,9 @@
       <p class='infos'>
         © <?php echo Date("Y"); ?> - Olook. Todos os direitos reservados. A Olook respeita sua privacidade e de todos os seus clientes. Leia mais sobre a nossa <a href="/termos">Política de Privacidade</a>.
       </p>
-      <address>Escritório: Rua Natividade, 72 - Vl. Nova Conceição, São Paulo - SP. Centro de distribuição: Avenida Ribeirão dos Cristais, 800, Jordanésia, Cajamar - SP. Galpão 10, módulo C e D</address>
-      <p>Olook Comércio Online de Moda Ltda  /  CNPJ 011.216.478/0001-70</p>
+      <address>Escritório: Avenida Doutor Cardoso de Melo, n° 1.855, 15º andar, conj. 151, Vila Olímpia, São Paulo – SP.</address>
+      <p>Centro de distribuição: Rua Pataxós, nº 1.000, Setor D 01 a 17, Mezanino nível 4, Pataxós, Embú das Artes - SP</p>
+      <p>Olook Comércio Online de Moda Ltda  /  Olook é operada pela Infracommerce CNPJ: 15.427.207/0001-14</p>
     </div>
   </section>
 </footer>
